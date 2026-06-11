@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div
-      className="flex min-h-screen w-full"
+      className="flex flex-col md:flex-row min-h-screen w-full"
       style={{
         backgroundImage: `url(${spaceBg})`,
         backgroundRepeat: 'repeat',
@@ -47,7 +47,7 @@ function App() {
       <LeftSidebar onNavigate={setCurrentPage} />
 
       {/* The center content MUST be solid to hide the stars behind the text */}
-      <main className="flex-1 bg-[#004422] border-x border-gray-800 shadow-2xl overflow-y-auto">
+      <main className="flex-1 bg-[#004422] border-y md:border-y-0 md:border-x border-gray-800 shadow-2xl overflow-y-visible md:overflow-y-auto w-full">
         {renderContent()}
       </main>
 

@@ -23,40 +23,35 @@ interface LeftSidebarProps {
 
 const LeftSidebar = ({ onNavigate }: LeftSidebarProps) => {
   return (
-    // Increased width from 132px to 180px
-    <div className="w-[180px] flex flex-col items-center gap-10 p-4 text-center bg-transparent min-h-screen flex-shrink-0 border-r border-gray-800">
+    <div className="w-full md:w-[180px] flex flex-col items-center gap-6 md:gap-10 p-4 text-center bg-transparent h-auto md:min-h-screen flex-shrink-0 border-b md:border-b-0 md:border-r border-gray-800">
       
       {/* Header Section */}
       <div 
         onClick={() => onNavigate("home")}
-        className="flex flex-col items-center mb-6 cursor-pointer hover:opacity-85 transition-opacity"
+        className="flex flex-row md:flex-col items-center justify-center gap-3 md:gap-0 cursor-pointer hover:opacity-85 transition-opacity"
       >
-        {/* Increased logo size from w-14 to w-20 */}
-        <img src={rxIcon} alt="Rx" className="w-20 h-auto mb-3" />
-        {/* Increased text from 11px to 13px */}
-        <p className="text-[13px] font-bold text-[#00FFCC] uppercase tracking-normal leading-tight">
+        <img src={rxIcon} alt="Rx" className="w-12 md:w-20 h-auto mb-0 md:mb-3" />
+        <p className="text-[12px] md:text-[13px] font-bold text-[#00FFCC] uppercase tracking-normal leading-tight text-left md:text-center">
           BIG MEDICINE<br />AT WORK
         </p>
       </div>
 
-      <nav className="flex flex-col items-center space-y-10">
+      <nav className="flex flex-row md:flex-col items-center justify-center flex-wrap gap-4 md:space-y-10 md:gap-0">
         {links.map((link, i) => (
           <a
             key={i}
             href={link.href}
-            className="flex flex-col items-center group no-underline"
+            className="flex flex-col items-center group no-underline max-w-[90px] md:max-w-none text-center"
             {...(link.href !== "#" ? { target: "_blank", rel: "noopener noreferrer" } : {})}
           >
-            {/* Increased image size from w-16 to w-28 */}
             <img
               src={link.image}
               alt={link.label}
-              className="w-28 h-auto mb-2 border border-gray-700 group-hover:border-white transition-all shadow-lg"
+              className="w-16 md:w-28 h-auto mb-2 border border-gray-700 group-hover:border-white transition-all shadow-lg"
             />
-            {/* Increased text size from 10px to 12px (text-xs) */}
-            <span className="text-[12px] font-medium text-[#00FFCC] leading-snug group-hover:text-yellow-200 px-2">
+            <span className="text-[10px] md:text-[12px] font-medium text-[#00FFCC] leading-snug group-hover:text-yellow-200 px-1">
               {link.label}
-              {link.sublabel && <><br /><span className="opacity-80 font-normal">{link.sublabel}</span></>}
+              {link.sublabel && <><br /><span className="opacity-80 font-normal hidden md:inline">{link.sublabel}</span></>}
             </span>
           </a>
         ))}
