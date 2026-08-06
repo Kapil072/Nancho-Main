@@ -25,7 +25,15 @@ const Search = ({ onNavigate }: SearchProps) => {
   const handleExternalSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
-    const url = `https://www.google.com/search?q=site:nikunjdz.github.io+${encodeURIComponent(query)}`;
+    // Primary search via the original nancho.net index, fallback to Google for site search
+    const url = `https://nancho.net/wgindex.html`;
+    window.open(url, "_blank");
+  };
+
+  const handleGoogleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!query.trim()) return;
+    const url = `https://www.google.com/search?q=site:nancho.net+${encodeURIComponent(query)}`;
     window.open(url, "_blank");
   };
 
@@ -42,7 +50,7 @@ const Search = ({ onNavigate }: SearchProps) => {
       </div>
 
       <div className="max-w-lg mx-auto bg-card p-6 border border-border rounded mb-10 shadow-lg">
-        <form onSubmit={handleExternalSearch} className="flex gap-2 mb-4">
+        <form onSubmit={handleGoogleSearch} className="flex gap-2 mb-4">
           <input
             type="text"
             placeholder="Type search terms (e.g. slime mold)..."
@@ -57,8 +65,18 @@ const Search = ({ onNavigate }: SearchProps) => {
             Google Search
           </button>
         </form>
-        <p className="text-xs text-muted-foreground text-center">
-          Press Enter or click "Google Search" to search the mirror sites via Google.
+        <div className="text-center">
+          <a
+            href="https://nancho.net/wgindex.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-card border border-retro-green text-retro-green hover:bg-retro-green hover:text-black font-bold px-4 py-2 rounded transition-colors text-sm"
+          >
+            Search on Nancho.net &rarr;
+          </a>
+        </div>
+        <p className="text-xs text-muted-foreground text-center mt-3">
+          Use Google Search to search nancho.net, or visit the original Nancho search index directly.
         </p>
       </div>
 

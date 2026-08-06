@@ -17,27 +17,31 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
   const paths = {
     teacher: {
       title: "The Teacher / Theorist Path",
-      quote: '"In politics, experiments mean revolutions." -- Benjamin Disraeli',
+      quote: '"In politics, experiments mean revolutions." — Benjamin Disraeli',
       desc: "For those who investigate corporate history, constitutional charters, and corporate personhood. This path explores how corporations obtained human rights and the legal maneuvers required to dismantle them.",
-      topics: ["History of Incorporation", "Corporate Charters as Privileges", "Re-engineering Corporate DNA"]
+      topics: ["History of Incorporation", "Corporate Charters as Privileges", "Re-engineering Corporate DNA"],
+      entry: "Theorist Entry"
     },
     warrior: {
       title: "The Warrior / Activist Path",
-      quote: '"Every man has a right to abolish an old government and establish a new one..." -- James Madison',
+      quote: '"Every man has a right to abolish an old government and establish a new one..." — James Madison',
       desc: "Preparing for the direct campaign. Harnessing citizen ordinances at the municipal level (e.g. Town Meetings) and pushing referendum campaigns to revoke corporate charters locally.",
-      topics: ["Ballot Access & Referendums", "Anti-Corporate Town Ordinances", "Direct Action & Lobbying"]
+      topics: ["Ballot Access & Referendums", "Anti-Corporate Town Ordinances", "Direct Action & Lobbying"],
+      entry: "Warrior Entry"
     },
     metamed: {
       title: "The Adept / Metamedical Path",
-      quote: '"The task is not to see what no one has seen, but to think what nobody has thought..." -- Erwin Schrödinger',
-      desc: "Treating corporations as system-level pathogens (superorganisms) feeding off human energy. Activists represent the immune cells of the body politic - neutralizing the infection requires shifting our paradigms.",
-      topics: ["Big Body Pathology", "Somatic & Ki Consciousness", "Bioregional Self-Defense"]
+      quote: '"The task is not to see what no one has seen, but to think what nobody has thought..." — Erwin Schrödinger',
+      desc: "Corporations are living systems feeding like rogue tumors on the Earth and human energy. Activists are the body politic's immune forces — waking up to our power will set us free.",
+      topics: ["Big Body Pathology", "Somatic & Ki Consciousness", "Bioregional Self-Defense"],
+      entry: "Adept Entry"
     },
     jammer: {
       title: "The Jammer / Artist Path",
-      quote: '"We live in media as fish live in water." -- Ted Nelson',
+      quote: '"We live in media as fish live in water." — Ted Nelson',
       desc: "Subverting corporate advertising and propaganda. Reclaiming public space and cultural signs using culture jamming, parody, and creative media hacking to diminish corporate respect.",
-      topics: ["Culture Jamming", "Media Hacking & Guerilla Art", "Memetic Cascades"]
+      topics: ["Culture Jamming", "Media Hacking & Guerilla Art", "Memetic Cascades"],
+      entry: "Jammer Entry"
     }
   };
 
@@ -50,10 +54,38 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
         <h2 className="text-lg text-retro-amber italic">
           Gospels, Tracts &amp; Improbable Truths
         </h2>
+        <p className="text-xs text-muted-foreground mt-1">
+          Source:{" "}
+          <a
+            href="https://nancho.net/newchau/gospels.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-retro-green"
+          >
+            nancho.net/newchau/gospels.html
+          </a>
+        </p>
         <blockquote className="max-w-xl mx-auto border-l-4 border-primary pl-4 my-6 text-sm italic text-left">
           "LET US LIFT OUR VISION HIGH ENOUGH TO DOMINATE THE PROBLEM." <br />
           <span className="font-bold">— Pierre Teilhard de Chardin</span>
         </blockquote>
+        <p className="text-sm text-foreground max-w-2xl mx-auto leading-relaxed">
+          New Chautauqua will sound the starter's gun for the human vs. corporate body endgame. 
+          If you want to play, star or just understand what the hell you're watching, we recommend 
+          a little reading and the three steps below.
+        </p>
+      </div>
+
+      {/* Disclaimer */}
+      <div className="max-w-2xl mx-auto mb-6 p-4 border border-border bg-background/40 text-xs text-muted-foreground leading-relaxed">
+        <span className="font-bold text-retro-amber uppercase">Disclaimer &amp; Referral: </span>
+        Note that hardly any of these readings obsess on the crimes of particular corporations.
+        Rather they strategically treat all large corporations as a common class of predators whose
+        combined might and consumptive intent mortally threaten us all. We focus on the corporate
+        species here, and what must now be done to reclaim our land and future from their kind.
+        For specific brand-name dirt, dig in:{" "}
+        <a href="http://www.multinationalmonitor.org/" target="_blank" rel="noopener noreferrer" className="underline text-retro-green">Multinational Monitor</a>,{" "}
+        <a href="http://www.corpwatch.org/" target="_blank" rel="noopener noreferrer" className="underline text-retro-green">Corporate Watch US</a>.
       </div>
 
       {/* Steps Navigation */}
@@ -85,8 +117,8 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
                 <p className="font-bold text-sm text-retro-red mb-1">Premise 1: Biological vs. Legal</p>
                 <p className="text-sm">
                   Big Corporate Bodies, unlike you and I, have no way to sense or value truth, beauty, 
-                  Nature, the Spirit, liberty or love. They are too blind and primitive to deserve any 
-                  political role in human society, let alone predominant power.
+                  Nature, the Spirit, liberty or love. They are clearly too blind and primitive to deserve 
+                  any political role in human society, let alone predominant power.
                 </p>
               </div>
               <div className="p-4 border-l-4 border-retro-red bg-background/50">
@@ -99,8 +131,8 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
               <div className="p-4 border-l-4 border-retro-red bg-background/50">
                 <p className="font-bold text-sm text-retro-red mb-1">Premise 3: Sovereign Fightback</p>
                 <p className="text-sm">
-                  It's not over 'til it's over. We haven't evolved 5 million years to give the planet 
-                  up to corporate paper phantoms without a fight.
+                  It's not over til it's over. We haven't evolved 5 million years to give the planet 
+                  up without a fight.
                 </p>
               </div>
             </div>
@@ -114,22 +146,33 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
             </h2>
             <p className="text-sm leading-relaxed">
               Homeland defense in an age of corporate misrule does not require rocket science. A few 
-              hours reflecting on corporate history and behavior exposes the systemic flaws.
+              hours squinting through these pages, followed by similar stretches of thought and 
+              reflection, should clearly expose the fight and foe we face.
             </p>
             <div className="space-y-4 pt-2">
               <div className="p-4 border border-border">
-                <h3 className="font-bold text-sm text-white mb-2">Primary Curriculum</h3>
+                <h3 className="font-bold text-sm text-white mb-2">Quick Study</h3>
+                <p className="text-sm">Our Chautauquans' Home-Squeezed short guides and primers.</p>
+              </div>
+              <div className="p-4 border border-border">
+                <h3 className="font-bold text-sm text-white mb-2">Short Lists</h3>
                 <ul className="list-disc list-inside text-sm space-y-1">
-                  <li>Study the history of state charters (e.g. POCLAD resources).</li>
-                  <li>Understand the 1886 Santa Clara decision that established "personhood".</li>
-                  <li>Explore the 11 inherent rules of corporate behavior (Jerry Mander).</li>
+                  <li>Top 10 Symptoms of the Corporate Plague</li>
+                  <li>Top 200 Corporate Predators</li>
                 </ul>
               </div>
               <div className="p-4 border border-border">
-                <h3 className="font-bold text-sm text-white mb-2">Study Groups</h3>
+                <h3 className="font-bold text-sm text-white mb-2">Great Course</h3>
                 <p className="text-sm">
-                  Leverage tutorials like WILPF's "Challenging Corporate Power" to spark local conversations 
-                  and run study group sessions.
+                  Women's International League for Peace &amp; Freedom's "Challenging Corporate Power" 
+                  tutorial — spark local conversations and run study group sessions.
+                </p>
+              </div>
+              <div className="p-4 border border-border">
+                <h3 className="font-bold text-sm text-white mb-2">Deep Stacks</h3>
+                <p className="text-sm">
+                  Big Body References grouped by kind — databases, archives, and directories for 
+                  corporate research.
                 </p>
               </div>
             </div>
@@ -139,8 +182,11 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
         {activeStep === 3 && (
           <div className="space-y-6">
             <h2 className="text-lg font-bold text-retro-amber border-b border-border pb-2">
-              Step III: Pick an Action Path
+              Step III: Pick a Path
             </h2>
+            <p className="text-sm text-muted-foreground">
+              If random mayhem doesn't do it for you, choose a sympathetic avenue of attack.
+            </p>
             <div className="flex gap-2 mb-6 flex-wrap">
               {Object.keys(paths).map((pathKey) => (
                 <button
@@ -159,6 +205,9 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
 
             {/* Path description */}
             <div className="p-5 border border-border bg-background/30 rounded">
+              <p className="text-xs text-retro-amber font-bold uppercase tracking-wider mb-2">
+                {paths[activePath as keyof typeof paths].entry}
+              </p>
               <h3 className="text-base font-bold text-white mb-1">
                 {paths[activePath as keyof typeof paths].title}
               </h3>

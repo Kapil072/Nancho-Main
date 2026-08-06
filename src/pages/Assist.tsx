@@ -9,7 +9,7 @@ const Assist = ({ onNavigate }: AssistProps) => {
     "Unusual Art", "Eccentric Ideas", "Trivial Pursuits", "Educative Ardor",
     "Reckless Resources", "Subversive Acquisition", "Alpha Affinity",
     "Salubrious Science", "PR Precocity", "Holistic Hacking",
-    "Sex, Drugs & Rock'n'Roll"
+    "Sex", "Drugs", "Rock'n'Roll"
   ];
 
   const needs = [
@@ -28,7 +28,19 @@ const Assist = ({ onNavigate }: AssistProps) => {
           Cascade! Conspire!
         </p>
         <p className="text-base text-muted-foreground italic max-w-lg mx-auto">
-          "We need everything you got! Wit, bile, rage, lust, and bizarre, near-useless talents..."
+          "And if the Spirit Moves You, Lend a Hand... We need everything you got!
+          Wit, bile, rage, lust, and bizarre near-useless talents..."
+        </p>
+        <p className="text-xs text-muted-foreground mt-3">
+          Source:{" "}
+          <a
+            href="https://nancho.net/thespiel.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-retro-green"
+          >
+            nancho.net/thespiel.html
+          </a>
         </p>
       </div>
 
@@ -36,7 +48,7 @@ const Assist = ({ onNavigate }: AssistProps) => {
         {/* Talents */}
         <div className="bg-card p-6 border border-border rounded shadow-lg">
           <h2 className="text-base font-bold text-retro-red mb-4 border-b border-border pb-2 uppercase tracking-wider">
-            Your Inspiration &amp; Expertise
+            Your Areas of Inspiration, Angst &amp; Expertise
           </h2>
           <ul className="list-disc list-inside text-sm space-y-2 text-foreground">
             {talents.map((t) => (
@@ -59,9 +71,9 @@ const Assist = ({ onNavigate }: AssistProps) => {
       </div>
 
       <div className="max-w-2xl mx-auto p-6 border border-border bg-card rounded text-center shadow-lg">
-        <h3 className="font-bold text-retro-amber text-base mb-2">Want to associate?</h3>
+        <h3 className="font-bold text-retro-amber text-base mb-2">Mix or Match — Want to associate?</h3>
         <p className="text-sm text-foreground mb-4 leading-relaxed">
-          If you have inspiration, angst, or materials to contribute to the devolved future, 
+          If you have inspiration, angst, or materials to contribute to the devolved future,
           drop us a line on our contact page.
         </p>
         <button
@@ -70,6 +82,21 @@ const Assist = ({ onNavigate }: AssistProps) => {
         >
           Go to Contact Page
         </button>
+      </div>
+
+      {/* Original Site Link */}
+      <div className="max-w-2xl mx-auto mt-6 p-4 border border-border bg-card rounded text-center">
+        <p className="text-sm text-muted-foreground mb-2">
+          View the original Nancho Spiel &amp; Solicitations page:
+        </p>
+        <a
+          href="https://nancho.net/thespiel.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block border border-retro-green text-retro-green hover:bg-retro-green hover:text-black font-bold px-4 py-2 rounded transition-colors text-sm"
+        >
+          Open Original Spiel Page &rarr;
+        </a>
       </div>
 
       <div className="text-center mt-12 pt-6 border-t border-border">
