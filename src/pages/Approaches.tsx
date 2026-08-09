@@ -152,28 +152,70 @@ const Approaches = ({ onNavigate }: ApproachesProps) => {
             <div className="space-y-4 pt-2">
               <div className="p-4 border border-border">
                 <h3 className="font-bold text-sm text-white mb-2">Quick Study</h3>
-                <p className="text-sm">Our Chautauquans' Home-Squeezed short guides and primers.</p>
+                <p className="text-sm mb-2">Our Chautauquans' Home-Squeezed short guides and primers.</p>
+                <a
+                  href="https://nancho.net/newchau/players.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-retro-green underline hover:text-primary text-sm font-bold"
+                >
+                  Chautauquans' Guides &rarr;
+                </a>
               </div>
               <div className="p-4 border border-border">
                 <h3 className="font-bold text-sm text-white mb-2">Short Lists</h3>
                 <ul className="list-disc list-inside text-sm space-y-1">
-                  <li>Top 10 Symptoms of the Corporate Plague</li>
-                  <li>Top 200 Corporate Predators</li>
+                  <li>
+                    <a
+                      href="https://nancho.net/bigmed2001/bigonnet.html#usa"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-retro-green hover:text-primary underline text-sm font-bold"
+                    >
+                      Top 10 Symptoms of the Corporate Plague
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.ips-dc.org/reports/top200.htm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-retro-green hover:text-primary underline text-sm font-bold"
+                    >
+                      Top 200 Corporate Predators
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div className="p-4 border border-border">
                 <h3 className="font-bold text-sm text-white mb-2">Great Course</h3>
-                <p className="text-sm">
+                <p className="text-sm mb-2">
                   Women's International League for Peace &amp; Freedom's "Challenging Corporate Power" 
                   tutorial — spark local conversations and run study group sessions.
                 </p>
+                <a
+                  href="http://www.wilpf.org/corp/cintro.htm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-retro-green hover:text-primary underline text-sm font-bold"
+                >
+                  Start the Course &rarr;
+                </a>
               </div>
               <div className="p-4 border border-border">
                 <h3 className="font-bold text-sm text-white mb-2">Deep Stacks</h3>
-                <p className="text-sm">
+                <p className="text-sm mb-2">
                   Big Body References grouped by kind — databases, archives, and directories for 
                   corporate research.
                 </p>
+                <a
+                  href="https://nancho.net/bigmed2001/bigonnet.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-retro-green hover:text-primary underline text-sm font-bold"
+                >
+                  Open Big Online References &rarr;
+                </a>
               </div>
             </div>
           </div>

@@ -5,21 +5,46 @@ interface NavBarProps {
   onNavigate: (page: string) => void;
 }
 
-export const NavBar = ({ onNavigate }: NavBarProps) => (
-  <div className="flex justify-center gap-2 text-base py-2 flex-wrap">
-    {["Search", "Allies", "Approaches", "Study", "Assist", "Contact"].map((item, i) => (
-      <span key={item}>
-        {i > 0 && <span className="text-muted-foreground mx-1">|</span>}
-        <button
-          onClick={() => onNavigate(item.toLowerCase())}
-          className="text-retro-green hover:text-primary underline transition-colors font-bold focus:outline-none"
-        >
-          {item}
-        </button>
-      </span>
-    ))}
-  </div>
-);
+export const NavBar = ({ onNavigate }: NavBarProps) => {
+  const externalLinks: { [key: string]: string } = {
+    allies: "https://www.thealliancefordemocracy.org/",
+    approaches: "https://nancho.net/newchau/gospels.html",
+    study: "https://nikunjdz.github.io/bigmed2000/bigstudy.html",
+    assist: "https://nancho.net/thespiel.html",
+  };
+
+  return (
+    <div className="flex justify-center gap-2 text-base py-2 flex-wrap">
+      {["Search", "Allies", "Approaches", "Study", "Assist", "Contact"].map((item, i) => {
+        const itemLower = item.toLowerCase();
+        const externalUrl = externalLinks[itemLower];
+        
+        return (
+          <span key={item}>
+            {i > 0 && <span className="text-muted-foreground mx-1">|</span>}
+            {externalUrl ? (
+              <a
+                href={externalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-retro-green hover:text-primary underline transition-colors font-bold focus:outline-none"
+              >
+                {item}
+              </a>
+            ) : (
+              <button
+                onClick={() => onNavigate(itemLower)}
+                className="text-retro-green hover:text-primary underline transition-colors font-bold focus:outline-none"
+              >
+                {item}
+              </button>
+            )}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
 
 const MainContent = ({ onNavigate }: { onNavigate: (page: string) => void }) => {
   return (
@@ -98,15 +123,15 @@ const MainContent = ({ onNavigate }: { onNavigate: (page: string) => void }) => 
 
         <ul className="list-disc list-inside space-y-2 ml-4">
           <li>
-            <a href="#" className="text-retro-green underline hover:text-primary">Diagnostic</a> - facts 
+            <a href="https://nancho.net/content.html#diag" target="_blank" rel="noopener noreferrer" className="text-retro-green underline hover:text-primary">Diagnostic</a> - facts 
             that illuminate the singular corporatist cause behind most eco-social ills.
           </li>
           <li>
-            <a href="#" className="text-retro-amber underline hover:text-primary">Remedial</a> - broad-spectrum 
+            <a href="https://nancho.net/content.html#rem" target="_blank" rel="noopener noreferrer" className="text-retro-amber underline hover:text-primary">Remedial</a> - broad-spectrum 
             tactics to boost popular resistance locally and wither Big Bodies globally.
           </li>
           <li>
-            <a href="#" className="text-retro-red underline hover:text-primary">Prognostic</a> - self-fulfilling 
+            <a href="https://nancho.net/content.html#prog" target="_blank" rel="noopener noreferrer" className="text-retro-red underline hover:text-primary">Prognostic</a> - self-fulfilling 
             prescriptions for a spirited, sensual post-corporate world.
           </li>
         </ul>
@@ -121,7 +146,7 @@ const MainContent = ({ onNavigate }: { onNavigate: (page: string) => void }) => 
       {/* Patient of the Year */}
       <div className="text-center mt-8">
         <h2 className="text-lg font-bold text-primary mb-4">BIG MEDICINE'S PATIENT OF THE YEAR</h2>
-        <a href="#">
+        <a href="https://nancho.net/bigmed2001/homesite.html" target="_blank" rel="noopener noreferrer">
           <img 
             src={earthLights} 
             alt="Earth at night showing corporate hives" 

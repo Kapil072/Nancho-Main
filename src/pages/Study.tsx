@@ -9,50 +9,50 @@ const Study = ({ onNavigate }: StudyProps) => {
     {
       title: "Gospels & Canons",
       desc: "Foundational essays on corporate structure and pathology",
-      href: "https://nancho.net/newchau/gospels.html",
+      href: "https://nancho.net/bigmed2001/gospels/gospels.html",
       external: true
     },
     {
       title: "Big Books / Texts",
       desc: "Seminal publications detailing corporate behavior and history",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/bigread1.html",
+      external: true
     },
     {
       title: "Big Links & Groups",
       desc: "Active citizen organizations and coalitions targeting corporate power",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/bigally.html",
+      external: true
     },
     {
       title: "Big Movies & Videos",
       desc: "Documentaries and films illustrating the corporate usurpation of sovereignty",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/bigview.html",
+      external: true
     },
     {
       title: "Big Online References",
       desc: "Databases, archives, and directories for corporate research",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/bigonnet.html",
+      external: true
     },
     {
       title: "Big Terms & Definitions",
       desc: "Etymological glossary of corporate anthroculture definitions",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/biggloss.html",
+      external: true
     },
     {
       title: "Nancho Consultations",
       desc: "Interviews with leading thinkers and meme meisters",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/advisors.html",
+      external: true
     },
     {
       title: "Anthroculture Research Hints",
       desc: "Investigations into systemic childhood stress and docility conditioning",
-      href: "#",
-      external: false
+      href: "https://nancho.net/bigmed2001/bigstres.html",
+      external: true
     },
   ];
 
@@ -95,23 +95,14 @@ const Study = ({ onNavigate }: StudyProps) => {
             >
               <h3 className="font-bold text-retro-green text-base mb-1">{item.title}</h3>
               <p className="text-xs text-foreground mb-3">{item.desc}</p>
-              {item.external ? (
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-retro-amber hover:underline font-bold"
-                >
-                  Access Section &rarr;
-                </a>
-              ) : (
-                <button
-                  onClick={() => alert(`This section is in the local archives.`)}
-                  className="text-xs text-retro-amber hover:underline font-bold"
-                >
-                  Access Section &rarr;
-                </button>
-              )}
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-retro-amber hover:underline font-bold"
+              >
+                Access Section &rarr;
+              </a>
             </div>
           ))}
         </div>

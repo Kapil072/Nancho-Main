@@ -46,9 +46,15 @@ const Contact = ({ onNavigate }: ContactProps) => {
         <h1 className="text-3xl md:text-4xl text-primary font-bold mb-2 uppercase tracking-wide">
           Contact Big Medicine
         </h1>
-        <p className="text-base text-muted-foreground italic max-w-xl mx-auto">
+        <p className="text-base text-muted-foreground italic max-w-xl mx-auto mb-4">
           "Email suggestions, wit, bile, or resources to bigmed@nancho.net, or dispatch a message below."
         </p>
+        <a
+          href="mailto:bigmed@nancho.net"
+          className="inline-block border border-retro-green text-retro-green hover:bg-retro-green hover:text-black font-bold px-4 py-2 rounded transition-colors text-sm"
+        >
+          Email Big Medicine &rarr;
+        </a>
       </div>
 
       <div className="max-w-md mx-auto bg-card p-6 border border-border rounded shadow-lg">
