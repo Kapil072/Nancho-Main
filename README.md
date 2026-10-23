@@ -30,7 +30,7 @@ The archive sites that used to be separate GitHub Pages repos now live in [`site
 - `npm run build` builds Nancho, then [`scripts/build-sites.mjs`](scripts/build-sites.mjs) builds every site into `dist/<folder>/` using Nancho's `node_modules` (no separate `npm install` per site).
 - Links between the sites point at the copies here (`/Nancho-Main/<folder>/...`), not the old separate `nikunjdz.github.io/...` hosting. The `.ram` audio files still use full old URLs, since RealAudio needs a full URL.
 - To edit a site, edit its files in `sites/<folder>/`. To add one, copy it in and add it to the `SITES` list in `scripts/build-sites.mjs`.
-- `npm run dev` runs only the Nancho home page. To click through to the archive sites locally, run `npm run build` then `npm run preview` and open `http://localhost:4173/Nancho-Main/`.
+- `npm run dev` live-reloads the Nancho home page and serves the archive sites from their last build in `dist/`. Run `npm run build` once first, and again after editing a site, to see the change.
 
 ---
 
