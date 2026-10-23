@@ -553,9 +553,9 @@ Email: ggilhool@ix.netcom.com Web: www.wilpf.org
 </table></div>
 
 
-<br><div align="center"><a href="/Nancho-Main/newchau/newchau/" target="_top"><img src="${import.meta.env.BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<br><div align="center"><a href="/new-nancho/newchau/newchau/" target="_top"><img src="${import.meta.env.BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
 <font size="-1">The Way  Home</font></a><p>
-<div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="/Nancho-Main/newchau/newchau/ccgoals.html">Goals</a> | <a href="/Nancho-Main/newchau/newchau/ccplay.html">Play</a> |  <a href="/Nancho-Main/newchau/newchau/gospels.html">Study</a> | <a href="/Nancho-Main/newchau/newchau/ccnews.html">News</a> | <a href="/Nancho-Main/newchau/newchau/faq.html">FAQ</a> | <a href="/Nancho-Main/newchau/newchau/contact.html">Contact</a> | <a href="/Nancho-Main/newchau/newchau/cchelp.html">Help</a> | <a href="/Nancho-Main/newchau/newchau/nchistry.html">Archives</a></font></div>
+<div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="/new-nancho/newchau/newchau/ccgoals.html">Goals</a> | <a href="/new-nancho/newchau/newchau/ccplay.html">Play</a> |  <a href="/new-nancho/newchau/newchau/gospels.html">Study</a> | <a href="/new-nancho/newchau/newchau/ccnews.html">News</a> | <a href="/new-nancho/newchau/newchau/faq.html">FAQ</a> | <a href="/new-nancho/newchau/newchau/contact.html">Contact</a> | <a href="/new-nancho/newchau/newchau/cchelp.html">Help</a> | <a href="/new-nancho/newchau/newchau/nchistry.html">Archives</a></font></div>
 `;
 
   return (

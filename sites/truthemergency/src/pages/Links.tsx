@@ -17,7 +17,7 @@ const endorsingPartners = [
   { name: "911truth.org", url: "https://911truth.org" },
   { name: "Be The Media", url: "https://bethemedia.org" },
   { name: "This Can't Be Happening!", url: "https://thiscantbehappening.net" },
-  { name: "Nancho Archive", url: "/Nancho-Main/" },
+  { name: "Nancho Archive", url: "/new-nancho/" },
   { name: "Free Press / NCMR", url: "https://freepress.net" },
   { name: "Brave New Films", url: "https://bravenewfilms.org" },
   { name: "naomiklein.org", url: "https://naomiklein.org" },

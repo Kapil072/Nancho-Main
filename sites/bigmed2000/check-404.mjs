@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 
-const url = "/Nancho-Main/bigmed2000/";
+const url = "/new-nancho/bigmed2000/";
 const browser = await chromium.launch({ channel: "chrome" });
 const page = await browser.newPage();
 const failed = [];

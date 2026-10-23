@@ -62,7 +62,7 @@ Ecofile Note by Kent Walton
 </li><li> <a href="corptime.html">Timeline of Corporate Personhood</a><br>
 by Jan Edwards  &amp; Rick Beach <br>
 (also see updated .pdf version <a href="${import.meta.env.BASE_URL}corperson/timelin2.pdf" target="_blank">here</a>)
-</li><li><a href="/Nancho-Main/newchau/newchau/corphist.html" target="_blank">Timeline of Modern Incorporation</a> <br>
+</li><li><a href="/new-nancho/newchau/newchau/corphist.html" target="_blank">Timeline of Modern Incorporation</a> <br>
 by George Draffan
 </li><li><a href="#wbai">CORPORATE PERSONHOOD IN SONG &AMP; HISTORY <br>
 - an Audio Introduction to a Dangerous Absurdity</a>
@@ -113,12 +113,12 @@ STUDY RESOURCES<br>
 
 
 Kelsey's "Manual for Counter-Technopols"
-</li><li> <a href="/Nancho-Main/newchau/newchau/couptips.html">Tips on How to Oppose Corporate Rule</a><br><br>
+</li><li> <a href="/new-nancho/newchau/newchau/couptips.html">Tips on How to Oppose Corporate Rule</a><br><br>
 
 
 Democracy Unlimited of Humboldt County<br>
 
-</li><li> <a href="/Nancho-Main/newchau/newchau/cptapes!.html" target="_blank">Extensive Print &amp; AV Resource List</a>
+</li><li> <a href="/new-nancho/newchau/newchau/cptapes!.html" target="_blank">Extensive Print &amp; AV Resource List</a>
 </li></ul>
 
 LEGALP & HILOSOPHIC DEBATES
@@ -212,9 +212,9 @@ WBAI 99.5 FM, New York Pacifica Outlet
 	</td>
 </tr>
 </table></div>
-<br><div align="center"><a href="/Nancho-Main/newchau/newchau/" target="_top"><img src="${import.meta.env.BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<br><div align="center"><a href="/new-nancho/newchau/newchau/" target="_top"><img src="${import.meta.env.BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
 <font size="-1">The Way  Home</font></a></div><p>
-<div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="/Nancho-Main/newchau/newchau/ccgoals.html">Goals</a> | <a href="/Nancho-Main/newchau/newchau/ccplay.html">Play</a> |  <a href="/Nancho-Main/newchau/newchau/gospels.html">Study</a> | <a href="/Nancho-Main/newchau/newchau/ccnews.html">News</a> | <a href="/Nancho-Main/newchau/newchau/faq.html">FAQ</a> | <a href="/Nancho-Main/newchau/newchau/contact.html">Contact</a> | <a href="/Nancho-Main/newchau/newchau/cchelp.html">Help</a> | <a href="/Nancho-Main/newchau/newchau/nchistry.html">Archives</a></font></div>
+<div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="/new-nancho/newchau/newchau/ccgoals.html">Goals</a> | <a href="/new-nancho/newchau/newchau/ccplay.html">Play</a> |  <a href="/new-nancho/newchau/newchau/gospels.html">Study</a> | <a href="/new-nancho/newchau/newchau/ccnews.html">News</a> | <a href="/new-nancho/newchau/newchau/faq.html">FAQ</a> | <a href="/new-nancho/newchau/newchau/contact.html">Contact</a> | <a href="/new-nancho/newchau/newchau/cchelp.html">Help</a> | <a href="/new-nancho/newchau/newchau/nchistry.html">Archives</a></font></div>
 `;
 
   return (

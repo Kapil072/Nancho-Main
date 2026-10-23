@@ -14,7 +14,7 @@ const TYPES: Record<string, string> = {
 
 // `npm run dev` only compiles Nancho itself; the archive sites exist as the built
 // output in dist/<site>/ (from `npm run build`). Serve them from there at the
-// same /Nancho-Main/<site>/ URLs they have when deployed, so the home page links work.
+// same /new-nancho/<site>/ URLs they have when deployed, so the home page links work.
 const archiveSites = (): Plugin => ({
   name: "archive-sites",
   apply: "serve",
@@ -28,15 +28,15 @@ const archiveSites = (): Plugin => ({
         res.writeHead(302, { Location: to + (query ? `?${query}` : "") });
         res.end();
       };
-      // home page links in dev are /<site>/...; the built sites expect /Nancho-Main/<site>/...
-      if (sites.some((s) => url === `/${s}` || url.startsWith(`/${s}/`))) return redirect(`/Nancho-Main${pathname}`);
-      if (!url.startsWith("/Nancho-Main")) return next();
+      // home page links in dev are /<site>/...; the built sites expect /new-nancho/<site>/...
+      if (sites.some((s) => url === `/${s}` || url.startsWith(`/${s}/`))) return redirect(`/new-nancho${pathname}`);
+      if (!url.startsWith("/new-nancho")) return next();
 
-      const rest = url.replace(/^\/Nancho-Main\/?/, "");
+      const rest = url.replace(/^\/new-nancho\/?/, "");
       const site = rest.split("/")[0];
       // links back to Nancho itself
       if (!sites.includes(site)) return redirect(`/${rest}`);
-      if (rest === site) return redirect(`/Nancho-Main/${site}/`);
+      if (rest === site) return redirect(`/new-nancho/${site}/`);
 
       const siteDir = path.join(dist, site);
       if (!fs.existsSync(siteDir)) {
@@ -60,7 +60,7 @@ const archiveSites = (): Plugin => ({
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/Nancho-Main/" : "/",
+  base: mode === "production" ? "/new-nancho/" : "/",
   server: {
     host: "::",
     port: 8088,

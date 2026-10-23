@@ -1,7 +1,7 @@
 const resources = [
   {
     title: "Memetic Lexicon",
-    url: "/Nancho-Main/bigmed2000/memes/memlex.html",
+    url: "/new-nancho/bigmed2000/memes/memlex.html",
     desc: "A basic (but still fluid and klunky) glossary of memespeak",
   },
   {
@@ -36,12 +36,12 @@ const resources = [
   },
   {
     title: "The Abhorrence of the Exotic",
-    url: "/Nancho-Main/bigmed2000/memes/abexotic.html",
+    url: "/new-nancho/bigmed2000/memes/abexotic.html",
     desc: "Japan's Comparative Advantage in Memetic Immunity. A very colloquial interpretation of memes, marauding hierarchies and the democracy problem in Japan.",
   },
   {
     title: "Memetics — The Science of Information Viruses",
-    url: "/Nancho-Main/bigmed2000/memes/infoviru.html",
+    url: "/new-nancho/bigmed2000/memes/infoviru.html",
     desc: "Keith Henson's early, influential (though rather pathology-intensive) essay on memetics",
   },
   {
@@ -64,7 +64,7 @@ const resources = [
 
 const Divider = () => (
   <div className="w-full flex justify-center my-4">
-    <img src="/Nancho-Main/bigmed2000/bulls/brnblk.gif" alt="" className="w-full max-w-xl" />
+    <img src="/new-nancho/bigmed2000/bulls/brnblk.gif" alt="" className="w-full max-w-xl" />
   </div>
 );
 
@@ -76,7 +76,7 @@ const Index = () => {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/3 p-4 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-border">
             <img
-              src="/Nancho-Main/bigmed2000/graph/birdmem2.gif"
+              src="/new-nancho/bigmed2000/graph/birdmem2.gif"
               alt="Buddhist Meme Winging West"
               className="max-w-[250px] w-full"
             />
@@ -132,7 +132,7 @@ const Index = () => {
           <p>
             (See the{" "}
             <a
-              href="/Nancho-Main/bigmed2000/memes/memlex.html"
+              href="/new-nancho/bigmed2000/memes/memlex.html"
               className="text-link underline font-bold hover:opacity-80"
             >
               Meme Lexicon
@@ -164,7 +164,7 @@ const Index = () => {
           <ul className="list-disc pl-6 space-y-3 mb-5">
             <li className="leading-relaxed">
               <a
-                href="/Nancho-Main/bigmed2000/arcmain.html#kipapers"
+                href="/new-nancho/bigmed2000/arcmain.html#kipapers"
                 className="text-link underline font-bold hover:opacity-80"
               >
                 The Ki Meme
@@ -174,7 +174,7 @@ const Index = () => {
             </li>
             <li className="leading-relaxed">
               <a
-                href="/Nancho-Main/bigmed2000/bigbody/apforum1.html"
+                href="/new-nancho/bigmed2000/bigbody/apforum1.html"
                 className="text-link underline font-bold hover:opacity-80"
               >
                 The Big Body Meme
@@ -196,7 +196,7 @@ const Index = () => {
             Since all are controversial and each abets the others to either transcend, transform or subvert current
             corporate reality, we face a Goliath of a challenge. We thus need — besides the more conventional virtues —
             all the practical guile, cunning and underhanded artistry we can muster. (Check out the overall strategy for{" "}
-            <a href="/Nancho-Main/bigmed2000/memes/sitstrat.html" className="text-link underline hover:opacity-80">
+            <a href="/new-nancho/bigmed2000/memes/sitstrat.html" className="text-link underline hover:opacity-80">
               Meme Cascades
             </a>
             .)
@@ -234,7 +234,7 @@ const Index = () => {
         <ul className="list-disc pl-6 mb-8">
           <li className="leading-relaxed">
             <a
-              href="/Nancho-Main/bigmed2000/memes/orthodoc.html"
+              href="/new-nancho/bigmed2000/memes/orthodoc.html"
               className="text-link underline hover:opacity-80 font-bold"
             >
               So You Want to be an Orthodoctor?
@@ -257,9 +257,9 @@ const Index = () => {
         <hr className="border-border my-4" />
 
         <div className="flex justify-center gap-3 my-6 flex-wrap">
-          <img src="/Nancho-Main/bigmed2000/butts/ehsalt2.gif" alt="Saltation Logos I" />
-          <img src="/Nancho-Main/bigmed2000/butts/ehsaltsn.gif" alt="Saltation Logos II" />
-          <img src="/Nancho-Main/bigmed2000/butts/ehsaltyr.gif" alt="Saltation Logos III" />
+          <img src="/new-nancho/bigmed2000/butts/ehsalt2.gif" alt="Saltation Logos I" />
+          <img src="/new-nancho/bigmed2000/butts/ehsaltsn.gif" alt="Saltation Logos II" />
+          <img src="/new-nancho/bigmed2000/butts/ehsaltyr.gif" alt="Saltation Logos III" />
         </div>
 
         <hr className="border-border my-4" />
@@ -268,7 +268,7 @@ const Index = () => {
 
         <div className="text-center my-6">
           <a
-            href="/Nancho-Main/bigmed2000/arcmain.html#memetics"
+            href="/new-nancho/bigmed2000/arcmain.html#memetics"
             className="text-link underline hover:opacity-80 font-bold"
           >
             Main Archive

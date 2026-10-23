@@ -1,9 +1,9 @@
 import { chromium } from "playwright";
 
 const urls = [
-  "/Nancho-Main/bigmed2000/",
-  "/Nancho-Main/bigmed2000/epistles.html",
-  "/Nancho-Main/bigmed2000/bigmed2001/gospels/gospels.html",
+  "/new-nancho/bigmed2000/",
+  "/new-nancho/bigmed2000/epistles.html",
+  "/new-nancho/bigmed2000/bigmed2001/gospels/gospels.html",
 ];
 
 const browser = await chromium.launch({ channel: "chrome" });

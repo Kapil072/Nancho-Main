@@ -28,44 +28,44 @@ const Bigmed2000Bbonline = () => {
 
 <table border="0">
   <tr valign="top"><!-- row 2 spreader -->
-   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r02_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="12" border="0"></td>
+   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r02_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="12" border="0"></td>
   </tr>
 
   <tr valign="top"><!-- row 3 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
-	   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r3_c1" src="${BASE_URL}images/image_r3_c1.gif" width="2" height="19" border="0"></td>
+	   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r3_c1" src="${BASE_URL}images/image_r3_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/notnow.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r3_c2','images/image_r3_c2_f2.gif','images/image_r3_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r3_c2','images/image_r3_c2_f3.gif',1);" ><img name="image_r3_c2" src="${BASE_URL}images/image_r3_c2.gif" width="106" height="19" border="0" alt="Five simple steps to access the conference rooms"></a></td>
 	   <td><img name="image_r3_c3" src="${BASE_URL}images/image_r3_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 4 -->
-   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r04_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
+   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r04_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 5 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
-	   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r5_c1" src="${BASE_URL}bigmed2001/images/image_r5_c1.gif" width="2" height="19" border="0"></td>
+	   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r5_c1" src="${BASE_URL}bigmed2001/images/image_r5_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/bbintros.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r5_c2','images/image_r5_c2_f2.gif','images/image_r5_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r5_c2','images/image_r5_c2_f3.gif',1);" ><img name="image_r5_c2" src="${BASE_URL}images/image_r5_c2.gif" width="106" height="19" border="0" alt="BigBody Participants set some context"></a></td>
-	   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r5_c3" src="${BASE_URL}bigmed2001/images/image_r5_c3.gif" width="2" height="19" border="0"></td>
+	   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r5_c3" src="${BASE_URL}bigmed2001/images/image_r5_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 6 -->
-   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r06_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
+   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r06_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 7 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
 	   <td><img name="image_r7_c1" src="${BASE_URL}bigmed2001/images/image_r7_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/bookdump.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r7_c2','images/image_r7_c2_f2.gif','images/image_r7_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r7_c2','images/image_r7_c2_f3.gif',1);" ><img name="image_r7_c2" src="${BASE_URL}images/image_r7_c2.gif" width="106" height="19" border="0" alt="References and resources"></a></td>
-	   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r7_c3" src="${BASE_URL}bigmed2001/images/image_r7_c3.gif" width="2" height="19" border="0"></td>
+	   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r7_c3" src="${BASE_URL}bigmed2001/images/image_r7_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 8 -->
-   <td><img name="/Nancho-Main/bigmed2000/bigmed2001/image_r08_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="15" border="0"></td>
+   <td><img name="/new-nancho/bigmed2000/bigmed2001/image_r08_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="15" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 9 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">

@@ -16,19 +16,19 @@ The archive sites that used to be separate GitHub Pages repos now live in [`site
 
 | Folder | Served at | Type |
 | --- | --- | --- |
-| `sites/truthemergency` | `/Nancho-Main/truthemergency/` | React/Vite |
-| `sites/Aintthatgood` | `/Nancho-Main/Aintthatgood/` | React/Vite |
-| `sites/newchau` | `/Nancho-Main/newchau/` | static HTML |
-| `sites/indexfororg` | `/Nancho-Main/indexfororg/` | React/Vite |
-| `sites/bigmed2000` | `/Nancho-Main/bigmed2000/` | React/Vite |
-| `sites/memework` | `/Nancho-Main/memework/` | React/Vite |
-| `sites/formere` | `/Nancho-Main/formere/` | React/Vite |
-| `sites/excise-big` | `/Nancho-Main/excise-big/` | React/Vite |
-| `sites/reinscrive` | `/Nancho-Main/reinscrive/` | static HTML |
-| `sites/remasculate` | `/Nancho-Main/remasculate/` | React/Vite |
+| `sites/truthemergency` | `/new-nancho/truthemergency/` | React/Vite |
+| `sites/Aintthatgood` | `/new-nancho/Aintthatgood/` | React/Vite |
+| `sites/newchau` | `/new-nancho/newchau/` | static HTML |
+| `sites/indexfororg` | `/new-nancho/indexfororg/` | React/Vite |
+| `sites/bigmed2000` | `/new-nancho/bigmed2000/` | React/Vite |
+| `sites/memework` | `/new-nancho/memework/` | React/Vite |
+| `sites/formere` | `/new-nancho/formere/` | React/Vite |
+| `sites/excise-big` | `/new-nancho/excise-big/` | React/Vite |
+| `sites/reinscrive` | `/new-nancho/reinscrive/` | static HTML |
+| `sites/remasculate` | `/new-nancho/remasculate/` | React/Vite |
 
 - `npm run build` builds Nancho, then [`scripts/build-sites.mjs`](scripts/build-sites.mjs) builds every site into `dist/<folder>/` using Nancho's `node_modules` (no separate `npm install` per site).
-- Links between the sites point at the copies here (`/Nancho-Main/<folder>/...`), not the old separate `nikunjdz.github.io/...` hosting. The `.ram` audio files still use full old URLs, since RealAudio needs a full URL.
+- Links between the sites point at the copies here (`/new-nancho/<folder>/...`), not the old separate `nikunjdz.github.io/...` hosting. The `.ram` audio files still use full old URLs, since RealAudio needs a full URL.
 - To edit a site, edit its files in `sites/<folder>/`. To add one, copy it in and add it to the `SITES` list in `scripts/build-sites.mjs`.
 - `npm run dev` live-reloads the Nancho home page and serves the archive sites from their last build in `dist/`. Run `npm run build` once first, and again after editing a site, to see the change.
 
@@ -58,7 +58,7 @@ To run the project locally on your machine:
 
 ## Deployment to GitHub Pages
 
-This project is configured to be hosted on GitHub Pages at `https://nikunjdz.github.io/Nancho/`.
+This project is configured to be hosted on GitHub Pages at `https://kapil072.github.io/new-nancho/`.
 
 ### Method 1: Automatic Deployment via GitHub Actions (Recommended)
 

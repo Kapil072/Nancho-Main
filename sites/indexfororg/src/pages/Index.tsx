@@ -1,5 +1,5 @@
 // The pages this index links to live in the bigmed2000 site.
-const BASE = "/Nancho-Main/bigmed2000";
+const BASE = "/new-nancho/bigmed2000";
 
 const sections = [
   {

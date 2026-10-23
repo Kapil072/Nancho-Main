@@ -2,15 +2,15 @@ const CorporatePersonhood = () => {
   return (
     <div
       className="min-h-screen font-serif text-foreground"
-      style={{ backgroundImage: "url(/Nancho-Main/bigmed2000/barks/frenchp2.gif)", backgroundColor: "beige" }}
+      style={{ backgroundImage: "url(/new-nancho/bigmed2000/barks/frenchp2.gif)", backgroundColor: "beige" }}
     >
       {/* Left sidebar image */}
       <a
-        href="/Nancho-Main/excise-big/corperson/index.html"
+        href="/new-nancho/excise-big/corperson/index.html"
         className="block md:fixed left-0 top-0 z-10 text-center md:text-left mx-auto md:mx-0 w-fit"
       >
         <img
-          src="/Nancho-Main/bigmed2000/graph/BIGBODBM.jpg"
+          src="/new-nancho/bigmed2000/graph/BIGBODBM.jpg"
           alt="Return to Personhood Index"
           className="w-[117px] h-[300px] m-3 mx-auto"
         />
@@ -20,7 +20,7 @@ const CorporatePersonhood = () => {
       <div className="ml-0 md:ml-[140px]">
         {/* Header */}
         <div className="text-center pt-4">
-          <img src="/Nancho-Main/bigmed2000/bulls/advline2.gif" alt="" className="w-3/4 h-[5px] mx-auto my-2" />
+          <img src="/new-nancho/bigmed2000/bulls/advline2.gif" alt="" className="w-3/4 h-[5px] mx-auto my-2" />
           <p className="text-lg font-bold" style={{ color: "#000055" }}>
             <em>BIG MEDICINE</em>
             <br />
@@ -28,7 +28,7 @@ const CorporatePersonhood = () => {
             <br />
             CORPORATE PERSONHOOD
           </p>
-          <img src="/Nancho-Main/bigmed2000/bulls/advline2.gif" alt="" className="w-3/4 h-[5px] mx-auto my-2" />
+          <img src="/new-nancho/bigmed2000/bulls/advline2.gif" alt="" className="w-3/4 h-[5px] mx-auto my-2" />
         </div>
 
         {/* Content table */}
@@ -36,7 +36,7 @@ const CorporatePersonhood = () => {
           {/* Face image floated right */}
           <div className="float-none mx-auto mb-4 md:float-right md:ml-4 text-center">
             <img
-              src="/Nancho-Main/bigmed2000/graph/face1.jpg"
+              src="/new-nancho/bigmed2000/graph/face1.jpg"
               alt="Some Citizens are More Equal than Others"
               className="w-[246px] h-[247px] mx-auto"
             />
@@ -58,20 +58,20 @@ const CorporatePersonhood = () => {
               </a>
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cptalk.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cptalk.html" className="text-primary hover:underline">
                 Thinking about B<span className="text-xs">IG</span> Personhood
               </a>
               <br />A Talk by Molly Morgan
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cpnader.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cpnader.html" className="text-primary hover:underline">
                 Corporations are not Persons
               </a>
               <br />
               by Carl Mayer &amp; Ralph Nader
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cpmonbio.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cpmonbio.html" className="text-primary hover:underline">
                 Corporations behave as if they
                 <br />
                 are more human than we are
@@ -80,28 +80,28 @@ const CorporatePersonhood = () => {
               by George Monbiot
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/predator.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/predator.html" className="text-primary hover:underline">
                 Corporate Predators
               </a>
               <br />
               Brilliant review by Charles Reid
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/adbcorpI.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/adbcorpI.html" className="text-primary hover:underline">
                 Birth of the Corporate "I"
               </a>
               <br />
               by Kalle Lasn &amp; Tony Liacas
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/econom3.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/econom3.html" className="text-primary hover:underline">
                 The System as Conspiracy
               </a>
               <br />
               Ecofile Note by Kent Walton
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/corptime.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/corptime.html" className="text-primary hover:underline">
                 Timeline of Corporate Personhood
               </a>
               <br />
@@ -109,7 +109,7 @@ const CorporatePersonhood = () => {
               <br />
               (also see updated .pdf version{" "}
               <a
-                href="/Nancho-Main/excise-big/corperson/timelin2.pdf"
+                href="/new-nancho/excise-big/corperson/timelin2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -120,7 +120,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/newchau/newchau/corphist.html"
+                href="/new-nancho/newchau/newchau/corphist.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -142,14 +142,14 @@ const CorporatePersonhood = () => {
           <p className="font-bold text-base mb-1">AREAS OF IMPACT</p>
           <ul className="list-disc pl-6 space-y-1 mb-4">
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cpbother.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cpbother.html" className="text-primary hover:underline">
                 Why Bother with Corporate Personhood?
               </a>
               <br />
               by Doug Hammerstrom
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cpchange.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cpchange.html" className="text-primary hover:underline">
                 What Could Change If We Revoked Corporate Personhood
               </a>
               <br />
@@ -159,7 +159,7 @@ const CorporatePersonhood = () => {
               Corp Personhood vs. Labor
               <ul className="list-circle pl-6">
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/labor&cp.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/labor&cp.html" className="text-primary hover:underline">
                     Comments on Corporations &amp; Labor
                   </a>
                   <br />
@@ -171,14 +171,14 @@ const CorporatePersonhood = () => {
               Corp Personhood vs. Environment
               <ul className="list-circle pl-6">
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/15bigngo.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/15bigngo.html" className="text-primary hover:underline">
                     Environmentalists should Focus on Corporations
                   </a>
                   <br />
                   Open Letter to 15 Largest Environmental NGOs
                 </li>
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/CPattack.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/CPattack.html" className="text-primary hover:underline">
                     Attacking Corporate Personhood:
                     <br />
                     The Future of Environmental Law
@@ -187,7 +187,7 @@ const CorporatePersonhood = () => {
                   by Richard Grossman
                 </li>
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/cpepope.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/cpepope.html" className="text-primary hover:underline">
                     Some Nonhuman Entities are More Equal than Others
                   </a>
                   <br />
@@ -199,7 +199,7 @@ const CorporatePersonhood = () => {
               Corp Personhood vs. Agriculture
               <ul className="list-circle pl-6">
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/paulccp1.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/paulccp1.html" className="text-primary hover:underline">
                     Reframing Organic Ag Law as Symptom of Corporate Rule
                   </a>
                   <br />
@@ -211,7 +211,7 @@ const CorporatePersonhood = () => {
               Corp Personhood vs. Democracy
               <ul className="list-circle pl-6">
                 <li>
-                  <a href="/Nancho-Main/excise-big/corperson/cpnadrsa.html" className="text-primary hover:underline">
+                  <a href="/new-nancho/excise-big/corperson/cpnadrsa.html" className="text-primary hover:underline">
                     Nader's CP Warning to South Africa
                   </a>
                 </li>
@@ -224,19 +224,19 @@ const CorporatePersonhood = () => {
           <ul className="list-disc pl-6 space-y-1 mb-4">
             <p className="text-red-600 font-bold">WILPF's "Challenging Corporate Power" Tutorial!!!</p>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/wilpfint.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/wilpfint.html" className="text-primary hover:underline">
                 Tutorial Introduction
               </a>{" "}
               (Session I)
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/wilpf1.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/wilpf1.html" className="text-primary hover:underline">
                 Corporate Personhood
               </a>{" "}
               (Session III)
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/wilguide.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/wilguide.html" className="text-primary hover:underline">
                 WILPF Study Group Guidelines
               </a>{" "}
               - Process &amp; Facilitation
@@ -245,7 +245,7 @@ const CorporatePersonhood = () => {
               Kelsey's "Manual for Counter-Technopols"
             </li>
             <li>
-              <a href="/Nancho-Main/newchau/newchau/couptips.html" className="text-primary hover:underline">
+              <a href="/new-nancho/newchau/newchau/couptips.html" className="text-primary hover:underline">
                 Tips on How to Oppose Corporate Rule
               </a>
               <br />
@@ -254,7 +254,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/newchau/newchau/cptapes!.html"
+                href="/new-nancho/newchau/newchau/cptapes!.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -268,21 +268,21 @@ const CorporatePersonhood = () => {
           <p className="font-bold text-base mb-1">LEGAL\PHILOSOPHIC DEBATES</p>
           <ul className="list-disc pl-6 space-y-1 mb-4">
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/14amend.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/14amend.html" className="text-primary hover:underline">
                 Should not the 14th Amendment be Amended?
               </a>
               <br />
               by Edward T. Lee
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/corpwant.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/corpwant.html" className="text-primary hover:underline">
                 Do Corporate Bodies have Desires?
               </a>
               <br />
               by Austen Clark
             </li>
             <li>
-              <a href="/Nancho-Main/excise-big/corperson/cpmillon.html" className="text-primary hover:underline">
+              <a href="/new-nancho/excise-big/corperson/cpmillon.html" className="text-primary hover:underline">
                 The Ambiguous Significance of Corporate Personhood
               </a>
               <br />
@@ -408,7 +408,7 @@ const CorporatePersonhood = () => {
 
           <div className="text-center my-4">
             <img
-              src="/Nancho-Main/newchau/newchau/graphics/FREESPEE.gif"
+              src="/new-nancho/newchau/newchau/graphics/FREESPEE.gif"
               alt="Self-Expression BIG-Time..."
               className="w-[400px] max-w-full mx-auto"
             />
@@ -487,7 +487,7 @@ const CorporatePersonhood = () => {
           <ul className="list-disc pl-6 space-y-1 mb-4 text-sm">
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP1intro.mp3"
+                href="/new-nancho/excise-big/tracks/CP1intro.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -497,7 +497,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP2danaher.mp3"
+                href="/new-nancho/excise-big/tracks/CP2danaher.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -507,7 +507,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP3hartmannkorten.mp3"
+                href="/new-nancho/excise-big/tracks/CP3hartmannkorten.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -517,7 +517,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP4SFmimetroop.mp3"
+                href="/new-nancho/excise-big/tracks/CP4SFmimetroop.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -527,7 +527,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP5edwards.mp3"
+                href="/new-nancho/excise-big/tracks/CP5edwards.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -537,7 +537,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP6AZgreensLane.mp3"
+                href="/new-nancho/excise-big/tracks/CP6AZgreensLane.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -547,7 +547,7 @@ const CorporatePersonhood = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP7finale.mp3"
+                href="/new-nancho/excise-big/tracks/CP7finale.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
@@ -568,41 +568,41 @@ const CorporatePersonhood = () => {
 
         {/* Footer */}
         <div className="text-center py-6">
-          <a href="/Nancho-Main/newchau/newchau/" target="_top">
-            <img src="/Nancho-Main/bigmed2000/graph/revolt.gif" alt="" className="w-[430px] max-w-full mx-auto" />
+          <a href="/new-nancho/newchau/newchau/" target="_top">
+            <img src="/new-nancho/bigmed2000/graph/revolt.gif" alt="" className="w-[430px] max-w-full mx-auto" />
             <br />
             <span className="text-xs">The Way Home</span>
           </a>
           <div className="text-xs mt-2 space-x-2" style={{ fontFamily: "Verdana, Arial, Helvetica" }}>
-            <a href="/Nancho-Main/newchau/newchau/ccgoals.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/ccgoals.html" className="text-primary hover:underline">
               Goals
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/ccplay.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/ccplay.html" className="text-primary hover:underline">
               Play
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/gospels.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/gospels.html" className="text-primary hover:underline">
               Study
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/ccnews.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/ccnews.html" className="text-primary hover:underline">
               News
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/faq.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/faq.html" className="text-primary hover:underline">
               FAQ
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/contact.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/contact.html" className="text-primary hover:underline">
               Contact
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/cchelp.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/cchelp.html" className="text-primary hover:underline">
               Help
             </a>{" "}
             |{" "}
-            <a href="/Nancho-Main/newchau/newchau/nchistry.html" className="text-primary hover:underline">
+            <a href="/new-nancho/newchau/newchau/nchistry.html" className="text-primary hover:underline">
               Archives
             </a>
           </div>

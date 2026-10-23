@@ -21,7 +21,7 @@ const Index = () => {
           <ol className="list-decimal pl-6 space-y-4 text-base md:text-lg font-bold">
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP1intro.mp3"
+                href="/new-nancho/excise-big/tracks/CP1intro.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -31,7 +31,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP2danaher.mp3"
+                href="/new-nancho/excise-big/tracks/CP2danaher.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -41,7 +41,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP3hartmannkorten.mp3"
+                href="/new-nancho/excise-big/tracks/CP3hartmannkorten.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -51,7 +51,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP4SFmimetroop.mp3"
+                href="/new-nancho/excise-big/tracks/CP4SFmimetroop.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -61,7 +61,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP5edwards.mp3"
+                href="/new-nancho/excise-big/tracks/CP5edwards.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -71,7 +71,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP6AZgreensLane.mp3"
+                href="/new-nancho/excise-big/tracks/CP6AZgreensLane.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -81,7 +81,7 @@ const Index = () => {
             </li>
             <li>
               <a
-                href="/Nancho-Main/excise-big/tracks/CP7finale.mp3"
+                href="/new-nancho/excise-big/tracks/CP7finale.mp3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-red-900 hover:text-red-700"
@@ -94,7 +94,7 @@ const Index = () => {
 
         <footer className="text-center space-y-3">
           <a
-            href="/Nancho-Main/excise-big/corperson/"
+            href="/new-nancho/excise-big/corperson/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-red-900 font-bold"
@@ -102,7 +102,7 @@ const Index = () => {
             Back to Corporate Personhood
           </a>
           <div>
-            <a href="/Nancho-Main/" target="_blank" rel="noopener noreferrer" className="underline">
+            <a href="/new-nancho/" target="_blank" rel="noopener noreferrer" className="underline">
               The Way Home
             </a>
           </div>

@@ -290,7 +290,7 @@ const Index = () => {
             <small>Visitors since 14 July 98:</small>
             <br />
             <img
-              src="/Nancho-Main/bigmed2000/counter/org/bigkarma/fdlap/fdlap.cnt?ft=0&dd=C"
+              src="/new-nancho/bigmed2000/counter/org/bigkarma/fdlap/fdlap.cnt?ft=0&dd=C"
               alt="counter"
               className="w-24 h-6 mt-1 mx-auto"
             />
