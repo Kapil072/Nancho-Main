@@ -11,9 +11,9 @@ import mangetImg from "@/assets/images/mangets7.gif";
 const links = [
   { image: sapLogoImg, label: "Sacred Animals", sublabel: "Party Site", href: "#" },
   { image: m10LogoImg, label: "Magic 10% Site", sublabel: "", href: "#" },
-  { image: face2Img, label: "Excise BIG Personhood,", sublabel: "Neuter Corporate Rulers", href: "https://nikunjdz.github.io/excise-big/" },
-  { image: achilletImg, label: "Reinscribe Corporate Codes,", sublabel: "Re-engineer Big DNA", href: "https://nikunjdz.github.io/reinscrive/" },
-  { image: snake3Gif, label: "Remasculate Democracy,", sublabel: "The Big T and Sovereignty", href: "https://nikunjdz.github.io/remasculate/" },
+  { image: face2Img, label: "Excise BIG Personhood,", sublabel: "Neuter Corporate Rulers", href: `${import.meta.env.BASE_URL}excise-big/` },
+  { image: achilletImg, label: "Reinscribe Corporate Codes,", sublabel: "Re-engineer Big DNA", href: `${import.meta.env.BASE_URL}reinscrive/` },
+  { image: snake3Gif, label: "Remasculate Democracy,", sublabel: "The Big T and Sovereignty", href: `${import.meta.env.BASE_URL}remasculate/` },
   { image: bigBodthImg, label: "Practice Big Med at Home!", sublabel: "The Big Medicine Mailing List", href: "#" },
 ];
 

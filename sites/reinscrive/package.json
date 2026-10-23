@@ -1,0 +1,10 @@
+{
+  "name": "reinscrive-big-medicine",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "serve . -l 8083"
+  },
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}

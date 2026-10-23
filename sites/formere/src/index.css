@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 100 30% 90%;
+    --foreground: 0 0% 0%;
+
+    --card: 100 20% 85%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 100 30% 90%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 120 40% 25%;
+    --primary-foreground: 60 80% 90%;
+
+    --secondary: 120 20% 80%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 100 15% 82%;
+    --muted-foreground: 0 0% 30%;
+
+    --accent: 120 30% 35%;
+    --accent-foreground: 60 80% 95%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 30% 50%;
+    --input: 120 20% 70%;
+    --ring: 120 40% 25%;
+
+    --radius: 0rem;
+
+    --retro-green-light: 100 30% 90%;
+    --retro-green-dark: 120 50% 20%;
+    --retro-green-mid: 120 30% 40%;
+    --retro-gold: 45 80% 50%;
+    --retro-red: 0 90% 50%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+@layer components {
+  .site-prose {
+    font-feature-settings: "kern" 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-wrap: pretty;
+  }
+
+  .site-prose :where(p, li, blockquote, dd, td, th) {
+    line-height: 1.65;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  .site-prose :where(h1, h2, h3, h4) {
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  @media (max-width: 767px) {
+    .site-prose .text-justify {
+      text-align: left !important;
+    }
+  }
+}
+
+/* FDL-AP Custom Retro-Premium Layout & Typography System */
+.fdl-page {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 0.875rem !important; /* ~14px base font size */
+}
+@media (min-width: 768px) {
+  .fdl-page {
+    font-size: 0.95rem !important; /* ~15.2px base font size */
+  }
+}
+
+.fdl-container {
+  width: 96%;
+  max-width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+}
+@media (min-width: 768px) {
+  .fdl-container {
+    width: 92%;
+    max-width: 85rem;
+    padding: 1.5rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .fdl-container {
+    width: 90%;
+    max-width: 95rem;
+  }
+}
+
+/* Typography styles for dangerouslySetInnerHTML content */
+.fdl-content a {
+  color: #007339 !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+  transition: color 0.15s ease-in-out;
+}
+.fdl-content a:hover {
+  color: #1866C5 !important;
+}
+
+/* Fix overlapping and spacing of standard line graphics */
+.fdl-content img[src*="fdline5.gif"],
+img[src*="fdline5.gif"] {
+  display: block !important;
+  width: 100% !important;
+  height: 6px !important;
+  max-height: 6px !important;
+  object-fit: fill !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  clear: both !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Restore HTML horizontal rule (hr) styling and alignment properties */
+.fdl-content hr,
+hr {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: none !important;
+  background-color: currentColor !important;
+  opacity: 0.35;
+  height: 1px !important;
+}
+
+hr[size="2"] { height: 2px !important; }
+hr[size="3"] { height: 3px !important; }
+hr[size="4"] { height: 4px !important; }
+hr[size="6"] { height: 6px !important; }
+
+hr[align="left"],
+hr[align="LEFT"] {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+hr[align="right"],
+hr[align="RIGHT"] {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+
+.fdl-content h2 {
+  font-size: 1.35em !important;
+  font-weight: 800 !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #003E1F !important;
+  text-transform: uppercase !important;
+  line-height: 1.3 !important;
+}
+
+.fdl-content h3 {
+  font-size: 1.15em !important;
+  font-weight: 700 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.4rem !important;
+  color: #003E1F !important;
+  line-height: 1.3 !important;
+}
+
+.fdl-content h4 {
+  font-size: 1.05em !important;
+  font-weight: 700 !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.4rem !important;
+  color: #003E1F !important;
+  line-height: 1.3 !important;
+}
+
+.fdl-content p {
+  margin-bottom: 0.75rem !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+}
+
+.fdl-content blockquote {
+  margin: 1rem 0 !important;
+  padding: 0.5rem 1rem !important;
+  border-left: 4px solid #003E1F !important;
+  background-color: rgba(0, 62, 31, 0.04) !important;
+  font-style: italic !important;
+  color: #003E1F !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: left !important;
+}
+
+.fdl-content ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.fdl-content ol {
+  list-style-type: decimal !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.fdl-content li {
+  margin-bottom: 0.4rem !important;
+  text-align: left !important;
+}
+
+.fdl-content table {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 1.5rem 0 !important;
+  border-collapse: collapse !important;
+}
+
+/* Style the bottom navigation gallery */
+.fdl-nav-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+.fdl-nav-gallery a {
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+  border-radius: 0.125rem;
+  overflow: hidden;
+}
+.fdl-nav-gallery a:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+}
+.fdl-nav-gallery img {
+  height: 28px !important;
+  width: auto !important;
+  display: inline-block !important;
+  margin: 0 !important;
+}
+
+/* Styling for raw HTML navigation images inside .fdl-content */
+.fdl-content img[src*="bt"] {
+  height: 28px !important;
+  width: auto !important;
+  display: inline-block !important;
+  margin: 0.25rem !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: transform 0.2s ease-in-out;
+}
+.fdl-content img[src*="bt"]:hover {
+  transform: scale(1.05);
+}
+

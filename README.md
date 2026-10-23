@@ -10,6 +10,30 @@ A modern React, TypeScript, and Vite-based remake of the Nancho Big Medicine web
 
 ---
 
+## Archive Sites (all in this one project)
+
+The archive sites that used to be separate GitHub Pages repos now live in [`sites/`](sites/) and ship with Nancho as one site — no separate hosting:
+
+| Folder | Served at | Type |
+| --- | --- | --- |
+| `sites/truthemergency` | `/Nancho-Main/truthemergency/` | React/Vite |
+| `sites/Aintthatgood` | `/Nancho-Main/Aintthatgood/` | React/Vite |
+| `sites/newchau` | `/Nancho-Main/newchau/` | static HTML |
+| `sites/indexfororg` | `/Nancho-Main/indexfororg/` | React/Vite |
+| `sites/bigmed2000` | `/Nancho-Main/bigmed2000/` | React/Vite |
+| `sites/memework` | `/Nancho-Main/memework/` | React/Vite |
+| `sites/formere` | `/Nancho-Main/formere/` | React/Vite |
+| `sites/excise-big` | `/Nancho-Main/excise-big/` | React/Vite |
+| `sites/reinscrive` | `/Nancho-Main/reinscrive/` | static HTML |
+| `sites/remasculate` | `/Nancho-Main/remasculate/` | React/Vite |
+
+- `npm run build` builds Nancho, then [`scripts/build-sites.mjs`](scripts/build-sites.mjs) builds every site into `dist/<folder>/` using Nancho's `node_modules` (no separate `npm install` per site).
+- Links between the sites point at the copies here (`/Nancho-Main/<folder>/...`), not the old separate `nikunjdz.github.io/...` hosting. The `.ram` audio files still use full old URLs, since RealAudio needs a full URL.
+- To edit a site, edit its files in `sites/<folder>/`. To add one, copy it in and add it to the `SITES` list in `scripts/build-sites.mjs`.
+- `npm run dev` runs only the Nancho home page. To click through to the archive sites locally, run `npm run build` then `npm run preview` and open `http://localhost:4173/Nancho-Main/`.
+
+---
+
 ## Local Development
 
 To run the project locally on your machine:

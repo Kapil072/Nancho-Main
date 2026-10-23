@@ -9,7 +9,7 @@ export const NavBar = ({ onNavigate }: NavBarProps) => {
   const externalLinks: { [key: string]: string } = {
     allies: "https://www.thealliancefordemocracy.org/",
     approaches: "https://nancho.net/newchau/gospels.html",
-    study: "https://nikunjdz.github.io/bigmed2000/bigstudy.html",
+    study: `${import.meta.env.BASE_URL}bigmed2000/bigstudy.html`,
     assist: "https://nancho.net/thespiel.html",
   };
 

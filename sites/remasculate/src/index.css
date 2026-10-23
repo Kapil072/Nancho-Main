@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 92%;
+    --foreground: 0 0% 0%;
+
+    --card: 40 33% 95%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 40 33% 95%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 348 80% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 40 20% 85%;
+    --muted-foreground: 0 0% 30%;
+
+    --accent: 348 80% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 75%;
+    --input: 40 20% 75%;
+    --ring: 348 80% 35%;
+
+    --radius: 0rem;
+
+    --link: 240 100% 40%;
+    --link-visited: 300 100% 25%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: beige;
+    background-image: url('/barks/frenchp2.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    @apply text-foreground;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+  a {
+    color: #800040;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #800000;
+  }
+
+  a:hover {
+    color: hsl(var(--primary));
+  }
+}
+
+@layer components {
+  .site-prose {
+    font-feature-settings: "kern" 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-wrap: pretty;
+  }
+
+  .site-prose :where(p, li, blockquote, dd, td, th) {
+    line-height: 1.65;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  .site-prose :where(h1, h2, h3, h4) {
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  @media (max-width: 767px) {
+    .site-prose .text-justify {
+      text-align: left !important;
+    }
+  }
+}

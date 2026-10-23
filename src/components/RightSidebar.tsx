@@ -10,13 +10,13 @@ import fdlapImg from "@/assets/images/FdlogoS.gif";
 
 const archives = [
   { image: cop10Img, label: "COP10 Conference", sublabel: "Archive", href: "#" },
-  { image: truthImg, label: "Truth Emergency", sublabel: "Archive", href: "https://nikunjdz.github.io/truthemergency/" },
-  { image: wbaiImg, label: "Ain't that Good News", sublabel: "WBAI Radio Show Archive", href: "https://nikunjdz.github.io/Aintthatgood/" },
-  { image: chautauquaImg, label: "New Chautauqua", sublabel: "Archive", href: "https://nikunjdz.github.io/newchau-/newchau/arc/newindex.html" },
-  { image: karmaImg, label: "Index for Original", sublabel: "Big Karma Site", href: "https://nikunjdz.github.io/indexfororg/" },
-  { image: vprezImg, label: "Big Med 2000", sublabel: "V-Prez Campaign", href: "https://nikunjdz.github.io/bigmed2000/" },
-  { image: memeImg, label: "Meme Works", sublabel: "", href: "https://nikunjdz.github.io/memework/" },
-  { image: fdlapImg, label: "Forum of Democratic Leaders", sublabel: "of the Asia-Pacific", href: "https://nikunjdz.github.io/formere/" },
+  { image: truthImg, label: "Truth Emergency", sublabel: "Archive", href: `${import.meta.env.BASE_URL}truthemergency/` },
+  { image: wbaiImg, label: "Ain't that Good News", sublabel: "WBAI Radio Show Archive", href: `${import.meta.env.BASE_URL}Aintthatgood/` },
+  { image: chautauquaImg, label: "New Chautauqua", sublabel: "Archive", href: `${import.meta.env.BASE_URL}newchau/newchau/arc/newindex.html` },
+  { image: karmaImg, label: "Index for Original", sublabel: "Big Karma Site", href: `${import.meta.env.BASE_URL}indexfororg/` },
+  { image: vprezImg, label: "Big Med 2000", sublabel: "V-Prez Campaign", href: `${import.meta.env.BASE_URL}bigmed2000/` },
+  { image: memeImg, label: "Meme Works", sublabel: "", href: `${import.meta.env.BASE_URL}memework/` },
+  { image: fdlapImg, label: "Forum of Democratic Leaders", sublabel: "of the Asia-Pacific", href: `${import.meta.env.BASE_URL}formere/` },
 ];
 
 interface RightSidebarProps {
