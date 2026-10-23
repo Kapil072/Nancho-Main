@@ -20,14 +20,16 @@ const Index = () => {
           </aside>
 
           <main className="p-6 md:p-10 border-r border-gray-300 min-w-0 bg-white">
-            <Suspense fallback={
-              <div className="flex items-center justify-center min-h-[400px]">
-                <div className="text-center">
-                  <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                  <p className="text-lg text-gray-600">Loading content...</p>
+            <Suspense
+              fallback={
+                <div className="flex items-center justify-center min-h-[400px]">
+                  <div className="text-center">
+                    <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mx-auto mb-4"></div>
+                    <p className="text-lg text-gray-600">Loading content...</p>
+                  </div>
                 </div>
-              </div>
-            }>
+              }
+            >
               <MainContent />
             </Suspense>
           </main>

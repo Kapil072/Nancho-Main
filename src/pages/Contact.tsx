@@ -10,7 +10,7 @@ const Contact = ({ onNavigate }: ContactProps) => {
     name: "",
     email: "",
     subject: "contribute",
-    message: ""
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -35,7 +35,7 @@ const Contact = ({ onNavigate }: ContactProps) => {
         name: "",
         email: "",
         subject: "contribute",
-        message: ""
+        message: "",
       });
     }, 1500);
   };
@@ -90,9 +90,7 @@ const Contact = ({ onNavigate }: ContactProps) => {
           </div>
 
           <div>
-            <label className="block text-sm font-bold text-retro-green mb-1">
-              Subject of Inquiry
-            </label>
+            <label className="block text-sm font-bold text-retro-green mb-1">Subject of Inquiry</label>
             <select
               name="subject"
               value={formData.subject}

@@ -9,7 +9,7 @@ const Cpmonbio = () => {
       document.body.style.backgroundColor = "";
       document.body.style.backgroundImage = "";
       document.body.style.color = "";
-    }
+    };
   }, []);
 
   const htmlContent = `<a href="${import.meta.env.BASE_URL}"><img src="${import.meta.env.BASE_URL}graph/BIGBODBM.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Personhood Index"></a>
@@ -91,7 +91,10 @@ surely inconceivable that we should grant human rights to computers. Why then sh
 `;
 
   return (
-    <div className="min-h-screen text-base md:text-lg leading-relaxed p-4 md:p-8 w-full max-w-none" style={{ fontFamily: "Times New Roman, serif", color: "#000055" }}>
+    <div
+      className="min-h-screen text-base md:text-lg leading-relaxed p-4 md:p-8 w-full max-w-none"
+      style={{ fontFamily: "Times New Roman, serif", color: "#000055" }}
+    >
       <style>{`
         a { color: #B32D41; text-decoration: underline; font-weight: bold; }
         a:hover { color: #FF4444; }

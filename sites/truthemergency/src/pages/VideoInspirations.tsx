@@ -1,11 +1,12 @@
-﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const sections = [
   {
     heading: "Summit Prerequisite Viewings",
     items: [
       {
-        title: "Frank Dorrel's Obligatory Overview -- What I've Learned About U.S. Foreign Policy: The War Against the Third World",
+        title:
+          "Frank Dorrel's Obligatory Overview -- What I've Learned About U.S. Foreign Policy: The War Against the Third World",
         description:
           "A powerful compilation exposing the body count behind U.S. foreign policy. NOTE: The powerful Panama Deception clip included in this compilation is only a brief taste of this extraordinary documentary.",
         youtubeId: "OR-6ANIjKDk",
@@ -39,7 +40,7 @@ const sections = [
         linkLabel: "bravenewfilms.org",
       },
       {
-        title: "The Yes Men News-jam Dow on BBC -- \"We take full responsibility for the Bhopal disaster.\"",
+        title: 'The Yes Men News-jam Dow on BBC -- "We take full responsibility for the Bhopal disaster."',
         description: "Subversive Truthiness -- How the Pros Do It",
         youtubeId: "LiWlRoJGDEo",
       },
@@ -68,9 +69,7 @@ const VideoInspirations = () => {
   return (
     <PageLayout>
       <h1 className="text-2xl font-bold text-center text-foreground mb-2 uppercase">Video Inspirations</h1>
-      <p className="text-base text-center text-foreground mb-10">
-        Creative Media from the Heartland and Beyond
-      </p>
+      <p className="text-base text-center text-foreground mb-10">Creative Media from the Heartland and Beyond</p>
 
       {sections.map((section, sIdx) => (
         <section key={sIdx} className="mb-14">
@@ -114,4 +113,3 @@ const VideoInspirations = () => {
 };
 
 export default VideoInspirations;
-

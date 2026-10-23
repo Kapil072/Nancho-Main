@@ -6,16 +6,29 @@ interface AssistProps {
 
 const Assist = ({ onNavigate }: AssistProps) => {
   const talents = [
-    "Unusual Art", "Eccentric Ideas", "Trivial Pursuits", "Educative Ardor",
-    "Reckless Resources", "Subversive Acquisition", "Alpha Affinity",
-    "Salubrious Science", "PR Precocity", "Holistic Hacking",
-    "Sex", "Drugs", "Rock'n'Roll"
+    "Unusual Art",
+    "Eccentric Ideas",
+    "Trivial Pursuits",
+    "Educative Ardor",
+    "Reckless Resources",
+    "Subversive Acquisition",
+    "Alpha Affinity",
+    "Salubrious Science",
+    "PR Precocity",
+    "Holistic Hacking",
+    "Sex",
+    "Drugs",
+    "Rock'n'Roll",
   ];
 
   const needs = [
-    "Art Work", "Medical/Scientific Info", "Ideas for Promoting Ideas",
-    "Movie \"Quotes\"", "Contagious Music", "Video/CDROM Project Support",
-    "Reconnaissance on Current Locations of Sixties Survivors"
+    "Art Work",
+    "Medical/Scientific Info",
+    "Ideas for Promoting Ideas",
+    'Movie "Quotes"',
+    "Contagious Music",
+    "Video/CDROM Project Support",
+    "Reconnaissance on Current Locations of Sixties Survivors",
   ];
 
   return (
@@ -24,12 +37,10 @@ const Assist = ({ onNavigate }: AssistProps) => {
         <h1 className="text-3xl md:text-4xl text-primary font-bold mb-2 uppercase tracking-wide">
           Big Medicine Needs You!
         </h1>
-        <p className="text-lg text-retro-amber font-bold uppercase tracking-[0.2em] my-4">
-          Cascade! Conspire!
-        </p>
+        <p className="text-lg text-retro-amber font-bold uppercase tracking-[0.2em] my-4">Cascade! Conspire!</p>
         <p className="text-base text-muted-foreground italic max-w-lg mx-auto">
-          "And if the Spirit Moves You, Lend a Hand... We need everything you got!
-          Wit, bile, rage, lust, and bizarre near-useless talents..."
+          "And if the Spirit Moves You, Lend a Hand... We need everything you got! Wit, bile, rage, lust, and bizarre
+          near-useless talents..."
         </p>
         <p className="text-xs text-muted-foreground mt-3">
           Source:{" "}
@@ -52,7 +63,9 @@ const Assist = ({ onNavigate }: AssistProps) => {
           </h2>
           <ul className="list-disc list-inside text-sm space-y-2 text-foreground">
             {talents.map((t) => (
-              <li key={t} className="hover:text-retro-amber transition-colors cursor-pointer">{t}</li>
+              <li key={t} className="hover:text-retro-amber transition-colors cursor-pointer">
+                {t}
+              </li>
             ))}
           </ul>
         </div>
@@ -64,7 +77,9 @@ const Assist = ({ onNavigate }: AssistProps) => {
           </h2>
           <ul className="list-disc list-inside text-sm space-y-2 text-foreground">
             {needs.map((n) => (
-              <li key={n} className="hover:text-retro-amber transition-colors cursor-pointer">{n}</li>
+              <li key={n} className="hover:text-retro-amber transition-colors cursor-pointer">
+                {n}
+              </li>
             ))}
           </ul>
         </div>
@@ -73,8 +88,8 @@ const Assist = ({ onNavigate }: AssistProps) => {
       <div className="max-w-2xl mx-auto p-6 border border-border bg-card rounded text-center shadow-lg">
         <h3 className="font-bold text-retro-amber text-base mb-2">Mix or Match — Want to associate?</h3>
         <p className="text-sm text-foreground mb-4 leading-relaxed">
-          If you have inspiration, angst, or materials to contribute to the devolved future,
-          drop us a line on our contact page.
+          If you have inspiration, angst, or materials to contribute to the devolved future, drop us a line on our
+          contact page.
         </p>
         <button
           onClick={() => onNavigate("contact")}
@@ -86,9 +101,7 @@ const Assist = ({ onNavigate }: AssistProps) => {
 
       {/* Original Site Link */}
       <div className="max-w-2xl mx-auto mt-6 p-4 border border-border bg-card rounded text-center">
-        <p className="text-sm text-muted-foreground mb-2">
-          View the original Nancho Spiel &amp; Solicitations page:
-        </p>
+        <p className="text-sm text-muted-foreground mb-2">View the original Nancho Spiel &amp; Solicitations page:</p>
         <a
           href="https://nancho.net/thespiel.html"
           target="_blank"

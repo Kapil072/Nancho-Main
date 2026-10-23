@@ -24,24 +24,34 @@ const FdlAlert = () => {
           </h1>
           <hr className="w-48 border-t-2 border-[#FF0000] mx-auto my-3" />
           <p className="text-base md:text-lg text-[#800000] font-semibold leading-relaxed max-w-2xl mx-auto">
-            Highlighting problems of particular urgency in the Asia-Pacific with links to background literature and groups working to resolve them.
+            Highlighting problems of particular urgency in the Asia-Pacific with links to background literature and
+            groups working to resolve them.
           </p>
           <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} alt="divider" className="w-full h-2 my-4" />
         </center>
 
         {/* Background Intro blockquote */}
         <blockquote className="my-8 px-4 md:px-6 py-4 border-l-4 border-[#003E1F] bg-[#003E1F]/5 text-sm md:text-base italic text-[#003E1F] leading-relaxed">
-          <strong>Background:</strong> Like all associations with boundless hopes and limited means, the FDL-AP is obliged to focus its resources on a few battles at a time. Although we are now working intensely on Burma, Cambodia, and youth education, we are of course also deeply concerned with the many other tragedies in the region. This section will therefore try to illuminate lesser known struggles in the Asian neighborhood, which are also committed to self-determination, human rights and social justice. Due to its length, body count and now nuclear aspects, we begin with the Kashmir conflict, but also invite your assistance to expose other movements which desperately require public attention and support.
+          <strong>Background:</strong> Like all associations with boundless hopes and limited means, the FDL-AP is
+          obliged to focus its resources on a few battles at a time. Although we are now working intensely on Burma,
+          Cambodia, and youth education, we are of course also deeply concerned with the many other tragedies in the
+          region. This section will therefore try to illuminate lesser known struggles in the Asian neighborhood, which
+          are also committed to self-determination, human rights and social justice. Due to its length, body count and
+          now nuclear aspects, we begin with the Kashmir conflict, but also invite your assistance to expose other
+          movements which desperately require public attention and support.
         </blockquote>
 
         <center className="w-full my-6">
           <hr className="w-72 border-t-2 border-[#003E1F]/30 mx-auto my-2" />
           <p className="text-xs md:text-sm font-black tracking-widest text-[#800000] uppercase my-3 leading-normal">
-            IN SUPPORT OF THE KASHMIRI PEOPLE'S<br />RIGHT TO TRUE SELF-DETERMINATION
+            IN SUPPORT OF THE KASHMIRI PEOPLE'S
+            <br />
+            RIGHT TO TRUE SELF-DETERMINATION
           </p>
           <hr className="w-72 border-t-2 border-[#003E1F]/30 mx-auto my-2" />
           <h2 className="text-2xl md:text-3xl font-bold text-[#003E1F] uppercase leading-tight tracking-wide mt-4">
-            KASHMIRI INDEPENDENCE<br />
+            KASHMIRI INDEPENDENCE
+            <br />
             <span className="text-lg md:text-xl font-medium block mt-1 text-gray-800">
               Key to Defusing the Indo-Pakistani Nuclear Standoff
             </span>
@@ -88,7 +98,8 @@ const FdlAlert = () => {
               <Link to="/kashmir/pledges.html">
                 <strong>Quotes on Kashmiri Self-Determination</strong>
               </Link>{" "}
-              <br />by the founding fathers of India & Pakistan
+              <br />
+              by the founding fathers of India & Pakistan
             </li>
 
             {/* UN Proposal */}
@@ -100,17 +111,20 @@ const FdlAlert = () => {
                 <div>
                   <h4 className="font-bold text-base md:text-lg text-[#007339] leading-tight">
                     <Link to="/kashmir/hapkash.html">
-                      FROM CANTONMENTS TO CANTONS <br className="hidden md:inline" />-- A Modest Proposal for Kashmir
+                      FROM CANTONMENTS TO CANTONS <br className="hidden md:inline" />
+                      -- A Modest Proposal for Kashmir
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    A sweeping new proposal to test Switzerland's proven direct democratic system to multi-ethnic Kashmir and beyond.
+                    A sweeping new proposal to test Switzerland's proven direct democratic system to multi-ethnic
+                    Kashmir and beyond.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-base md:text-lg text-[#007339] leading-tight">
                     <Link to="/swissdd1.html">
-                      HIGHLIGHTS OF THE SWISS SYSTEM <br className="hidden md:inline" />-- Excerpts from "Swiss Political Institutions" by Oswald Sigg
+                      HIGHLIGHTS OF THE SWISS SYSTEM <br className="hidden md:inline" />
+                      -- Excerpts from "Swiss Political Institutions" by Oswald Sigg
                     </Link>
                   </h4>
                 </div>
@@ -130,27 +144,26 @@ const FdlAlert = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    Interview with Lt. Gen. (Retd) Nishat Ahmad, Director, Institute of Regional Studies, Islamabad, Pakistan
+                    Interview with Lt. Gen. (Retd) Nishat Ahmad, Director, Institute of Regional Studies, Islamabad,
+                    Pakistan
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-base md:text-lg text-[#007339] leading-tight">
-                    <Link to="/jehangir.html">
-                      DEMOCRACY IS SURVIVAL FOR WOMEN
-                    </Link>
+                    <Link to="/jehangir.html">DEMOCRACY IS SURVIVAL FOR WOMEN</Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    An Interview with human rights crusader Asma Jehangir on the plight of women & children, and the fundamentalist threat in Pakistan today
+                    An Interview with human rights crusader Asma Jehangir on the plight of women & children, and the
+                    fundamentalist threat in Pakistan today
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-base md:text-lg text-[#007339] leading-tight">
-                    <Link to="/imran.html">
-                      ISLAM MEANS JUSTICE, AND JUSTICE MEANS RIGHTS
-                    </Link>
+                    <Link to="/imran.html">ISLAM MEANS JUSTICE, AND JUSTICE MEANS RIGHTS</Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    An Interview with cricket legend turned fiery social/political activist, Imran Khan on the fight for democratic reform in Pakistan
+                    An Interview with cricket legend turned fiery social/political activist, Imran Khan on the fight for
+                    democratic reform in Pakistan
                   </p>
                 </div>
               </div>
@@ -169,7 +182,8 @@ const FdlAlert = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    A ground-breaking interview with People First co-founder, Dr. Ashok Khosla on the necessity for direct democracy in India
+                    A ground-breaking interview with People First co-founder, Dr. Ashok Khosla on the necessity for
+                    direct democracy in India
                   </p>
                 </div>
               </div>
@@ -182,15 +196,28 @@ const FdlAlert = () => {
               </strong>
               <ul className="pl-6 space-y-6 list-disc">
                 <li className="pl-2">
-                  <a href="http://members.aol.com/kashmir290/home.html" target="_blank" rel="noopener noreferrer" className="font-bold text-[#007339]">
+                  <a
+                    href="http://members.aol.com/kashmir290/home.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-[#007339]"
+                  >
                     Kashmir Online
                   </a>
                   <p className="text-sm text-gray-700 mt-1 italic pl-1 text-justify">
-                    Voice of the Jammu & Kashmir Democratic Freedom Front, the most non-violent, ecumenical Kashmiri independence movement. Led by Amnesty Prisoner of Conscience Shabir Shah, the JKDFF has formed the J&K Democratic Freedom Party, a pro-independence party that includes prominent leaders among Kashmiri Muslims, Ladakhi Buddhists and the Jammu Hindu community.
+                    Voice of the Jammu & Kashmir Democratic Freedom Front, the most non-violent, ecumenical Kashmiri
+                    independence movement. Led by Amnesty Prisoner of Conscience Shabir Shah, the JKDFF has formed the
+                    J&K Democratic Freedom Party, a pro-independence party that includes prominent leaders among
+                    Kashmiri Muslims, Ladakhi Buddhists and the Jammu Hindu community.
                   </p>
                 </li>
                 <li className="pl-2">
-                  <a href="http://www.kashmiri-cc.ca" target="_blank" rel="noopener noreferrer" className="font-bold text-[#007339]">
+                  <a
+                    href="http://www.kashmiri-cc.ca"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-[#007339]"
+                  >
                     Kashmir Canada
                   </a>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
@@ -206,12 +233,24 @@ const FdlAlert = () => {
         <center className="w-full">
           <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} alt="divider" className="w-full h-2 my-4" />
           <div className="fdl-nav-gallery">
-            <Link to="/"><img src={`${import.meta.env.BASE_URL}graph/btfdhome.jpg`} alt="Home" /></Link>
-            <Link to="/fmission"><img src={`${import.meta.env.BASE_URL}graph/btfdmiss.jpg`} alt="Mission" /></Link>
-            <Link to="/fdlorg"><img src={`${import.meta.env.BASE_URL}graph/btgfdorg.jpg`} alt="Organization" /></Link>
-            <Link to="/fdlinits"><img src={`${import.meta.env.BASE_URL}graph/btfdinit.jpg`} alt="Initiatives" /></Link>
-            <Link to="/fdlpaper"><img src={`${import.meta.env.BASE_URL}graph/btfdlit.jpg`} alt="Literature" /></Link>
-            <Link to="/fdllinks"><img src={`${import.meta.env.BASE_URL}graph/btfdlink.jpg`} alt="Links" /></Link>
+            <Link to="/">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdhome.jpg`} alt="Home" />
+            </Link>
+            <Link to="/fmission">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdmiss.jpg`} alt="Mission" />
+            </Link>
+            <Link to="/fdlorg">
+              <img src={`${import.meta.env.BASE_URL}graph/btgfdorg.jpg`} alt="Organization" />
+            </Link>
+            <Link to="/fdlinits">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdinit.jpg`} alt="Initiatives" />
+            </Link>
+            <Link to="/fdlpaper">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdlit.jpg`} alt="Literature" />
+            </Link>
+            <Link to="/fdllinks">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdlink.jpg`} alt="Links" />
+            </Link>
           </div>
           <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} alt="divider" className="w-full h-2 my-4" />
         </center>

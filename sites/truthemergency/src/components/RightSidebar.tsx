@@ -21,36 +21,75 @@ const articleLinks = [
   { label: "American Tears", href: "https://truthemergency.us/american-tears/" },
   { label: "Anti-Iranian Agitprop", href: "https://truthemergency.us/anti-iranian-agitprop/" },
   { label: "Cheney's Law", href: "https://truthemergency.us/cheneys-law/" },
-  { label: "Citizen Primer on Corporate Criminality", href: "https://truthemergency.us/citizen-primer-on-corporate-criminality/" },
-  { label: "Coup Spoils: Big Pharma grabs med ed", href: "https://truthemergency.us/coup-spoils-big-pharma-grabs-med-ed/" },
-  { label: "Gary Hart gently warns of staged war provocations", href: "https://truthemergency.us/gary-hart-gently-warns-of-staged-war-provocations/" },
-  { label: "Hijacking the US Economy for generations to come", href: "https://truthemergency.us/hijacking-the-us-economy-for-generations-to-come/" },
-  { label: "House passes HR 1955: Time to start watching what you think", href: "https://truthemergency.us/house-passes-hr-1955-time-to-start-watching-what-you-think/" },
+  {
+    label: "Citizen Primer on Corporate Criminality",
+    href: "https://truthemergency.us/citizen-primer-on-corporate-criminality/",
+  },
+  {
+    label: "Coup Spoils: Big Pharma grabs med ed",
+    href: "https://truthemergency.us/coup-spoils-big-pharma-grabs-med-ed/",
+  },
+  {
+    label: "Gary Hart gently warns of staged war provocations",
+    href: "https://truthemergency.us/gary-hart-gently-warns-of-staged-war-provocations/",
+  },
+  {
+    label: "Hijacking the US Economy for generations to come",
+    href: "https://truthemergency.us/hijacking-the-us-economy-for-generations-to-come/",
+  },
+  {
+    label: "House passes HR 1955: Time to start watching what you think",
+    href: "https://truthemergency.us/house-passes-hr-1955-time-to-start-watching-what-you-think/",
+  },
   { label: "How to Destroy the Constitution", href: "https://truthemergency.us/how-to-destroy-the-constitution/" },
-  { label: "Iraq and the Military-Industrial Complex", href: "https://truthemergency.us/iraq-and-the-military-industrial-complex/" },
+  {
+    label: "Iraq and the Military-Industrial Complex",
+    href: "https://truthemergency.us/iraq-and-the-military-industrial-complex/",
+  },
   { label: "Is a Presidential Coup Under Way?", href: "https://truthemergency.us/is-a-presidential-coup-under-way/" },
   { label: "Moyers on Coup Politics", href: "https://truthemergency.us/moyers-on-coup-politics/" },
   { label: "Naomi Wolf on Coup Clues", href: "https://truthemergency.us/naomi-wolf-on-coup-clues/" },
-  { label: "NLG Unanimously Calls for Impeachment", href: "https://truthemergency.us/nlg-unanimously-calls-for-impeachment/" },
-  { label: "Nobel Economist on Coup Pillage & Aftermath", href: "https://truthemergency.us/nobel-economist-on-coup-pillage-aftermath/" },
-  { label: "NSA Pushing warrantless wiretaps 6 months before 9/11", href: "https://truthemergency.us/nsa-pushing-warrantless-wiretaps-6-months-before-911/" },
-  { label: "Of Chaos, Quagmires and Corporate Silver Linings", href: "https://truthemergency.us/of-chaos-quagmires-and-corporate-silver-linings/" },
-  { label: "On Congressional Fear of Martial Law", href: "https://truthemergency.us/on-congressional-fear-of-martial-law/" },
-  { label: "On Criminal Ascendence & Constitutional Decline", href: "https://truthemergency.us/on-criminal-ascendence-constitutional-decline/" },
-  { label: "On Pak's Overt Coup and DC's Quiet One", href: "https://truthemergency.us/on-paks-overt-coup-and-dcs-quiet-one/" },
-  { label: "Paul Craig Roberts views our crisis from the right", href: "https://truthemergency.us/paul-craig-roberts-views-our-crisis-from-the-right/" },
+  {
+    label: "NLG Unanimously Calls for Impeachment",
+    href: "https://truthemergency.us/nlg-unanimously-calls-for-impeachment/",
+  },
+  {
+    label: "Nobel Economist on Coup Pillage & Aftermath",
+    href: "https://truthemergency.us/nobel-economist-on-coup-pillage-aftermath/",
+  },
+  {
+    label: "NSA Pushing warrantless wiretaps 6 months before 9/11",
+    href: "https://truthemergency.us/nsa-pushing-warrantless-wiretaps-6-months-before-911/",
+  },
+  {
+    label: "Of Chaos, Quagmires and Corporate Silver Linings",
+    href: "https://truthemergency.us/of-chaos-quagmires-and-corporate-silver-linings/",
+  },
+  {
+    label: "On Congressional Fear of Martial Law",
+    href: "https://truthemergency.us/on-congressional-fear-of-martial-law/",
+  },
+  {
+    label: "On Criminal Ascendence & Constitutional Decline",
+    href: "https://truthemergency.us/on-criminal-ascendence-constitutional-decline/",
+  },
+  {
+    label: "On Pak's Overt Coup and DC's Quiet One",
+    href: "https://truthemergency.us/on-paks-overt-coup-and-dcs-quiet-one/",
+  },
+  {
+    label: "Paul Craig Roberts views our crisis from the right",
+    href: "https://truthemergency.us/paul-craig-roberts-views-our-crisis-from-the-right/",
+  },
   { label: "Rule of Law Under Attack", href: "https://truthemergency.us/rule-of-law-under-attack/" },
   { label: "Shock Doctrine", href: "https://truthemergency.us/shock-doctrine/" },
-  { label: "When pols fail: late inning aid from lawyers, spooks and brass", href: "https://truthemergency.us/when-pols-fail/" },
+  {
+    label: "When pols fail: late inning aid from lawyers, spooks and brass",
+    href: "https://truthemergency.us/when-pols-fail/",
+  },
 ];
 
-const SidebarSection = ({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) => (
+const SidebarSection = ({ title, children }: { title: string; children: React.ReactNode }) => (
   <div className="mb-4">
     <h3 className="bg-blue-600 text-white px-2 py-1.5 font-bold text-center text-xs uppercase tracking-wider">
       {title}
@@ -110,7 +149,9 @@ const RightSidebar = () => {
             src={`${baseUrl}imagesA/911TruthCrop.jpg`}
             alt="911truth.org"
             className="w-16 h-auto"
-            onError={(e) => { e.currentTarget.style.display = "none"; }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
           />
         </a>
         <a href="https://projectcensored.org" target="_blank" rel="noopener noreferrer" className="block">
@@ -118,7 +159,9 @@ const RightSidebar = () => {
             src={`${baseUrl}imagesA/projectcensorednotext1.jpg`}
             alt="Project Censored"
             className="w-16 h-auto"
-            onError={(e) => { e.currentTarget.style.display = "none"; }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
           />
         </a>
         <a href="https://bethemedia.org" target="_blank" rel="noopener noreferrer" className="block">
@@ -126,7 +169,9 @@ const RightSidebar = () => {
             src={`${baseUrl}imagesA/BeTheMediaRotationWithText.gif`}
             alt="Be The Media"
             className="w-16 h-auto"
-            onError={(e) => { e.currentTarget.style.display = "none"; }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
           />
         </a>
       </div>
@@ -136,10 +181,7 @@ const RightSidebar = () => {
         <SidebarSection title="Summit Details">
           {summitLinks.map((link, i) => (
             <li key={i} className="text-[11px]">
-              <Link
-                to={link.to}
-                className="text-blue-700 hover:underline block px-1 py-0.5"
-              >
+              <Link to={link.to} className="text-blue-700 hover:underline block px-1 py-0.5">
                 {link.label}
               </Link>
             </li>

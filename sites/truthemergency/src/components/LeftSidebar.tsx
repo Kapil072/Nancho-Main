@@ -24,12 +24,19 @@ const LeftSidebar = () => {
         </h3>
         <div className="mt-4 flex flex-col items-center gap-4 px-2">
           {/* Project Censored Logo */}
-          <a href="https://projectcensored.org" target="_blank" rel="noopener noreferrer" className="block w-full text-center">
+          <a
+            href="https://projectcensored.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center"
+          >
             <img
               src={`${baseUrl}imagesA/projectcensorednotext1.jpg`}
               alt="Project Censored"
               className="h-12 w-auto mx-auto"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
           </a>
           {/* 911 Truth Logo */}
@@ -38,16 +45,25 @@ const LeftSidebar = () => {
               src={`${baseUrl}imagesA/911TruthCrop.jpg`}
               alt="911Truth.Org"
               className="h-12 w-auto mx-auto"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
           </a>
           {/* Be the Media Logo */}
-          <a href="https://bethemedia.org" target="_blank" rel="noopener noreferrer" className="block w-full text-center">
+          <a
+            href="https://bethemedia.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center"
+          >
             <img
               src={`${baseUrl}imagesA/BeTheMediaRotationWithText.gif`}
               alt="Be The Media"
               className="h-12 w-auto mx-auto"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
           </a>
         </div>
@@ -67,10 +83,7 @@ const LeftSidebar = () => {
           ))}
         </div>
         <div className="mt-4 text-center">
-          <a
-            href="#"
-            className="text-xs text-blue-600 hover:underline font-semibold"
-          >
+          <a href="#" className="text-xs text-blue-600 hover:underline font-semibold">
             Download conference flier
           </a>
         </div>
@@ -88,37 +101,37 @@ const LeftSidebar = () => {
               src={`${baseUrl}images/truth_books.png`}
               alt="US Truth Emergency References – BOOKS"
               className="h-20 w-auto mx-auto mb-2"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
-            <p className="text-xs text-blue-600 hover:underline font-semibold">
-              US Truth Emergency References: Books
-            </p>
+            <p className="text-xs text-blue-600 hover:underline font-semibold">US Truth Emergency References: Books</p>
           </Link>
-          
+
           {/* Films */}
           <Link to="/recommended-films/" className="block w-full text-center">
             <img
               src={`${baseUrl}images/truth_films.png`}
               alt="US Truth Emergency References – FILMS"
               className="h-20 w-auto mx-auto mb-2"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
-            <p className="text-xs text-blue-600 hover:underline font-semibold">
-              US Truth Emergency References: Films
-            </p>
+            <p className="text-xs text-blue-600 hover:underline font-semibold">US Truth Emergency References: Films</p>
           </Link>
-          
+
           {/* Online */}
           <Link to="/online-resources/" className="block w-full text-center">
             <img
               src={`${baseUrl}images/truth_online.png`}
               alt="US Truth Emergency References – ONLINE"
               className="h-20 w-auto mx-auto mb-2"
-              onError={(e) => { e.currentTarget.style.display = "none"; }}
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
             />
-            <p className="text-xs text-blue-600 hover:underline font-semibold">
-              US Truth Emergency References: Online
-            </p>
+            <p className="text-xs text-blue-600 hover:underline font-semibold">US Truth Emergency References: Online</p>
           </Link>
         </div>
       </div>

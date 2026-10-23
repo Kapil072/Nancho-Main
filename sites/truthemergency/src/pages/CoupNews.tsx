@@ -1,4 +1,4 @@
-﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const articles = [
   {
@@ -81,8 +81,7 @@ const articles = [
   {
     title: "How to Destroy the Constitution",
     subtitle: "Effective little image blast on the politics of fear",
-    excerpt:
-      "This video effectively illustrates deft media technique and some aspect of our core concerns.",
+    excerpt: "This video effectively illustrates deft media technique and some aspect of our core concerns.",
     youtubeId: "viVAAy_qkx0",
   },
   {
@@ -111,9 +110,7 @@ const CoupNews = () => {
 
             {/* Subtitle if present */}
             {article.subtitle && (
-              <h3 className="text-base text-center font-semibold text-foreground mb-4">
-                {article.subtitle}
-              </h3>
+              <h3 className="text-base text-center font-semibold text-foreground mb-4">{article.subtitle}</h3>
             )}
 
             {/* Article Meta */}
@@ -124,9 +121,7 @@ const CoupNews = () => {
             </div>
 
             {/* Article Text/Excerpt */}
-            <p className="text-base text-foreground leading-relaxed mb-6 whitespace-pre-wrap">
-              {article.excerpt}
-            </p>
+            <p className="text-base text-foreground leading-relaxed mb-6 whitespace-pre-wrap">{article.excerpt}</p>
 
             {/* YouTube Video if present */}
             {article.youtubeId && (

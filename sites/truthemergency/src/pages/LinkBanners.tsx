@@ -1,4 +1,4 @@
-﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const banners = [
   {
@@ -36,8 +36,7 @@ const LinkBanners = () => {
     <PageLayout>
       <h1 className="text-2xl font-bold text-primary mb-4">Link Banners</h1>
       <p className="text-base text-foreground/90 mb-8">
-        If your website services a media-oriented community, please link to us to help spread
-        the encouraging word.
+        If your website services a media-oriented community, please link to us to help spread the encouraging word.
       </p>
 
       <div className="overflow-x-auto">
@@ -46,7 +45,9 @@ const LinkBanners = () => {
             <tr className="bg-[hsl(var(--nav-bg))] text-[hsl(var(--nav-text))]">
               <th className="border border-border px-4 py-2 text-left font-bold">Banner Graphic</th>
               <th className="border border-border px-4 py-2 text-left font-bold">Size</th>
-              <th className="border border-border px-4 py-2 text-left font-bold">Link Code Snippet -- just copy and paste for desired banner size</th>
+              <th className="border border-border px-4 py-2 text-left font-bold">
+                Link Code Snippet -- just copy and paste for desired banner size
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -58,12 +59,12 @@ const LinkBanners = () => {
                     alt={`Truth Emergency banner ${b.size}`}
                     width={b.width}
                     height={b.height}
-                    onError={(e) => { e.currentTarget.style.display = "none"; }}
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none";
+                    }}
                   />
                 </td>
-                <td className="border border-border px-4 py-3 whitespace-nowrap font-semibold">
-                  {b.size}
-                </td>
+                <td className="border border-border px-4 py-3 whitespace-nowrap font-semibold">{b.size}</td>
                 <td className="border border-border px-4 py-3">
                   <code className="block bg-gray-100 border border-gray-200 rounded p-2 text-xs font-mono break-all select-all">
                     {b.code}
@@ -79,4 +80,3 @@ const LinkBanners = () => {
 };
 
 export default LinkBanners;
-

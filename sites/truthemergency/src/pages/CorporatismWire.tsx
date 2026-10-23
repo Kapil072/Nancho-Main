@@ -1,4 +1,4 @@
-﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const feeds = [
   {
@@ -48,7 +48,8 @@ const recentItems = [
     source: "World Socialist Web Site",
   },
   {
-    title: "Build rank-and-file power at National Steel Car in opposition to the nationalist, corporatist USW apparatus!",
+    title:
+      "Build rank-and-file power at National Steel Car in opposition to the nationalist, corporatist USW apparatus!",
     source: "World Socialist Web Site",
   },
 ];
@@ -110,9 +111,7 @@ const CorporatismWire = () => {
 
       {/* Recent Google/Yahoo headlines */}
       <section className="mb-10">
-        <h2 className="text-lg font-bold text-foreground mb-4 border-b border-border pb-1">
-          Recent Headlines
-        </h2>
+        <h2 className="text-lg font-bold text-foreground mb-4 border-b border-border pb-1">Recent Headlines</h2>
         <ul className="space-y-3">
           {recentItems.map((item, idx) => (
             <li key={idx} className="flex flex-col sm:flex-row sm:gap-2">
@@ -159,4 +158,3 @@ const CorporatismWire = () => {
 };
 
 export default CorporatismWire;
-

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -63,7 +63,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
 }
 
@@ -98,7 +98,7 @@
 
 /* FDL-AP Custom Retro-Premium Layout & Typography System */
 .fdl-page {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #000000;
   line-height: 1.5;
   font-size: 0.875rem !important; /* ~14px base font size */
@@ -140,7 +140,7 @@
   transition: color 0.15s ease-in-out;
 }
 .fdl-content a:hover {
-  color: #1866C5 !important;
+  color: #1866c5 !important;
 }
 
 /* Fix overlapping and spacing of standard line graphics */
@@ -170,10 +170,18 @@ hr {
   height: 1px !important;
 }
 
-hr[size="2"] { height: 2px !important; }
-hr[size="3"] { height: 3px !important; }
-hr[size="4"] { height: 4px !important; }
-hr[size="6"] { height: 6px !important; }
+hr[size="2"] {
+  height: 2px !important;
+}
+hr[size="3"] {
+  height: 3px !important;
+}
+hr[size="4"] {
+  height: 4px !important;
+}
+hr[size="6"] {
+  height: 6px !important;
+}
 
 hr[align="left"],
 hr[align="LEFT"] {
@@ -186,13 +194,12 @@ hr[align="RIGHT"] {
   margin-right: 0 !important;
 }
 
-
 .fdl-content h2 {
   font-size: 1.35em !important;
   font-weight: 800 !important;
   margin-top: 1.25rem !important;
   margin-bottom: 0.5rem !important;
-  color: #003E1F !important;
+  color: #003e1f !important;
   text-transform: uppercase !important;
   line-height: 1.3 !important;
 }
@@ -202,7 +209,7 @@ hr[align="RIGHT"] {
   font-weight: 700 !important;
   margin-top: 1rem !important;
   margin-bottom: 0.4rem !important;
-  color: #003E1F !important;
+  color: #003e1f !important;
   line-height: 1.3 !important;
 }
 
@@ -211,7 +218,7 @@ hr[align="RIGHT"] {
   font-weight: 700 !important;
   margin-top: 0.75rem !important;
   margin-bottom: 0.4rem !important;
-  color: #003E1F !important;
+  color: #003e1f !important;
   line-height: 1.3 !important;
 }
 
@@ -224,10 +231,10 @@ hr[align="RIGHT"] {
 .fdl-content blockquote {
   margin: 1rem 0 !important;
   padding: 0.5rem 1rem !important;
-  border-left: 4px solid #003E1F !important;
+  border-left: 4px solid #003e1f !important;
   background-color: rgba(0, 62, 31, 0.04) !important;
   font-style: italic !important;
-  color: #003E1F !important;
+  color: #003e1f !important;
   width: 100% !important;
   max-width: 100% !important;
   text-align: left !important;
@@ -271,7 +278,9 @@ hr[align="RIGHT"] {
   width: 100%;
 }
 .fdl-nav-gallery a {
-  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+  transition:
+    transform 0.2s ease-in-out,
+    filter 0.2s ease-in-out;
   border-radius: 0.125rem;
   overflow: hidden;
 }
@@ -299,4 +308,3 @@ hr[align="RIGHT"] {
 .fdl-content img[src*="bt"]:hover {
   transform: scale(1.05);
 }
-

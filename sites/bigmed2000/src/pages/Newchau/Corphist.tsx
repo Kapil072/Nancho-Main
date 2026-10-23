@@ -193,7 +193,13 @@ IBM controlled 65 percent of the computer industry; General Electric and Westing
   return (
     <div
       className="min-h-screen w-full legacy-page-wrapper"
-      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+      style={{
+        fontFamily: "Times New Roman, Georgia, serif",
+        backgroundColor: "beige",
+        backgroundImage: `url(${BASE_URL}barks/paper2.gif)`,
+        backgroundRepeat: "repeat",
+        color: "#000000",
+      }}
     >
       <style>{`
   a { color: #1a40b8; text-decoration: underline; font-weight: bold; }

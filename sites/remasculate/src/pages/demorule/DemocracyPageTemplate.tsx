@@ -14,24 +14,14 @@ interface DemocracyPageProps {
 const DemocracyPageTemplate = ({ title, subtitle, content, externalLink }: DemocracyPageProps) => {
   const navigate = useNavigate();
 
-  const ColorBar = () => (
-    <img
-      src="/bulls/advline2.gif"
-      alt=""
-      className="w-full h-2 object-cover opacity-90 my-4"
-    />
-  );
+  const ColorBar = () => <img src="/bulls/advline2.gif" alt="" className="w-full h-2 object-cover opacity-90 my-4" />;
 
   return (
     <div className="min-h-screen bg-[url('/barks/frenchp2.gif')] bg-repeat bg-fixed bg-[#F5F5DC] text-[#000055] font-serif selection:bg-blue-200">
       <div className="flex flex-col md:flex-row w-full">
-        
         {/* Sidebar */}
         <aside className="w-full md:w-[180px] shrink-0 p-6 md:sticky md:top-0 h-fit bg-transparent z-10">
-          <button
-            onClick={() => navigate("/")}
-            className="w-full hover:opacity-80 transition-opacity"
-          >
+          <button onClick={() => navigate("/")} className="w-full hover:opacity-80 transition-opacity">
             <img
               src="/graph/BMREVDEM.jpg"
               alt="Return to Democracy Index"
@@ -42,14 +32,11 @@ const DemocracyPageTemplate = ({ title, subtitle, content, externalLink }: Democ
 
         {/* Main Content */}
         <main className="flex-1 px-6 md:px-16 lg:px-24 py-12 border-l-2 border-[#000055]/5">
-          
           {/* Header Section */}
           <div className="w-full max-w-[1200px] mx-auto text-center mb-16">
             <ColorBar />
             <div className="my-10">
-              <h1 className="text-3xl md:text-5xl font-bold tracking-tighter leading-tight uppercase">
-                {title}
-              </h1>
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tighter leading-tight uppercase">{title}</h1>
               {subtitle && (
                 <h2 className="text-2xl md:text-3xl font-bold italic text-blue-900 uppercase tracking-wide mt-4">
                   {subtitle}
@@ -61,9 +48,7 @@ const DemocracyPageTemplate = ({ title, subtitle, content, externalLink }: Democ
 
           <div className="w-full max-w-[1200px] mx-auto">
             {/* Content */}
-            <div className="site-prose text-lg md:text-xl space-y-8 leading-relaxed">
-              {content}
-            </div>
+            <div className="site-prose text-lg md:text-xl space-y-8 leading-relaxed">{content}</div>
 
             {/* External Link if provided */}
             {externalLink && (

@@ -28,13 +28,21 @@ const FdlPaper = () => {
           </h2>
           <hr className="w-48 border-t border-[#007339] mx-auto my-3" />
           <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base font-bold text-[#007339] uppercase">
-            <a href="#newsletter" className="hover:underline">Journal</a>
+            <a href="#newsletter" className="hover:underline">
+              Journal
+            </a>
             <span>|</span>
-            <a href="#declarations" className="hover:underline">Declarations</a>
+            <a href="#declarations" className="hover:underline">
+              Declarations
+            </a>
             <span>|</span>
-            <a href="#reading" className="hover:underline">Readings</a>
+            <a href="#reading" className="hover:underline">
+              Readings
+            </a>
             <span>|</span>
-            <a href="#interview" className="hover:underline">Interviews</a>
+            <a href="#interview" className="hover:underline">
+              Interviews
+            </a>
           </div>
           <img src="/graph/fdline5.gif" className="w-full h-2 my-6" alt="divider" />
         </center>
@@ -61,9 +69,15 @@ const FdlPaper = () => {
               </h4>
               <p className="text-sm font-semibold text-gray-700">Includes full text of:</p>
               <ul className="list-disc pl-5 text-sm space-y-1 text-gray-800 text-left">
-                <li><strong>Democracy in Asia</strong> by Dr. Kim Dae-jung</li>
-                <li><strong>The Role of NGOs: An East Timorese Example</strong> by Dr. Jose Ramos Horta</li>
-                <li><strong>NGOs in Singapore</strong> by Dr. Chee Soon Juan</li>
+                <li>
+                  <strong>Democracy in Asia</strong> by Dr. Kim Dae-jung
+                </li>
+                <li>
+                  <strong>The Role of NGOs: An East Timorese Example</strong> by Dr. Jose Ramos Horta
+                </li>
+                <li>
+                  <strong>NGOs in Singapore</strong> by Dr. Chee Soon Juan
+                </li>
               </ul>
             </div>
 
@@ -96,9 +110,7 @@ const FdlPaper = () => {
             <h2 className="text-2xl md:text-3xl font-extrabold text-[#FF0000] uppercase tracking-wide">
               FDL-AP Declarations
             </h2>
-            <h3 className="text-base md:text-lg font-bold text-gray-800 uppercase mt-1">
-              &amp; Position Papers
-            </h3>
+            <h3 className="text-base md:text-lg font-bold text-gray-800 uppercase mt-1">&amp; Position Papers</h3>
             <hr className="w-72 border-t-2 border-[#003E1F]/20 mx-auto my-2" />
           </center>
 
@@ -111,9 +123,7 @@ const FdlPaper = () => {
             <p className="text-sm font-semibold text-gray-700 leading-normal">
               by the Conference of the Forum of Democratic Leaders in the Asia-Pacific (FDL-AP)
             </p>
-            <p className="text-xs text-[#800000] font-bold mt-1">
-              Manila, Philippines, November 2-4, 1996
-            </p>
+            <p className="text-xs text-[#800000] font-bold mt-1">Manila, Philippines, November 2-4, 1996</p>
           </div>
         </section>
 
@@ -136,7 +146,9 @@ const FdlPaper = () => {
                   "Asia and Human Rights"
                 </Link>
               </h4>
-              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">by Angela Lee, Amnesty International</p>
+              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">
+                by Angela Lee, Amnesty International
+              </p>
             </div>
 
             <div className="bg-white/40 p-4 md:p-6 border border-gray-200 rounded-sm">
@@ -145,7 +157,9 @@ const FdlPaper = () => {
                   "Asian Values vs. Human Rights"
                 </Link>
               </h4>
-              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">by Aryeh Neier, Open Society Institute</p>
+              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">
+                by Aryeh Neier, Open Society Institute
+              </p>
             </div>
 
             <div className="bg-white/40 p-4 md:p-6 border border-gray-200 rounded-sm">
@@ -154,7 +168,9 @@ const FdlPaper = () => {
                   "Social Justice and Rule of Law in Burma"
                 </Link>
               </h4>
-              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">by Aung Htoo, National Council for the Union of Burma</p>
+              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">
+                by Aung Htoo, National Council for the Union of Burma
+              </p>
             </div>
 
             <div className="bg-white/40 p-4 md:p-6 border border-gray-200 rounded-sm">
@@ -163,7 +179,9 @@ const FdlPaper = () => {
                   "Economic and Political Freedom are Inseparable"
                 </Link>
               </h4>
-              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">by Dr. Meinardus, Friedrich Naumann Foundation</p>
+              <p className="text-xs md:text-sm text-gray-700 font-semibold mt-1">
+                by Dr. Meinardus, Friedrich Naumann Foundation
+              </p>
             </div>
 
             <div className="bg-white/40 p-4 md:p-6 border border-gray-200 rounded-sm">
@@ -182,7 +200,8 @@ const FdlPaper = () => {
                 </Link>
               </h4>
               <p className="text-xs md:text-sm text-gray-700 mt-1">
-                A 1999 UN Hague Appeal for Peace proposal that advocates adoption of Switzerland's radically direct democratic system in Kashmir and beyond.
+                A 1999 UN Hague Appeal for Peace proposal that advocates adoption of Switzerland's radically direct
+                democratic system in Kashmir and beyond.
               </p>
             </div>
           </div>
@@ -214,7 +233,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    A wide-ranging interview with the outspoken laureate on media apathy, ASEAN authoritarianism, Japanese war crimes and the uses of Nobel attention
+                    A wide-ranging interview with the outspoken laureate on media apathy, ASEAN authoritarianism,
+                    Japanese war crimes and the uses of Nobel attention
                   </p>
                 </div>
                 <div className="bg-white/40 p-4 border border-gray-200 rounded-sm">
@@ -224,7 +244,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    An angry education with Max Stahl, the award-winning British photo-journalist who filmed the infamous 1991 Santa Cruz massacre
+                    An angry education with Max Stahl, the award-winning British photo-journalist who filmed the
+                    infamous 1991 Santa Cruz massacre
                   </p>
                 </div>
               </div>
@@ -243,7 +264,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    A ground-breaking interview with People First co-founder, Dr. Ashok Khosla on the necessity and possibility of direct democracy in India
+                    A ground-breaking interview with People First co-founder, Dr. Ashok Khosla on the necessity and
+                    possibility of direct democracy in India
                   </p>
                 </div>
               </div>
@@ -262,7 +284,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    An Interview with human rights crusader Asma Jehangir on the plight of women &amp; children, and the fundamentalist threat in Pakistan today
+                    An Interview with human rights crusader Asma Jehangir on the plight of women &amp; children, and the
+                    fundamentalist threat in Pakistan today
                   </p>
                 </div>
                 <div className="bg-white/40 p-4 border border-gray-200 rounded-sm">
@@ -272,7 +295,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    An Interview with cricket legend turned fiery social/political activist, Imran Khan on the fight for democratic reform in Pakistan
+                    An Interview with cricket legend turned fiery social/political activist, Imran Khan on the fight for
+                    democratic reform in Pakistan
                   </p>
                 </div>
               </div>
@@ -291,7 +315,8 @@ const FdlPaper = () => {
                     </Link>
                   </h4>
                   <p className="text-sm text-gray-700 mt-1 pl-1">
-                    Interview with Lt. Gen. (Retd) Nishat Ahmad, Director, Institute of Regional Studies, Islamabad, Pakistan
+                    Interview with Lt. Gen. (Retd) Nishat Ahmad, Director, Institute of Regional Studies, Islamabad,
+                    Pakistan
                   </p>
                 </div>
               </div>
@@ -303,11 +328,21 @@ const FdlPaper = () => {
         <center className="w-full mt-12 pt-6 border-t border-[#003E1F]/20">
           <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} alt="divider" className="w-full h-2 my-4" />
           <div className="fdl-nav-gallery">
-            <Link to="/"><img src={`${import.meta.env.BASE_URL}graph/btfdhome.jpg`} alt="Home" /></Link>
-            <Link to="/fmission"><img src={`${import.meta.env.BASE_URL}graph/btfdmiss.jpg`} alt="Mission" /></Link>
-            <Link to="/fdlorg"><img src={`${import.meta.env.BASE_URL}graph/btgfdorg.jpg`} alt="Organization" /></Link>
-            <Link to="/fdlinits"><img src={`${import.meta.env.BASE_URL}graph/btfdinit.jpg`} alt="Initiatives" /></Link>
-            <Link to="/fdllinks"><img src={`${import.meta.env.BASE_URL}graph/btfdlink.jpg`} alt="Links" /></Link>
+            <Link to="/">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdhome.jpg`} alt="Home" />
+            </Link>
+            <Link to="/fmission">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdmiss.jpg`} alt="Mission" />
+            </Link>
+            <Link to="/fdlorg">
+              <img src={`${import.meta.env.BASE_URL}graph/btgfdorg.jpg`} alt="Organization" />
+            </Link>
+            <Link to="/fdlinits">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdinit.jpg`} alt="Initiatives" />
+            </Link>
+            <Link to="/fdllinks">
+              <img src={`${import.meta.env.BASE_URL}graph/btfdlink.jpg`} alt="Links" />
+            </Link>
           </div>
           <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} alt="divider" className="w-full h-2 my-4" />
 

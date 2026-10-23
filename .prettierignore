@@ -1,0 +1,10 @@
+node_modules
+dist
+**/public
+**/temp_pages
+**/original_site
+*.html
+*.htm
+*.md
+package-lock.json
+bun.lock

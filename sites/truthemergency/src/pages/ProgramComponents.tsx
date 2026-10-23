@@ -32,7 +32,7 @@ const sections = [
     items: [
       "Learning from the breakthroughs, blowbacks and unintended consequences of recent writings, films and media initiatives",
       "Fund-raising and apportioning resources among different media arenas",
-      "Developing organizational formats and truth \"marketing\" plans that effectively coordinate populist messaging and inspire tactical diversity",
+      'Developing organizational formats and truth "marketing" plans that effectively coordinate populist messaging and inspire tactical diversity',
     ],
   },
   {
@@ -59,9 +59,7 @@ const ProgramComponents = () => {
       <div className="space-y-8">
         {sections.map((section, idx) => (
           <section key={idx}>
-            <h2 className="font-bold text-base text-foreground border-b border-border pb-1 mb-3">
-              {section.heading}
-            </h2>
+            <h2 className="font-bold text-base text-foreground border-b border-border pb-1 mb-3">{section.heading}</h2>
             <ul className="list-disc pl-5 space-y-2">
               {section.items.map((item, iIdx) => (
                 <li key={iIdx} className="text-base leading-relaxed text-foreground/90">
@@ -69,9 +67,7 @@ const ProgramComponents = () => {
                 </li>
               ))}
             </ul>
-            {section.note && (
-              <p className="mt-3 text-sm italic text-muted-foreground">{section.note}</p>
-            )}
+            {section.note && <p className="mt-3 text-sm italic text-muted-foreground">{section.note}</p>}
           </section>
         ))}
       </div>

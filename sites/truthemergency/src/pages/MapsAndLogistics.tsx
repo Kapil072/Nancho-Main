@@ -1,4 +1,4 @@
-﻿﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const MapsAndLogistics = () => {
   return (
@@ -10,8 +10,8 @@ const MapsAndLogistics = () => {
           Ride / Room Sharing
         </h2>
         <p className="text-base leading-relaxed mb-3">
-          For those wanting to share rides to and/or rooms in Santa Cruz, we've set up a
-          self-organizing forum at Google Groups:{" "}
+          For those wanting to share rides to and/or rooms in Santa Cruz, we've set up a self-organizing forum at Google
+          Groups:{" "}
           <a
             href="http://groups.google.com/group/mediasummit"
             target="_blank"
@@ -36,8 +36,8 @@ const MapsAndLogistics = () => {
           <p>Fax: 831-429-1044</p>
         </div>
         <p className="text-sm text-muted-foreground mt-3">
-          For room reservations, contact the University Inn directly and mention the
-          "Publicizing Truths with Consequence" conference.
+          For room reservations, contact the University Inn directly and mention the "Publicizing Truths with
+          Consequence" conference.
         </p>
       </section>
 
@@ -78,9 +78,7 @@ const MapsAndLogistics = () => {
       </section>
 
       <section className="mb-8">
-        <h2 className="font-bold text-base uppercase tracking-wide border-b border-border pb-2 mb-4">
-          Transportation
-        </h2>
+        <h2 className="font-bold text-base uppercase tracking-wide border-b border-border pb-2 mb-4">Transportation</h2>
         <p className="text-sm text-muted-foreground mb-4">
           San Jose Airport a†" UCSC University Inn &amp; Conference Center
         </p>
@@ -104,22 +102,37 @@ const MapsAndLogistics = () => {
       </section>
 
       <section className="mb-8">
-        <h2 className="font-bold text-base uppercase tracking-wide border-b border-border pb-2 mb-4">
-          General Info
-        </h2>
+        <h2 className="font-bold text-base uppercase tracking-wide border-b border-border pb-2 mb-4">General Info</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
           <div className="bg-[hsl(var(--blockquote-bg))] rounded p-4 space-y-1">
-            <p><span className="font-semibold">Dates:</span> January 25--27, 2008</p>
-            <p><span className="font-semibold">Location:</span> UCSC Inn &amp; Conference Center</p>
-            <p><span className="font-semibold">Registration:</span> $50 / Students $30</p>
-            <p><span className="font-semibold">Single room:</span> $90/night</p>
-            <p><span className="font-semibold">Double:</span> $45/night</p>
-            <p><span className="font-semibold">Triple:</span> $30/night (+ 10% tax)</p>
+            <p>
+              <span className="font-semibold">Dates:</span> January 25--27, 2008
+            </p>
+            <p>
+              <span className="font-semibold">Location:</span> UCSC Inn &amp; Conference Center
+            </p>
+            <p>
+              <span className="font-semibold">Registration:</span> $50 / Students $30
+            </p>
+            <p>
+              <span className="font-semibold">Single room:</span> $90/night
+            </p>
+            <p>
+              <span className="font-semibold">Double:</span> $45/night
+            </p>
+            <p>
+              <span className="font-semibold">Triple:</span> $30/night (+ 10% tax)
+            </p>
           </div>
           <div className="bg-[hsl(var(--blockquote-bg))] rounded p-4 space-y-1">
             <p>
               <span className="font-semibold">Website:</span>{" "}
-              <a href="https://truthemergency.us" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link-color))] hover:underline">
+              <a
+                href="https://truthemergency.us"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[hsl(var(--link-color))] hover:underline"
+              >
                 www.truthemergency.us
               </a>
             </p>
@@ -129,7 +142,9 @@ const MapsAndLogistics = () => {
                 janice@911truth.org
               </a>
             </p>
-            <p><span className="font-semibold">Phone:</span> 785-597-5729</p>
+            <p>
+              <span className="font-semibold">Phone:</span> 785-597-5729
+            </p>
           </div>
         </div>
       </section>
@@ -139,9 +154,9 @@ const MapsAndLogistics = () => {
           About Santa Cruz
         </h2>
         <p className="text-sm leading-relaxed text-foreground/90">
-          Santa Cruz is located on California's Monterey Bay -- 75 miles south of San Francisco,
-          45 miles north of Monterey and Carmel, and just over the coastal mountains from Silicon
-          Valley and the San Jose International Airport.
+          Santa Cruz is located on California's Monterey Bay -- 75 miles south of San Francisco, 45 miles north of
+          Monterey and Carmel, and just over the coastal mountains from Silicon Valley and the San Jose International
+          Airport.
         </p>
       </section>
     </PageLayout>
@@ -149,4 +164,3 @@ const MapsAndLogistics = () => {
 };
 
 export default MapsAndLogistics;
-

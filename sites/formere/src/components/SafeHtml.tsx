@@ -14,7 +14,7 @@ export const preprocessHtml = (htmlContent: string): string => {
     .replace(/(src|href)=["']?barks\/([^"'>\s]+)["']?/gi, `$1="${base}barks/$2"`)
     .replace(/href=["']?(?:index|fmission|fdlorg|fdlinits|fdlpaper|fdllinks|fdlalert)\.html["']/gi, (match) => {
       const page = match.slice(6, -6);
-      return `href="${base}${page === 'index' ? '' : page}"`;
+      return `href="${base}${page === "index" ? "" : page}"`;
     });
 
   // Center all contact/address signature blocks dynamically at the bottom of the page
@@ -23,7 +23,7 @@ export const preprocessHtml = (htmlContent: string): string => {
     (match, signature) => {
       const centeredSignature = signature.replace(/align=["']?left["']?/gi, 'align="center"');
       return `<center>${centeredSignature}</center>`;
-    }
+    },
   );
 
   return processed;

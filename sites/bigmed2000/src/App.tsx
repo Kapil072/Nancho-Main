@@ -47,31 +47,47 @@ const navLinks = [
 
 const sidebarLinks = [
   { to: "/homesite.html", img: `${import.meta.env.BASE_URL}graph/fleart1.jpg`, alt: "Home", width: 128, height: 198 },
-  { to: "/password.html", img: `${import.meta.env.BASE_URL}graph/fpass3.jpg`, alt: "Passwords", width: 128, height: 35 },
+  {
+    to: "/password.html",
+    img: `${import.meta.env.BASE_URL}graph/fpass3.jpg`,
+    alt: "Passwords",
+    width: 128,
+    height: 35,
+  },
   { to: "/platform.html", img: `${import.meta.env.BASE_URL}graph/fplat1.jpg`, alt: "Platform", width: 128, height: 35 },
-  { to: "/strategy.html", img: `${import.meta.env.BASE_URL}graph/fstrat1.jpg`, alt: "Strategy", width: 128, height: 35 },
+  {
+    to: "/strategy.html",
+    img: `${import.meta.env.BASE_URL}graph/fstrat1.jpg`,
+    alt: "Strategy",
+    width: 128,
+    height: 35,
+  },
   { to: "/advisors.html", img: `${import.meta.env.BASE_URL}graph/fadv3.jpg`, alt: "Advisors", width: 128, height: 35 },
 ];
 
 // Loading spinner component
 const LoadingSpinner = () => (
-  <div style={{
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    minHeight: '400px',
-    flexDirection: 'column',
-    gap: '20px'
-  }}>
-    <div style={{
-      width: '50px',
-      height: '50px',
-      border: '4px solid #f3f3f3',
-      borderTop: '4px solid #0000A0',
-      borderRadius: '50%',
-      animation: 'spin 1s linear infinite'
-    }} />
-    <p style={{ fontSize: '16px', color: '#666' }}>Loading...</p>
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      minHeight: "400px",
+      flexDirection: "column",
+      gap: "20px",
+    }}
+  >
+    <div
+      style={{
+        width: "50px",
+        height: "50px",
+        border: "4px solid #f3f3f3",
+        borderTop: "4px solid #0000A0",
+        borderRadius: "50%",
+        animation: "spin 1s linear infinite",
+      }}
+    />
+    <p style={{ fontSize: "16px", color: "#666" }}>Loading...</p>
   </div>
 );
 
@@ -126,12 +142,15 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         {/* Logo row */}
         <div className="logo-row">
           <div className="logo-box">
-            <img src={`${import.meta.env.BASE_URL}graph/anim/nanlogo9.gif`} alt="Nancho 2002" className="top-logo" onError={(e) => {
-              (e.target as HTMLImageElement).style.display = "none";
-            }} />
-            <span className="app-logo-text">
-              &nbsp;NANCHO BIG MED 2002
-            </span>
+            <img
+              src={`${import.meta.env.BASE_URL}graph/anim/nanlogo9.gif`}
+              alt="Nancho 2002"
+              className="top-logo"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = "none";
+              }}
+            />
+            <span className="app-logo-text">&nbsp;NANCHO BIG MED 2002</span>
           </div>
         </div>
         {/* Nav links row */}
@@ -158,9 +177,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       {/* BODY: SIDEBAR + MAIN CONTENT */}
       <div className="body-frame">
         {/* SIDEBAR */}
-        <div
-          className="side-frame"
-        >
+        <div className="side-frame">
           {sidebarLinks.map((link) => (
             <Link to={link.to} key={link.to} className="side-link">
               <img
@@ -179,9 +196,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
         {/* MAIN CONTENT */}
         <div className="main-frame">
-          <Suspense fallback={<LoadingSpinner />}>
-            {children}
-          </Suspense>
+          <Suspense fallback={<LoadingSpinner />}>{children}</Suspense>
         </div>
       </div>
     </div>

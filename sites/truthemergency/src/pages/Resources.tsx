@@ -1,4 +1,4 @@
-﻿﻿﻿import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import PageLayout from "@/components/PageLayout";
 
 const audioResources = [
@@ -42,25 +42,13 @@ const Resources = () => {
       {/* Reference image buttons */}
       <div className="flex flex-wrap gap-8 mb-10 justify-center">
         <Link to="/recommended-books/" className="block">
-          <img
-            src={`${baseUrl}images/truth_books.png`}
-            alt="Recommended Books"
-            className="w-32 h-auto"
-          />
+          <img src={`${baseUrl}images/truth_books.png`} alt="Recommended Books" className="w-32 h-auto" />
         </Link>
         <Link to="/recommended-films/" className="block">
-          <img
-            src={`${baseUrl}images/truth_films.png`}
-            alt="Recommended Films"
-            className="w-32 h-auto"
-          />
+          <img src={`${baseUrl}images/truth_films.png`} alt="Recommended Films" className="w-32 h-auto" />
         </Link>
         <Link to="/online-resources/" className="block">
-          <img
-            src={`${baseUrl}images/truth_online.png`}
-            alt="Online Resources"
-            className="w-32 h-auto"
-          />
+          <img src={`${baseUrl}images/truth_online.png`} alt="Online Resources" className="w-32 h-auto" />
         </Link>
       </div>
 
@@ -130,4 +118,3 @@ const Resources = () => {
 };
 
 export default Resources;
-

@@ -10,13 +10,43 @@ import fdlapImg from "@/assets/images/FdlogoS.gif";
 
 const archives = [
   { image: cop10Img, label: "COP10 Conference", sublabel: "Archive", href: "#" },
-  { image: truthImg, label: "Truth Emergency", sublabel: "Archive", href: `${import.meta.env.BASE_URL}truthemergency/` },
-  { image: wbaiImg, label: "Ain't that Good News", sublabel: "WBAI Radio Show Archive", href: `${import.meta.env.BASE_URL}Aintthatgood/` },
-  { image: chautauquaImg, label: "New Chautauqua", sublabel: "Archive", href: `${import.meta.env.BASE_URL}newchau/newchau/arc/newindex.html` },
-  { image: karmaImg, label: "Index for Original", sublabel: "Big Karma Site", href: `${import.meta.env.BASE_URL}indexfororg/` },
-  { image: vprezImg, label: "Big Med 2000", sublabel: "V-Prez Campaign", href: `${import.meta.env.BASE_URL}bigmed2000/` },
+  {
+    image: truthImg,
+    label: "Truth Emergency",
+    sublabel: "Archive",
+    href: `${import.meta.env.BASE_URL}truthemergency/`,
+  },
+  {
+    image: wbaiImg,
+    label: "Ain't that Good News",
+    sublabel: "WBAI Radio Show Archive",
+    href: `${import.meta.env.BASE_URL}Aintthatgood/`,
+  },
+  {
+    image: chautauquaImg,
+    label: "New Chautauqua",
+    sublabel: "Archive",
+    href: `${import.meta.env.BASE_URL}newchau/newchau/arc/newindex.html`,
+  },
+  {
+    image: karmaImg,
+    label: "Index for Original",
+    sublabel: "Big Karma Site",
+    href: `${import.meta.env.BASE_URL}indexfororg/`,
+  },
+  {
+    image: vprezImg,
+    label: "Big Med 2000",
+    sublabel: "V-Prez Campaign",
+    href: `${import.meta.env.BASE_URL}bigmed2000/`,
+  },
   { image: memeImg, label: "Meme Works", sublabel: "", href: `${import.meta.env.BASE_URL}memework/` },
-  { image: fdlapImg, label: "Forum of Democratic Leaders", sublabel: "of the Asia-Pacific", href: `${import.meta.env.BASE_URL}formere/` },
+  {
+    image: fdlapImg,
+    label: "Forum of Democratic Leaders",
+    sublabel: "of the Asia-Pacific",
+    href: `${import.meta.env.BASE_URL}formere/`,
+  },
 ];
 
 interface RightSidebarProps {
@@ -27,9 +57,8 @@ const RightSidebar = ({ onNavigate }: RightSidebarProps) => {
   return (
     // Increased width from 132px to 180px and padded the container
     <div className="w-[180px] flex flex-col items-center gap-10 p-4 text-center bg-transparent min-h-screen flex-shrink-0 border-l border-gray-800">
-      
       {/* Header Section */}
-      <div 
+      <div
         onClick={() => onNavigate("home")}
         className="flex flex-col items-center mb-6 cursor-pointer hover:opacity-85 transition-opacity"
       >
@@ -37,7 +66,9 @@ const RightSidebar = ({ onNavigate }: RightSidebarProps) => {
         <img src={archivesSignImg} alt="Archives" className="w-20 h-auto mb-3" />
         {/* Increased text size from 11px to 13px */}
         <p className="text-[13px] font-bold text-white uppercase tracking-widest leading-tight">
-          OLD SITE<br />ARCHIVES
+          OLD SITE
+          <br />
+          ARCHIVES
         </p>
       </div>
 
@@ -59,7 +90,12 @@ const RightSidebar = ({ onNavigate }: RightSidebarProps) => {
             {/* Increased text size from 10px to 12px */}
             <span className="text-[12px] font-medium text-white leading-snug group-hover:text-yellow-200 px-2">
               {link.label}
-              {link.sublabel && <><br /><span className="opacity-80 font-normal">{link.sublabel}</span></>}
+              {link.sublabel && (
+                <>
+                  <br />
+                  <span className="opacity-80 font-normal">{link.sublabel}</span>
+                </>
+              )}
             </span>
           </a>
         ))}

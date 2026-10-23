@@ -34,7 +34,7 @@ const App = () => (
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />
-          
+
           {/* Demorule Routes */}
           <Route path="/demorule/rationale" element={<Rationale />} />
           <Route path="/demorule/firstprinciples" element={<FirstPrinciples />} />
@@ -52,7 +52,7 @@ const App = () => (
           <Route path="/demorule/innovations" element={<Innovations />} />
           <Route path="/demorule/chaordic" element={<Chaordic />} />
           <Route path="/demorule/maine/:region" element={<MaineRegions />} />
-          
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

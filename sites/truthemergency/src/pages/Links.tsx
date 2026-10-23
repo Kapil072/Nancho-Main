@@ -29,9 +29,7 @@ const Links = () => {
       <h1 className="text-2xl font-bold text-primary mb-6">Links</h1>
 
       <section className="mb-10">
-        <h2 className="font-bold text-lg text-foreground border-b border-border pb-2 mb-5">
-          Endorsing Partners
-        </h2>
+        <h2 className="font-bold text-lg text-foreground border-b border-border pb-2 mb-5">Endorsing Partners</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {endorsingPartners.map((p, idx) => (
             <li key={idx}>
@@ -49,9 +47,7 @@ const Links = () => {
       </section>
 
       <section>
-        <h2 className="font-bold text-lg text-foreground border-b border-border pb-2 mb-5">
-          Organizing Committee
-        </h2>
+        <h2 className="font-bold text-lg text-foreground border-b border-border pb-2 mb-5">Organizing Committee</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {organizers.map((person, idx) => (
             <div key={idx} className="flex flex-col">

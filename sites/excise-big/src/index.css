@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -110,7 +110,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
   }
 

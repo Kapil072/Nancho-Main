@@ -1,4 +1,4 @@
-﻿﻿import { useState } from "react";
+﻿import { useState } from "react";
 import PageLayout from "@/components/PageLayout";
 
 const onlineResources = [
@@ -8,8 +8,7 @@ const onlineResources = [
       "State-of-the-Art Memes & Tactics for Corporate Subordination. Offers full video and audio lecture archives concerning the restriction of corporate power.",
     link: "https://web.archive.org/web/20150223102818/http://tamethecorporation.org/agenda.html",
     archiveLabel: "Full A/V Archives here!",
-    imageUrl:
-      "/images/tamingcorpsheader400.jpg",
+    imageUrl: "/images/tamingcorpsheader400.jpg",
   },
   {
     title: "National Conference for Media Reform (NCMR 2007)",
@@ -17,8 +16,7 @@ const onlineResources = [
       "Perspectives on America's Populist Nervous System Today. Highlights full media and reform lectures and sessions advocating for democratizing communication networks.",
     link: "https://web.archive.org/web/20150223102818/http://www.freepress.net/ncmr07/=video07",
     archiveLabel: "Full A/V Archives here!",
-    imageUrl:
-      "/images/mediareformheader400.jpg",
+    imageUrl: "/images/mediareformheader400.jpg",
   },
   {
     title: "George Carlin on Education vs. Corporate Interest",
@@ -42,8 +40,7 @@ const onlineResources = [
       { name: "Flying the Flag (Arming the World)", id: "rqbPS1nNcEU" },
       { name: "Stealing a Nation", id: "0zhGvId4fcc" },
     ],
-    vimeoNote:
-      "Stealing a Nation is also available on Vimeo.",
+    vimeoNote: "Stealing a Nation is also available on Vimeo.",
   },
   {
     title: "Secret Wars of the CIA -- The War against the Third World",
@@ -74,16 +71,10 @@ const OnlineResources = () => {
         {onlineResources.map((item, idx) => (
           <div key={idx} className="pb-8 border-b border-gray-300 last:border-0">
             {/* Section Title - Large, centered, uppercase */}
-            <h2 className="text-lg font-bold text-foreground mb-6 uppercase tracking-wide text-center">
-              {item.title}
-            </h2>
+            <h2 className="text-lg font-bold text-foreground mb-6 uppercase tracking-wide text-center">{item.title}</h2>
 
             {/* Description */}
-            {item.description && (
-              <p className="text-base text-foreground mb-6 leading-relaxed">
-                {item.description}
-              </p>
-            )}
+            {item.description && <p className="text-base text-foreground mb-6 leading-relaxed">{item.description}</p>}
 
             {/* Static linked website with image */}
             {item.link && (
@@ -121,9 +112,7 @@ const OnlineResources = () => {
                       <button
                         onClick={() => setPilgerVideoId(pl.id)}
                         className={`text-sm font-semibold transition-colors ${
-                          pilgerVideoId === pl.id
-                            ? "text-blue-700 underline"
-                            : "text-blue-600 hover:underline"
+                          pilgerVideoId === pl.id ? "text-blue-700 underline" : "text-blue-600 hover:underline"
                         }`}
                       >
                         {pl.name}
@@ -142,9 +131,7 @@ const OnlineResources = () => {
                     allowFullScreen
                   />
                 </div>
-                {item.vimeoNote && (
-                  <p className="text-sm text-foreground italic">{item.vimeoNote}</p>
-                )}
+                {item.vimeoNote && <p className="text-sm text-foreground italic">{item.vimeoNote}</p>}
               </div>
             )}
 
@@ -178,5 +165,3 @@ const OnlineResources = () => {
 };
 
 export default OnlineResources;
-
-

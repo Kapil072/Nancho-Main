@@ -10,7 +10,7 @@ const FdlLinks = () => {
       document.body.style.backgroundColor = "";
       document.body.style.backgroundImage = "";
       document.body.style.color = "";
-    }
+    };
   }, []);
 
   const htmlContent = `

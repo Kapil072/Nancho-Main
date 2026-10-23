@@ -64,7 +64,7 @@ const App = () => (
           <Route path="/fdllinks" element={<FdlLinks />} />
           <Route path="/fdlalert" element={<FdlAlert />} />
           <Route path="/bigbody/corprule" element={<CorpRule />} />
-          
+
           {/* Generated Routes */}
           <Route path="/kashmir/outlookf.html" element={<KashmirOutlookf />} />
           <Route path="/kashmir/outlookf" element={<KashmirOutlookf />} />
@@ -117,7 +117,7 @@ const App = () => (
           <Route path="/jrhorta" element={<Jrhorta />} />
           <Route path="/maxstahl.html" element={<Maxstahl />} />
           <Route path="/maxstahl" element={<Maxstahl />} />
-          
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

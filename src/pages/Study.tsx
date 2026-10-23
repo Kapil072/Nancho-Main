@@ -10,49 +10,49 @@ const Study = ({ onNavigate }: StudyProps) => {
       title: "Gospels & Canons",
       desc: "Foundational essays on corporate structure and pathology",
       href: "https://nancho.net/bigmed2001/gospels/gospels.html",
-      external: true
+      external: true,
     },
     {
       title: "Big Books / Texts",
       desc: "Seminal publications detailing corporate behavior and history",
       href: "https://nancho.net/bigmed2001/bigread1.html",
-      external: true
+      external: true,
     },
     {
       title: "Big Links & Groups",
       desc: "Active citizen organizations and coalitions targeting corporate power",
       href: "https://nancho.net/bigmed2001/bigally.html",
-      external: true
+      external: true,
     },
     {
       title: "Big Movies & Videos",
       desc: "Documentaries and films illustrating the corporate usurpation of sovereignty",
       href: "https://nancho.net/bigmed2001/bigview.html",
-      external: true
+      external: true,
     },
     {
       title: "Big Online References",
       desc: "Databases, archives, and directories for corporate research",
       href: "https://nancho.net/bigmed2001/bigonnet.html",
-      external: true
+      external: true,
     },
     {
       title: "Big Terms & Definitions",
       desc: "Etymological glossary of corporate anthroculture definitions",
       href: "https://nancho.net/bigmed2001/biggloss.html",
-      external: true
+      external: true,
     },
     {
       title: "Nancho Consultations",
       desc: "Interviews with leading thinkers and meme meisters",
       href: "https://nancho.net/bigmed2001/advisors.html",
-      external: true
+      external: true,
     },
     {
       title: "Anthroculture Research Hints",
       desc: "Investigations into systemic childhood stress and docility conditioning",
       href: "https://nancho.net/bigmed2001/bigstres.html",
-      external: true
+      external: true,
     },
   ];
 
@@ -62,9 +62,7 @@ const Study = ({ onNavigate }: StudyProps) => {
         <h1 className="text-3xl md:text-4xl text-primary font-bold mb-2 uppercase tracking-wide">
           Big Body Study Hall
         </h1>
-        <h2 className="text-base text-retro-amber italic">
-          Where Big Knowledge Finally Promises a Little Power
-        </h2>
+        <h2 className="text-base text-retro-amber italic">Where Big Knowledge Finally Promises a Little Power</h2>
         <p className="text-xs text-muted-foreground mt-2">
           Source:{" "}
           <a
@@ -77,16 +75,14 @@ const Study = ({ onNavigate }: StudyProps) => {
           </a>
         </p>
         <blockquote className="max-w-xl mx-auto my-6 text-sm italic text-muted-foreground leading-relaxed">
-          "To advance this campaign or lead one of your own, you will need a few basic facts, 
-          a couple days of study, and a single gut-wrenching moment of insight that our strange 
-          diagnosis is true — Big Corporate Bodies are indeed alive, in charge and out of control."
+          "To advance this campaign or lead one of your own, you will need a few basic facts, a couple days of study,
+          and a single gut-wrenching moment of insight that our strange diagnosis is true — Big Corporate Bodies are
+          indeed alive, in charge and out of control."
         </blockquote>
       </div>
 
       <div className="max-w-2xl mx-auto bg-card p-6 border border-border rounded shadow-lg">
-        <h2 className="text-lg font-bold text-white mb-6 border-b border-border pb-2">
-          Study Hall Directory
-        </h2>
+        <h2 className="text-lg font-bold text-white mb-6 border-b border-border pb-2">Study Hall Directory</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {resourceLinks.map((item) => (
             <div
@@ -110,9 +106,7 @@ const Study = ({ onNavigate }: StudyProps) => {
 
       {/* Original Site Link */}
       <div className="max-w-2xl mx-auto mt-6 p-4 border border-border bg-card rounded text-center">
-        <p className="text-sm text-muted-foreground mb-2">
-          View the full original Study Hall on nancho.net:
-        </p>
+        <p className="text-sm text-muted-foreground mb-2">View the full original Study Hall on nancho.net:</p>
         <a
           href="https://nancho.net/bigmed2001/bigstudy.html"
           target="_blank"

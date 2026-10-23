@@ -1,4 +1,4 @@
-﻿﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const sections = [
   {
@@ -12,8 +12,7 @@ const sections = [
         referenceLink:
           "https://web.archive.org/web/20181104061539/http://www.dailykos.com/storyonly/2007/3/25/112857/665",
         buyLink: "https://www.amazon.com/Blackwater-Worlds-Powerful-Mercenary-Army/dp/1568584164",
-        imageUrl:
-          "/images/films/iraqforsaledvd150.jpg",
+        imageUrl: "/images/films/iraqforsaledvd150.jpg",
         gradient: "from-zinc-800 to-zinc-950",
       },
       {
@@ -39,8 +38,7 @@ const sections = [
         author: "Chalmers Johnson",
         description:
           "The final volume of Chalmers Johnson's Blowback Trilogy, detailing the imperial presidency and the subversion of the republic.",
-        referenceLink:
-          "https://web.archive.org/web/20181104061539/http://www.buzzflash.com/store/reviews/523",
+        referenceLink: "https://web.archive.org/web/20181104061539/http://www.buzzflash.com/store/reviews/523",
         gradient: "from-cyan-950 to-slate-900",
       },
     ],
@@ -51,8 +49,7 @@ const sections = [
       {
         title: "Project Censored 2007",
         author: "Peter Phillips and Project Censored",
-        description:
-          "The top 25 censored news stories of the year, highlighting media malfunction and corporatism.",
+        description: "The top 25 censored news stories of the year, highlighting media malfunction and corporatism.",
         referenceLink: "https://projectcensored.org/",
         gradient: "from-amber-950 to-stone-900",
       },
@@ -75,8 +72,7 @@ const sections = [
         author: "Robert B. Stinnett",
         description:
           "Produces the government documents and intercepts proving FDR and White House associates not only knew Japan's attack was coming -- they had systematically provoked it to ignite patriotic fervor and draw America into the war.",
-        referenceLink:
-          "https://web.archive.org/web/20181104061539/http://www.lewrockwell.com/orig/trask1.html",
+        referenceLink: "https://web.archive.org/web/20181104061539/http://www.lewrockwell.com/orig/trask1.html",
         gradient: "from-yellow-950 to-stone-950",
       },
       {
@@ -123,9 +119,7 @@ const RecommendedBooks = () => {
           <div className="space-y-8">
             {section.books.map((book, bIdx) => (
               <div key={bIdx} className="pb-8 border-b border-gray-300 last:border-0">
-                <h3 className="font-bold text-base text-foreground mb-2">
-                  {book.title}
-                </h3>
+                <h3 className="font-bold text-base text-foreground mb-2">{book.title}</h3>
                 <p className="text-sm italic text-foreground/80 mb-3">by {book.author}</p>
                 <p className="text-base text-foreground/90 leading-relaxed mb-4">{book.description}</p>
                 <div className="flex flex-wrap gap-4">
@@ -153,7 +147,9 @@ const RecommendedBooks = () => {
                     src={book.imageUrl}
                     alt={book.title}
                     className="mt-4 max-h-48 w-auto"
-                    onError={(e) => { e.currentTarget.style.display = "none"; }}
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none";
+                    }}
                   />
                 )}
               </div>
@@ -166,5 +162,3 @@ const RecommendedBooks = () => {
 };
 
 export default RecommendedBooks;
-
-

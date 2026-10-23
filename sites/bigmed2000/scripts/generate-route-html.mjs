@@ -8,8 +8,8 @@ const shell = readFileSync(join(dist, "index.html"), "utf8");
 copyFileSync(join(dist, "index.html"), join(dist, "404.html"));
 
 const routesConfig = readFileSync(join(root, "src", "routesConfig.tsx"), "utf8");
-const paths = [...routesConfig.matchAll(/path:\s*'([^']+)'/g)]
-  .map((m) => m[1])
+const paths = [...routesConfig.matchAll(/path:\s*(["'])([^"']+)\1/g)]
+  .map((m) => m[2])
   .filter((p) => p && p !== "/");
 
 let count = 0;

@@ -85,7 +85,7 @@ Report to All Indian Congress Committee on 6th July, 1951: "Kashmir has been wro
     <div className="fdl-page min-h-screen p-4 md:p-8">
       <div className="fdl-container">
         <SafeHtml html={htmlContent} className="fdl-content w-full" />
-        
+
         {/* Simple back navigation footer */}
         <center className="w-full mt-12 pt-6 border-t border-[#003E1F]/10">
           <Link to="/" className="text-[#007339] underline font-bold hover:text-[#1866C5] text-sm md:text-base">

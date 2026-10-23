@@ -1,4 +1,4 @@
-﻿﻿import PageLayout from "@/components/PageLayout";
+﻿import PageLayout from "@/components/PageLayout";
 
 const rows = [
   {
@@ -97,23 +97,31 @@ const TreacheryWithoutConsequence = () => {
   return (
     <PageLayout>
       <h1 className="text-2xl font-bold text-primary mb-2">Treachery Without Consequence</h1>
-      <h2 className="text-base font-semibold italic text-foreground/80 mb-2">
-        A Scorecard for Our Time
-      </h2>
-      <p className="text-sm text-muted-foreground mb-6">
-        (a.k.a. Why Bad Things Keep Getting Worse)
-      </p>
+      <h2 className="text-base font-semibold italic text-foreground/80 mb-2">A Scorecard for Our Time</h2>
+      <p className="text-sm text-muted-foreground mb-6">(a.k.a. Why Bad Things Keep Getting Worse)</p>
 
       {/* Mobile: card layout */}
       <div className="block sm:hidden space-y-6">
         {rows.map((row, idx) => (
           <div key={idx} className="border border-border rounded p-4 text-sm space-y-1">
-            <div className="font-bold text-primary text-base">{row.year} -- {row.event}</div>
-            <div><span className="font-semibold">Status:</span> {row.status}</div>
-            <div><span className="font-semibold">% Ignorant:</span> {row.ignorant}</div>
-            <div><span className="font-semibold">Policy Implications:</span> {row.policyImplication}</div>
-            <div><span className="font-semibold">Lessons for Leaders:</span> {row.lesson}</div>
-            <div><span className="font-semibold">Public Outrage / Accountability:</span> {row.outrage}</div>
+            <div className="font-bold text-primary text-base">
+              {row.year} -- {row.event}
+            </div>
+            <div>
+              <span className="font-semibold">Status:</span> {row.status}
+            </div>
+            <div>
+              <span className="font-semibold">% Ignorant:</span> {row.ignorant}
+            </div>
+            <div>
+              <span className="font-semibold">Policy Implications:</span> {row.policyImplication}
+            </div>
+            <div>
+              <span className="font-semibold">Lessons for Leaders:</span> {row.lesson}
+            </div>
+            <div>
+              <span className="font-semibold">Public Outrage / Accountability:</span> {row.outrage}
+            </div>
           </div>
         ))}
       </div>
@@ -134,10 +142,7 @@ const TreacheryWithoutConsequence = () => {
           </thead>
           <tbody>
             {rows.map((row, idx) => (
-              <tr
-                key={idx}
-                className={idx % 2 === 0 ? "bg-white" : "bg-[hsl(var(--blockquote-bg))]"}
-              >
+              <tr key={idx} className={idx % 2 === 0 ? "bg-white" : "bg-[hsl(var(--blockquote-bg))]"}>
                 <td className="border border-border px-2 py-2 font-semibold whitespace-nowrap">{row.year}</td>
                 <td className="border border-border px-2 py-2 font-semibold">{row.event}</td>
                 <td className="border border-border px-2 py-2">{row.status}</td>
@@ -155,4 +160,3 @@ const TreacheryWithoutConsequence = () => {
 };
 
 export default TreacheryWithoutConsequence;
-

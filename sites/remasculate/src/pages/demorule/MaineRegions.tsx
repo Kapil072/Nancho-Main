@@ -4,20 +4,20 @@ import { useParams } from "react-router-dom";
 const regions = {
   limestone: {
     name: "Limestone, Maine",
-    description: "Aroostook County Community Initiative"
+    description: "Aroostook County Community Initiative",
   },
   waterville: {
     name: "Waterville/Mid-Maine Region",
-    description: "Central Maine Democratic Organizing"
+    description: "Central Maine Democratic Organizing",
   },
   aroostook: {
     name: "Aroostook County, Maine",
-    description: "Regional Community Development"
+    description: "Regional Community Development",
   },
   mikmaq: {
     name: "Aroostook Band of Mi'Gmaq/Micmac",
-    description: "Indigenous Community Sovereignty and Democracy"
-  }
+    description: "Indigenous Community Sovereignty and Democracy",
+  },
 };
 
 const MaineRegions = () => {
@@ -42,19 +42,18 @@ const MaineRegions = () => {
     <>
       <h2 className="text-2xl font-bold text-center mb-6">{data.name}</h2>
       <p className="text-lg font-bold text-center mb-8 italic">{data.description}</p>
-      
+
       <p>
-        This community has been working with Consensual Democracy principles to strengthen local decision-making 
-        and build community engagement around shared values and goals.
+        This community has been working with Consensual Democracy principles to strengthen local decision-making and
+        build community engagement around shared values and goals.
       </p>
 
       <h3 className="text-xl font-bold mt-8 mb-4">Community Profile:</h3>
 
       <div className="bg-white/10 p-6 rounded border-l-4 border-red-900 mb-6">
         <p>
-          {data.name} represents an example of how communities across Maine are applying direct democratic 
-          principles at the local level to address community challenges, create economic opportunity, 
-          and strengthen social bonds.
+          {data.name} represents an example of how communities across Maine are applying direct democratic principles at
+          the local level to address community challenges, create economic opportunity, and strengthen social bonds.
         </p>
       </div>
 
@@ -70,7 +69,7 @@ const MaineRegions = () => {
       </ul>
 
       <p className="mt-8 p-6 bg-blue-100/20 border-l-4 border-blue-900">
-        <strong>Lesson from Maine Communities:</strong> Direct democracy works best when built from the ground up, 
+        <strong>Lesson from Maine Communities:</strong> Direct democracy works best when built from the ground up,
         rooted in specific communities with shared history and relationships.
       </p>
 
@@ -80,13 +79,7 @@ const MaineRegions = () => {
     </>
   );
 
-  return (
-    <DemocracyPageTemplate
-      title={data.name}
-      subtitle={data.description}
-      content={content}
-    />
-  );
+  return <DemocracyPageTemplate title={data.name} subtitle={data.description} content={content} />;
 };
 
 export default MaineRegions;

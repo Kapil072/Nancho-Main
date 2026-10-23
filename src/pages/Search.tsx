@@ -9,15 +9,9 @@ const Search = ({ onNavigate }: SearchProps) => {
     <div className="px-4 py-8 text-foreground">
       {/* Header - exact replica of nancho.net/wgindex.html */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl text-primary font-bold mb-4 uppercase tracking-widest">
-          BIG MEDICINE
-        </h1>
-        <h2 className="text-2xl md:text-3xl text-retro-amber font-bold uppercase tracking-wide">
-          SEARCH ENGINE
-        </h2>
-        <p className="text-xs text-muted-foreground mt-2">
-          for nancho.net and related sites
-        </p>
+        <h1 className="text-4xl md:text-5xl text-primary font-bold mb-4 uppercase tracking-widest">BIG MEDICINE</h1>
+        <h2 className="text-2xl md:text-3xl text-retro-amber font-bold uppercase tracking-wide">SEARCH ENGINE</h2>
+        <p className="text-xs text-muted-foreground mt-2">for nancho.net and related sites</p>
       </div>
 
       {/* Main Description */}
@@ -35,7 +29,7 @@ const Search = ({ onNavigate }: SearchProps) => {
 
       {/* Search Box */}
       <div className="max-w-lg mx-auto bg-card p-6 border border-border rounded mb-10 shadow-lg">
-        <form 
+        <form
           onSubmit={(e) => {
             e.preventDefault();
             const query = (document.querySelector('input[type="text"]') as HTMLInputElement)?.value;
@@ -57,9 +51,7 @@ const Search = ({ onNavigate }: SearchProps) => {
             Search
           </button>
         </form>
-        <p className="text-xs text-muted-foreground text-center mt-3">
-          Searches nancho.net using Google
-        </p>
+        <p className="text-xs text-muted-foreground text-center mt-3">Searches nancho.net using Google</p>
       </div>
 
       {/* Link to Original */}

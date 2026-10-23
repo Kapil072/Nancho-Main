@@ -172,20 +172,19 @@ All colors MUST be HSL.
   display: grid;
   grid-template-columns: minmax(0, 1fr) 10% 10% 10% 10%;
   min-height: 55px;
-  background:
-    linear-gradient(
-      to right,
-      #3366ff 0,
-      #3366ff 60%,
-      #0000cc 60%,
-      #0000cc 70%,
-      #000099 70%,
-      #000099 80%,
-      #000066 80%,
-      #000066 90%,
-      #000033 90%,
-      #000033 100%
-    );
+  background: linear-gradient(
+    to right,
+    #3366ff 0,
+    #3366ff 60%,
+    #0000cc 60%,
+    #0000cc 70%,
+    #000099 70%,
+    #000099 80%,
+    #000066 80%,
+    #000066 90%,
+    #000033 90%,
+    #000033 100%
+  );
   text-align: center;
 }
 
@@ -418,7 +417,6 @@ All colors MUST be HSL.
   display: list-item;
 }
 
-
 .legacy-page-content a {
   font-size: inherit !important;
 }
@@ -436,7 +434,8 @@ All colors MUST be HSL.
 }
 
 /* Legacy HTML alignment overrides */
-.legacy-page-content center, center {
+.legacy-page-content center,
+center {
   display: block;
   text-align: center;
 }
@@ -470,10 +469,12 @@ hr[align="middle" i] {
 .legacy-page-content [align="right" i] {
   text-align: right !important;
 }
-.legacy-page-content [align="center" i], .legacy-page-content [align="middle" i] {
+.legacy-page-content [align="center" i],
+.legacy-page-content [align="middle" i] {
   text-align: center !important;
 }
-.legacy-page-content td, .legacy-page-content th {
+.legacy-page-content td,
+.legacy-page-content th {
   text-align: left;
 }
 
@@ -542,37 +543,37 @@ hr[align="middle" i] {
     max-width: 80px !important;
     border: 1px solid #000055 !important;
   }
-  
+
   /* Main Content Layout and Spacing */
   .main-frame {
     padding: 16px;
     font-size: 16px;
     line-height: 1.6;
   }
-  
+
   .legacy-page-content {
     padding: 16px;
     font-size: 16px;
     line-height: 1.6;
   }
-  
+
   .legacy-page-content p {
     font-size: 16px !important;
     line-height: 1.6 !important;
     margin-bottom: 1em;
   }
-  
+
   .legacy-page-content li {
     font-size: 16px !important;
     line-height: 1.6 !important;
   }
-  
+
   .legacy-page-content blockquote {
     margin: 1em 8px;
     padding: 12px;
     font-size: 15px !important;
   }
-  
+
   /* Heading spacing and alignment */
   .legacy-page-content h1 {
     font-size: 24px !important;
@@ -580,27 +581,27 @@ hr[align="middle" i] {
     margin-bottom: 0.6em;
     text-align: center !important;
   }
-  
+
   .legacy-page-content h2 {
     font-size: 20px !important;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
     text-align: center !important;
   }
-  
+
   .legacy-page-content h3 {
     font-size: 18px !important;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
     text-align: center !important;
   }
-  
+
   .legacy-page-content h4 {
     font-size: 16px !important;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
   }
-  
+
   /* Header & Navigation */
   .legacy-nav-row {
     display: flex;
@@ -650,30 +651,30 @@ hr[align="middle" i] {
     background: rgba(255, 255, 255, 0.2);
     color: #ffffe8;
   }
-  
+
   .logo-row {
     grid-template-columns: 1fr;
     min-height: auto;
     padding: 8px 0;
   }
-  
+
   .top-logo {
     width: 100%;
     max-width: 250px;
     height: auto;
   }
-  
+
   /* Larger font for legacy small font sizes on mobile */
   .legacy-page-content font[size="1"],
   .legacy-page-content font[size="-1"],
   .legacy-page-content font[size="-2"] {
     font-size: 14px !important;
   }
-  
+
   .legacy-page-content font[size="2"] {
     font-size: 15px !important;
   }
-  
+
   .legacy-page-content font[size="3"] {
     font-size: 16px !important;
   }
@@ -719,8 +720,12 @@ hr[align="middle" i] {
 
 /* Loading spinner animation */
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Performance optimizations */
