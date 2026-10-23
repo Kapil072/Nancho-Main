@@ -18,10 +18,10 @@ const Index = () => {
       <div className="flex flex-col md:flex-row w-full">
         {/* Sidebar */}
         <aside className="w-full md:w-[180px] shrink-0 p-6 md:sticky md:top-0 h-fit bg-transparent z-10">
-          <a href={`${import.meta.env.BASE_URL}`}>
+          <a href="/new-nancho/newchau/">
             <img
               src={`${import.meta.env.BASE_URL}graph/BMREVDEM.jpg`}
-              alt="Return to Democracy Index"
+              alt="Go to the New Chautauqua home page"
               className="mx-auto w-full max-w-[150px] border-2 border-[#000055]/30 shadow-lg"
             />
           </a>
@@ -539,7 +539,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <a href={`${import.meta.env.BASE_URL}newchau/`} className="group inline-block">
+              <a href="/new-nancho/newchau/" className="group inline-block">
                 <img
                   src={`${import.meta.env.BASE_URL}graph/revolt.gif`}
                   alt="Revolt"
