@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Maxstahl = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,9 +18,9 @@ const Maxstahl = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <HR WIDTH=300 ALIGN=CENTER SIZE=3>
 <STRONG><FONT  COLOR=#AE0057 SIZE=+2>20 YEARS OF TERROR</STRONG></FONT><BR><STRONG>-- INDONESIA IN TIMOR --</STRONG>
@@ -29,7 +29,7 @@ const Maxstahl = () => {
 <HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
 </CENTER>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
 <BLOCKQUOTE>You do not interview Max Stahl about East Timor, you ignite him. And then back off, praying your microphone does not melt away in the incandescent spew of history, infamy and grieving rage that follows. Despite decades of Indonesian genocide against the Timorese people, it was Stahl's irrefutable footage of the 1991 massacre of peaceful demonstrators at the Santa Cruz cemetary that finally thrust the "Timor problem" into Western public consciousness.<P>
 Together with the marchers, throughout their prayers and final terrified slaughter, he never stopped filming or demanding, "Why?" Even now, looking back, he seems far less amazed at his own miraculous survival and escape than at the international cynicism that allows this carnage to continue uncontested. Not that Stahl is new to bloodshed -- thoughout his 12-year career he has focused his lenses on common people's resistence to violent, organised oppressiion, and his hard-hitting films on atrocities, heroism and desperate hope in Salvador and Lebanon have given the word "troubleshoooting" a whole new definition.<P>
@@ -957,9 +957,9 @@ Originally published in Kyoto Journal #28.</H4>
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

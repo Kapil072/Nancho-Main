@@ -145,7 +145,7 @@ United States hold their existence as a nation.</STRONG>"
 <center><font color="#800080"><strong>
 "The task is not so much to see what no one <br>
 has yet seen, but to think what nobody has yet <br>
-thought, about that which everybody sees."<br>-- Erwin Schr�dinger</font><p>
+thought, about that which everybody sees."<br>-- Erwin Schrödinger</font><p>
 <a href="${BASE_URL}newchau/bigmed.html">Corporations are living systems  feeding <br>
 
 like rogue tumors on the Earth &amp; human energy.<br>
@@ -298,7 +298,7 @@ and waking up to our power will set us free.</a>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

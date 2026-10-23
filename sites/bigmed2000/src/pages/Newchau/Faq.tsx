@@ -31,10 +31,10 @@ const NewchauFaq = () => {
 <font color="#800000"><h4>A FEW QUESTIONS WE'VE HEARD THUS FAR</h4></font>
 <font size="+1" color="#FF0000">About our agenda</font><br><br>
 <font color="#800000"><strong>Isn't this campaign just out to demonize business or capitalism?</strong></font>
-<blockquote>Not at all. You miss the point. Our primary demon is monstrous corporate scale and the crippling power these bodies exert on our democracy. Small, human-scale business and capitalism will remain vital, and already offer over 80% of our nation�s jobs. With a little help and forethought, they can pick up the slack when the Big Corporate Bodies begin to melt down. </blockquote><p>
+<blockquote>Not at all. You miss the point. Our primary demon is monstrous corporate scale and the crippling power these bodies exert on our democracy. Small, human-scale business and capitalism will remain vital, and already offer over 80% of our nation’s jobs. With a little help and forethought, they can pick up the slack when the Big Corporate Bodies begin to melt down. </blockquote><p>
 <font color="#800000"><strong>Why do you want revoke corporate personhood and their civil rights?</strong></font>
 <blockquote>A century ago, a deranged Supreme Court awarded Big Corporate Bodies the same Constitutional rights as natural persons without any rationale, logic or  legislative consent. Corporations have since exploited these protections and their enormous wealth to subvert our institutions, leaders and public agenda. Corporations are hierarchic authoritarian systems that deny their members the most basic democratic rights and thus can hardly be expected to value or nurture democratic values in society as a whole. <a href="${BASE_URL}newchau/gospels.html#cp">More...</a> </blockquote>
-<font color="#800000"><strong>Big corporations now control so much of our society and economy. Shouldn�t that give them some political rights? </strong></font>
+<font color="#800000"><strong>Big corporations now control so much of our society and economy. Shouldn’t that give them some political rights? </strong></font>
 <blockquote>Never! Democracy became our political ideal because people, real living persons, can generally be trusted to act from an extended sense of self-interest that encompasses economic advantage, familial welfare, social justice, community well-being, moral values, spiritual/sensual response to the environment, etc. Big Bodies are just not that evolved. They are monotonic commercial organisms that can only see the world economically, as a food source or toilet. They have no more conscience or benevolence than a tumor, and are obviously far too primitive to deserve social power. </blockquote>
 <font size="+1" color="#FF0000">Lots more to come...</font>
 
@@ -137,7 +137,7 @@ const NewchauFaq = () => {
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

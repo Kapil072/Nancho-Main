@@ -53,11 +53,11 @@ Lucky for you then to stumble upon this obscure page. Having narrowly escaped er
                 <H3><EM>"For the great majority of mankind are satisfied with appearances, as though <BR>
 they were realities and are often more influenced by the things that seem <BR>than by those that are." </EM>            Niccolo Machiavelli<P></H3>
 
-<BLOCKQUOTE>Some of the best kept secrets are laid out buck naked right in your parlor dictionary, albeit low in the etymological underbrush. Consider the flagrant clarity of: <P><STRONG>or�tho�dox</STRONG> adj. 1. Upholding or adhering to accepted, traditional or established faith; or what is commonly accepted, customary. 2. Opposed to change or progress; extremely conservative -- [from Late Greek <EM>ortho</EM>-, straight, correct + <EM>doxa</EM>, opinion; see <EM><STRONG>dek</STRONG></EM>-).]<P>
+<BLOCKQUOTE>Some of the best kept secrets are laid out buck naked right in your parlor dictionary, albeit low in the etymological underbrush. Consider the flagrant clarity of: <P><STRONG>or·tho·dox</STRONG> adj. 1. Upholding or adhering to accepted, traditional or established faith; or what is commonly accepted, customary. 2. Opposed to change or progress; extremely conservative -- [from Late Greek <EM>ortho</EM>-, straight, correct + <EM>doxa</EM>, opinion; see <EM><STRONG>dek</STRONG></EM>-).]<P>
 
 <STRONG> <EM>dek</EM></STRONG>-. (Important derivatives: decent, doctor, doctrine, dogma, disciple, discipline) - To take, accept. 1. Suffixed form *<EM>dek</EM>-. DECENT, from Latin <EM>decere</EM>, to be fitting ("to be acceptable"). 2. Suffixed causative form *<EM>dok-eye</EM>-. a. DOCILE, DOCTRINE, DOCTOR, from Latin <EM>docere</EM>, to teach ("<U>to cause to accept</U>"); b. DOGMATIC; ORTHODOX, from Greek <EM>dokein</EM>, to appear, seem, ("<U>to cause to accept or be accepted</U>").<P>
 
-<STRONG>he�ret�i�cal</STRONG> adj. 1. Departing from established faiths or beliefs 2. Marked by irreverence for what is accepted as sacred. [Middle English <EM>heresie</EM>, from Late Greek <EM>hairesis</EM>, a <U>choosing</U>, from <EM>haireisthai</EM>,<U> to choose</U>.]</BLOCKQUOTE><P>
+<STRONG>he·ret·i·cal</STRONG> adj. 1. Departing from established faiths or beliefs 2. Marked by irreverence for what is accepted as sacred. [Middle English <EM>heresie</EM>, from Late Greek <EM>hairesis</EM>, a <U>choosing</U>, from <EM>haireisthai</EM>,<U> to choose</U>.]</BLOCKQUOTE><P>
 
                                 <H3><EM>"Freedom of belief is pernicious, it is nothing but the <BR>freedom to be wrong."</EM>
                                         St. Robert Bellarmine (Italian Cardinal)</H3><P>
@@ -305,7 +305,7 @@ OK, people, that's it for the freebies. If you made it this far, perceive the me
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ const Password = () => {
 <STRONG><FONT  COLOR=#004000>"The task is not so much to see what no one has yet seen, <BR>but to think
                            what nobody has yet thought, <BR>about that 
                                    which everybody sees."</FONT></STRONG><BR>
-                               -- Erwin Schr�dinger<P>
+                               -- Erwin Schrödinger<P>
 
 <BLOCKQUOTE><BLOCKQUOTE><STRONG><FONT  COLOR=#004000>"We live in the age of corporate organisms. Though no formal announcements have
       been issued, it's becoming harder to ignore that they have wrested control of the Earth
@@ -211,7 +211,7 @@ one by one, <BR>an unpitied sacrifice in a contemptible struggle</FONT></STRONG>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -21,11 +21,11 @@ const NhNhfly = () => {
 
 TIRED OF BATTLING ENDLESS ECO-SOCIAL SYMPTOMS?<BR>TRY FOCUSING ON THE CAUSE!
 <H3>The Real BIG Question</H3></STRONG></CENTER>
-Practically every progressive struggle -- campaign finance reform, sweatshops, family farms, fair trade, health care for all, unionization, military spending, tax reform, alternative energy, healthy food, media access, hazardous waste dumps, redlining, alternative medicine, you name it�is being fought against one cluster of corporations or another. But it is not that corporation over there or this one over here that is the enemy. It is not one industry's contamination of our drinking water or another's perversion of the lawmaking process that is the problem -- rather it is the corporation itself that must be addressed if we are to be a free people... The piecemeal approach to fighting corporate abuses keeps us spread thin, separated, on the defensive, riveted on the minutiae, and fighting on their terms. Piecemeal battles must certainly continue, for there are real and immediate corporate harms to be addressed for people and communities. But it's time for our strategic emphasis to shift to the offensive, raising what I believe to be the central political issue for the new century:
+Practically every progressive struggle -- campaign finance reform, sweatshops, family farms, fair trade, health care for all, unionization, military spending, tax reform, alternative energy, healthy food, media access, hazardous waste dumps, redlining, alternative medicine, you name it—is being fought against one cluster of corporations or another. But it is not that corporation over there or this one over here that is the enemy. It is not one industry's contamination of our drinking water or another's perversion of the lawmaking process that is the problem -- rather it is the corporation itself that must be addressed if we are to be a free people... The piecemeal approach to fighting corporate abuses keeps us spread thin, separated, on the defensive, riveted on the minutiae, and fighting on their terms. Piecemeal battles must certainly continue, for there are real and immediate corporate harms to be addressed for people and communities. But it's time for our strategic emphasis to shift to the offensive, raising what I believe to be the central political issue for the new century:
 "Who the hell is in charge here?"<P align=right>
 				- - Jim Hightower<P>
 
-<CENTER><STRONG><H3>So why don�t we hear more 
+<CENTER><STRONG><H3>So why don’t we hear more 
 about the BIG problem?</H3></STRONG></CENTER>
 "The American press, with very few exceptions, is a kept press. Kept by the big corporations  the way a whore is kept by a tycoon."<P align=right>
 
@@ -48,16 +48,16 @@ without a curse.</STRONG> <BR>
 <STRONG><H3>Welcome to 
 Big Medicine 2000</H3></STRONG></CENTER><P>
 This is a campaign to awaken America to the true nature and dominant power of Big Bodies, the mega-corporations that have wrested control of our economy, culture and evolutionary heading. This year the country will finally recognize that these vast social organisms constitute a literal new species, which is both supplanting our own, and causing most of the widespread dis-ease now afflicting our minds, kids, communities and the natural environment.
-Big Bodies have also clearly usurped our sovereign role in governance, so reclaiming democracy is our first order of business. However, since they also control 90% of our country�s money, media and mercenary lawyers as well as our two coin-operated political parties, this may prove to be an historic scrap. You can help just by reading, developing and diffusing a few BIG ideas. The awakening begins right here...
+Big Bodies have also clearly usurped our sovereign role in governance, so reclaiming democracy is our first order of business. However, since they also control 90% of our country’s money, media and mercenary lawyers as well as our two coin-operated political parties, this may prove to be an historic scrap. You can help just by reading, developing and diffusing a few BIG ideas. The awakening begins right here...
 </TD></TR>
 </TABLE>
 
 
 <TABLE BORDER=2 CELLPADDING=9 width=320>
 <TR><TD><STRONG>Candidate Micro-Bio</STRONG> <BR>
-Born: Wladislav David Kubiak, Kent, Ohio, �45
+Born: Wladislav David Kubiak, Kent, Ohio, ‘45
 Homes: Kennebunkport, Maine / Kyoto, Japan
-School: B.S., Psych/Phil/Premed, Bowdoin �67
+School: B.S., Psych/Phil/Premed, Bowdoin ‘67
 Works: 25 years as activist/journalist/teacher 
 and grassroots media advisor in Japan & India; 
 Board Member, Kyoto Civil 
@@ -70,7 +70,7 @@ the Asia-Pacific (FDLAP)
 Author/Editor: Memes 
 for a New Democracy 
 Public Office: Virtual 
-Mayor of Kyoto �94~�99  
+Mayor of Kyoto ‘94~’99  
 Now: working a snowy 
 NH street near you...<BR>
 
@@ -98,8 +98,8 @@ ops in the coastal urban sprawls;  and
 in New  Hampshire's narrow valleys. 
 </UL>
 
-In other words, the fix is in:  all the BIG Partys� boys will henceforth be fully determined by mid to late March - approximately 4~6 weeks after the NH starting gun. This means MASSIVE media budgets will be even more grossly decisive than now (if that is conceivable), and there will be no time whatever for courageous, BIG-decrying voices to build national recognition or support.<P>
-OK, NH will still be first chronologically, but the real importance of this primary was never just symbolic primacy. The state's human-scale allows many citizens to meet and judge the candidates in person. Conversations, ideas and compassionate chemistry still mean something to people here, and it doesn't cost a fortune to reach your minds or hearts. Sure, your overwhelmingly white rural/small town demographics don�t represent anything America has become, but somehow your sense of decency proved a phenomenally prophetic guide to the ideas and candidates that the nation as a whole would respond to. And therein lay the problem. NH and only NH gave a full national stage to the ideas of "populist" outsiders like George McGovern, Eugene McCarthy, John Anderson, Jerry Brown and Pat Buchanan - all of whom attacked the escalating corporate domination of American life from one angle or another. <P>
+In other words, the fix is in:  all the BIG Partys’ boys will henceforth be fully determined by mid to late March - approximately 4~6 weeks after the NH starting gun. This means MASSIVE media budgets will be even more grossly decisive than now (if that is conceivable), and there will be no time whatever for courageous, BIG-decrying voices to build national recognition or support.<P>
+OK, NH will still be first chronologically, but the real importance of this primary was never just symbolic primacy. The state's human-scale allows many citizens to meet and judge the candidates in person. Conversations, ideas and compassionate chemistry still mean something to people here, and it doesn't cost a fortune to reach your minds or hearts. Sure, your overwhelmingly white rural/small town demographics don’t represent anything America has become, but somehow your sense of decency proved a phenomenally prophetic guide to the ideas and candidates that the nation as a whole would respond to. And therein lay the problem. NH and only NH gave a full national stage to the ideas of "populist" outsiders like George McGovern, Eugene McCarthy, John Anderson, Jerry Brown and Pat Buchanan - all of whom attacked the escalating corporate domination of American life from one angle or another. <P>
 
 
 </TD></TR>
@@ -156,16 +156,16 @@ After the Iowa and New Hampshire contests, set the dates for subsequent state pr
 <BR>
 
 <STRONG>Isn't this campaign just out to demonize business or capitalism?</STRONG><BR>
-Not at all. Our only demon is monstrous corporate scale. It�s a Tower of Babel issue. Small business, human-scale business and capitalism are vital, creative and already offer
-over 80% of our nation�s jobs. With a little help, they can pick up the slack when the Big Bodies begin to melt down.<P>
+Not at all. Our only demon is monstrous corporate scale. It’s a Tower of Babel issue. Small business, human-scale business and capitalism are vital, creative and already offer
+over 80% of our nation’s jobs. With a little help, they can pick up the slack when the Big Bodies begin to melt down.<P>
 <STRONG>Why do you insist on rescinding corporate civil rights?</STRONG><BR>
 A century ago, a deranged court awarded Big Corporate Bodies the same Constitutional rights as natural persons without our legislative consent. They have since exploited these protections and their enormous wealth to subvert our institutions, leaders and public agenda. Corporations are  hierarchic living systems that deny their members the most basic democratic rights and thus can hardly be expected to value or nurture democratic values in society as a whole.<P>
-<STRONG>Big corporations now control so much of our society and economy. Shouldn�t that give them some political rights? </STRONG><BR>
+<STRONG>Big corporations now control so much of our society and economy. Shouldn’t that give them some political rights? </STRONG><BR>
 Never! Democracy became our political ideal because people, real living persons, can generally be trusted to act from an extended sense of self-interest that encompasses economic advantage, familial welfare, social justice, community well-being, moral values, spiritual/sensual response to the environment, etc. Big Bodies are just not that evolved. They are monotonic social organisms that can only see the world economically, as a food source or toilet, and are obviously too primitive to deserve social power. <P>
 <STRONG>What do you really hope to achieve? </STRONG><BR>
 To assure the people who already have eerie misgivings about huge corporations that they are right: Big Bodies are alive, in charge and out of control; and to show our citizens we still have the time and power to do something about it.<P>
 <STRONG>Why run for VP? What is the point?</STRONG><BR>
-The NH VP Primary is an edifying relic from bygone days when we could elect the VP ourselves - the same nostalgic era, in fact, when we could even elect a president ourselves without \$50 million PR budgets or Big Body supervision. This campaign could help us remember those days. And VP may one day signify a Virtual President, who exercises leadership with contagious ideas instead of authority, force or fear. We�d sure like to help inaugurate that...<P>
+The NH VP Primary is an edifying relic from bygone days when we could elect the VP ourselves - the same nostalgic era, in fact, when we could even elect a president ourselves without \$50 million PR budgets or Big Body supervision. This campaign could help us remember those days. And VP may one day signify a Virtual President, who exercises leadership with contagious ideas instead of authority, force or fear. We’d sure like to help inaugurate that...<P>
 
 
 </TD><TD width=340><CENTER>
@@ -179,9 +179,9 @@ The NH VP Primary is an edifying relic from bygone days when we could elect the 
 &nbsp;&nbsp;&nbsp;More vital than your vote or bread is your focused attention - for when that is engaged all else will follow. If you possess the slightest social conscience, once you see that shrinking and democratizing Big Bodies will cure 80% of our most painful eco-social ills in a single stroke, whatever you do afterward -- with or without us -- will doubtless be the Right Thing.<BR>
 <STRONG>YOUR IMAGINATION</STRONG> <BR>
 &nbsp;&nbsp;&nbsp;Although Big Bodies are historically quite new, trying to think of life without them today is as difficult as imagining life free of aristocracy in the Dark Ages or without the all-powerful Party in Stalinist Russia. For children of this century, Big Bodies and their propaganda have always been with us controlling our media, our politics, our opinions of our bodies, worth and lives. We ignorantly yielded them that power, but we can take it back.<BR>&nbsp;&nbsp;&nbsp;
-After Big Bodies, what? Would you believe community based media, worker run factories, individualized education, a rebirth of craftsmanship, meaningful jobs, small cities, non-toxic family farms, et perfectly credible cetera. In other words, we envision a sensual renaissance of regional character, values and diversity attuned to the local environment and responsive to the people�s will. Ask yourself, what do we really need as a society that networked groups of 500 or less could not produce or provide? We now have the tech and know-how to effectively supply autos, electronics, energy, even aircraft at that scale of organization. What does a sustainable sensuous world really need?<BR>
+After Big Bodies, what? Would you believe community based media, worker run factories, individualized education, a rebirth of craftsmanship, meaningful jobs, small cities, non-toxic family farms, et perfectly credible cetera. In other words, we envision a sensual renaissance of regional character, values and diversity attuned to the local environment and responsive to the people’s will. Ask yourself, what do we really need as a society that networked groups of 500 or less could not produce or provide? We now have the tech and know-how to effectively supply autos, electronics, energy, even aircraft at that scale of organization. What does a sustainable sensuous world really need?<BR>
 <STRONG>YOUR TIME</STRONG> <BR>
-&nbsp;&nbsp;&nbsp;Once you see the BIG problem, we ask you to devote a personal Time Tithe to its solution - in this case, 10% of our national per capita TV time or about four hours each week. You could spend that time studying BIG pathology, helping this campaign or working in your own innovative unauthorized ways. (We indeed sincerely urge you to practice Big Medicine without our license. We hardly want to build another Big Body of our own, since inhuman scale in any organization perpetuates the very plague we�re fighting. When you see we that must drastically downscale all our reigning corporate bodies, your ideas will likely be as good as ours and your tactics more suited to your scene.)<BR>
+&nbsp;&nbsp;&nbsp;Once you see the BIG problem, we ask you to devote a personal Time Tithe to its solution - in this case, 10% of our national per capita TV time or about four hours each week. You could spend that time studying BIG pathology, helping this campaign or working in your own innovative unauthorized ways. (We indeed sincerely urge you to practice Big Medicine without our license. We hardly want to build another Big Body of our own, since inhuman scale in any organization perpetuates the very plague we're fighting. When you see we that must drastically downscale all our reigning corporate bodies, your ideas will likely be as good as ours and your tactics more suited to your scene.)<BR>
 <STRONG>YOUR CRAFTS & RESOURCES</STRONG><BR>
 &nbsp;&nbsp;&nbsp;For those who wish to help this campaign directly, we need a whole range of talents - networkers, artists, educators, futurists, hackers et creatively diverse alii.  And yes, we also need cash - only a few percent of what a "normal" BIG election campaign costs, but serious money nonetheless. If you can assist in any way with this effort, please contact us immediately at the addresses below, and may SMALL blessings rain upon thee
 
@@ -295,7 +295,7 @@ Study Big Med on the Net</STRONG><BR>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

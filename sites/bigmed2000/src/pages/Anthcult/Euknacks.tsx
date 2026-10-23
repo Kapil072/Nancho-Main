@@ -45,7 +45,7 @@ The Weekly Newsmagazine of Science</i></b></p>
 <p>
 Compared with rats whose mothers had no phthalate exposure, these offspring produced far less testosterone and exhibited a range of abnormalities. Sometimes one testicle was absent or appeared as just a sac of blood. Says Gray, &quot;We've never seen anything like this.&quot;</p>
 <p>Prenatal exposure to either phthalate also markedly reduced the size of a muscle that runs from the colon to the base of the penis. In some offspring, the epididymis, a sperm-storing organ, was similarly just a fraction of its normal size.</p>
-<p>Gray's team catalogued these and also many abnormalities that had already been seen with compounds that block male sex hormones, or androgens. Many test animals bore classically feminine features such as permanent nipples. The data were presented at the Society of Toxicology meeting in New Orleans 2 weeks ago and in the just-released January�March issue of <i>Toxicology and Industrial Health</i>.</p>
+<p>Gray's team catalogued these and also many abnormalities that had already been seen with compounds that block male sex hormones, or androgens. Many test animals bore classically feminine features such as permanent nipples. The data were presented at the Society of Toxicology meeting in New Orleans 2 weeks ago and in the just-released January­March issue of <i>Toxicology and Industrial Health</i>.</p>
 <p>Paul M.D. Foster and his coworkers at the Chemical Industry Institute of Toxicology in Research Triangle Park, N.C., have also been exploring the antiandrogenic effects of phthalates. At the toxicology meeting, they reported that developmental defects in males can be triggered by as little as 100 mg of DBP per kg of body weight in the mom.</p>
 <p>DBP halves testosterone production by the fetal testis, their data show. Foster says that the testis responds by making twice as many cells, a proliferation that resulted in testicular tumors after the animals became adults.</p>
 <p>Many commercial chemicals possess antiandrogenic activity. In four other papers in <i>Toxicology and Industrial Health</i>, Gray's group describes two fungicides (vinclozolin and procymidone), an herbicide (linuron), an insecticide (methoxychlor), and several other compounds that provoke various degrees of reproductive-organ abnormalities.</p>
@@ -212,7 +212,7 @@ Reston, VA  22090</p>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

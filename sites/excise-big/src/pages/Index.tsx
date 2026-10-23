@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const Index = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#FFFFEE";
-    document.body.style.backgroundImage = "url('${import.meta.env.BASE_URL}barks/frenchp2.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/frenchp2.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -225,27 +225,15 @@ WBAI 99.5 FM, New York Pacifica Outlet
       <style>{`
         a { color: #B32D41; text-decoration: underline; font-weight: bold; }
         a:hover { color: #FF4444; }
-        h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 1em; text-align: left; width: 100% !important; }
+        h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 1em; }
         strong, b { font-weight: 900; }
-        ul { list-style-type: disc; padding-left: 2em; margin-bottom: 1em; width: 100% !important; }
+        ul { list-style-type: disc; padding-left: 2em; margin-bottom: 1em; }
         li { margin-bottom: 0.5em; }
         img { max-width: 100%; height: auto; display: inline-block; }
-        center { text-align: center; display: block; width: 100% !important; }
-        hr { border: 0; border-top: 2px solid currentColor; margin: 1em auto; width: 100% !important; }
-        
-        /* Force full horizontal width for paragraphs, blockquotes, and tables */
-        blockquote { 
-          margin-left: 0 !important; 
-          margin-right: 0 !important; 
-          padding-left: 0 !important; 
-          padding-right: 0 !important; 
-          width: 100% !important; 
-          max-width: 100% !important; 
-        }
+        center { text-align: center; display: block; }
+        hr { border: 0; border-top: 2px solid currentColor; margin: 1em auto; }
         table:not([align]):not([style*="float"]) { 
-          clear: both;
-          width: 100% !important; 
-          max-width: 100% !important; 
+          clear: both; 
           margin-top: 1.5rem;
         }
         table[align="right"] {
@@ -258,13 +246,9 @@ WBAI 99.5 FM, New York Pacifica Outlet
           width: auto !important;
           margin: 0 1em 1em 0 !important;
         }
-        p { 
-          width: 100% !important; 
-          max-width: 100% !important; 
-        }
       `}</style>
 
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="w-full" />
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="w-full legacy-content" />
     </div>
   );
 };

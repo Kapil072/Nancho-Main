@@ -311,7 +311,7 @@ Suite #501, Aryung Buiding, 506-20 Changchun-dong<BR>Seodaemun-ku, Seoul, Republ
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

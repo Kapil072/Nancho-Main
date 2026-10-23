@@ -28,7 +28,7 @@ RESOURCE LIST
 
 
 <div align="center"><table width="500">
-	<tr><td><FONT FACE="Bookman,Bookman Old Style" SIZE=3>Democracy Unlimited of Humboldt County (DUHC) educates and organizes to dismantle corporate rule across California and SW Oregon. Inspired by the Program On Corporations, Law and Democracy (POCLAD) - which since 1993 has been generating materials on corporate and legal histories and conducting Rethinking the Corporation/ Rethinking Democracy meetings across the US - we lead workshops and discussions, distribute materials (<I>everything <U>we've</U> produced is marked with a </I>�<I> below</I>), publish a newsletter, and just plain educate, organize, activate and strategize!<p>
+	<tr><td><FONT FACE="Bookman,Bookman Old Style" SIZE=3>Democracy Unlimited of Humboldt County (DUHC) educates and organizes to dismantle corporate rule across California and SW Oregon. Inspired by the Program On Corporations, Law and Democracy (POCLAD) - which since 1993 has been generating materials on corporate and legal histories and conducting Rethinking the Corporation/ Rethinking Democracy meetings across the US - we lead workshops and discussions, distribute materials (<I>everything <U>we've</U> produced is marked with a </I>•<I> below</I>), publish a newsletter, and just plain educate, organize, activate and strategize!<p>
 
 
 Please indicate which items you would like to order by writing the quantity you want in the box to the left of each item, providing your name and address on the bottom of this page and mailing the entire sheet to us with checks/money orders (or cash) made out to Democracy Unlimited. We'll send an updated Resource List with your order. All prices include shipping. Contact us for bulk prices.</P></FONT></td></tr>
@@ -48,9 +48,9 @@ Please indicate which items you would like to order by writing the quantity you 
 
 <P>[&nbsp;&nbsp;  ]&#9;"Revoking the Corporation" by Ward Morehouse (based on a workshop presentation he gave in Jan '96), &#9;from North Coast XPress (Apr/May '96), 2 pages. \$.30</P>
 
-<P>[&nbsp;&nbsp;  ]&#9;�CA newsletter: 'A Sovereign People' -  issue #3 out soon) \$1 -  or subscribe (see order form)</P>
+<P>[&nbsp;&nbsp;  ]&#9;•CA newsletter: 'A Sovereign People' -  issue #3 out soon) \$1 -  or subscribe (see order form)</P>
 
-<P>[&nbsp;&nbsp;  ]&#9;�<a href="http://www.monitor.net/democracyunlimited/duhc_html/poster_frame.html" target="_blank">A variety of 8-1/2 x 11" posters</a> for easy copying &amp; distribution, created by Paul Cienfuegos.&#9;\$1 to \$5 (sliding scale) gets you 5 to 10 recent posters. Great for guerrilla postering!</P>
+<P>[&nbsp;&nbsp;  ]&#9;•<a href="http://www.monitor.net/democracyunlimited/duhc_html/poster_frame.html" target="_blank">A variety of 8-1/2 x 11" posters</a> for easy copying &amp; distribution, created by Paul Cienfuegos.&#9;\$1 to \$5 (sliding scale) gets you 5 to 10 recent posters. Great for guerrilla postering!</P>
 
 <P>[&nbsp;&nbsp;  ]&#9;Excerpts from the California Constitution of 1879 (when citizens still understood that they were &#9;sovereign over corporations and acted accordingly), 8 pages. \$1.20</P>
 
@@ -62,7 +62,7 @@ Please indicate which items you would like to order by writing the quantity you 
 
 <P>[&nbsp;&nbsp;  ]&#9;"Corporations Must Not Supplant 'We The People' " by Richard Grossman, from the Maine Sunday &#9;Telegram (4 Feb '96), 2 pages. \$.30</P>
 
-<P>[&nbsp;&nbsp;  ]&#9;� "Reclaiming Our Historic Authority". A listing of the strict prohibitions citizens once wielded over &#9;corporations, and a vision of new limitations appropriate for the 21st century, compiled by Paul &#9;Cienfuegos, 2 pages. \$.30</P> (
+<P>[&nbsp;&nbsp;  ]&#9;• "Reclaiming Our Historic Authority". A listing of the strict prohibitions citizens once wielded over &#9;corporations, and a vision of new limitations appropriate for the 21st century, compiled by Paul &#9;Cienfuegos, 2 pages. \$.30</P> (
 
 
 <I>Produced by and also available from the <a href="http://www.endgame.org" target="_blank">Public Information Network</a> in Seattle.)
@@ -103,7 +103,7 @@ Please indicate which items you would like to order by writing the quantity you 
 
 <P>[&nbsp;&nbsp;  ]&#9;"Certificate of Dissolution - Revocation of Corporate Charter of Weyerhaeuser Corporation" (18 Ap '95). &#9;Created for a demonstration at the home of George Weyerhaeuser in WA state in which activists revoked &#9;the corporation's charter in a colorful and powerful act of street theatre. Contains a partial list of &#9;Weyerhaeuser Corporation's environmental, anti-trust, safety and labor violations, 2 pages. \$.30</P>
 
-<P>[&nbsp;&nbsp;  ]&#9;�Leaflet created for a McDonald's action on 20 May '96, a day of nationally coordinated actions to End &#9;Corporate Control. The leaflet highlights the historic McDonald's trial now concluding in England, and &#9;encourages eaters to join our new organization. 2 pages. \$.30</P>
+<P>[&nbsp;&nbsp;  ]&#9;•Leaflet created for a McDonald's action on 20 May '96, a day of nationally coordinated actions to End &#9;Corporate Control. The leaflet highlights the historic McDonald's trial now concluding in England, and &#9;encourages eaters to join our new organization. 2 pages. \$.30</P>
 
 <P>[&nbsp;&nbsp;  ]&#9;<I>Fact Sheets For Students: </I>"Fighting Corporate Power"<I> and</I> "Corporate Power on Campus and the Future &#9;of Student Activism" by Rob Inerfeld, 6 pages. \$.90</P>
 
@@ -337,7 +337,7 @@ If you'd like a full list of titles, all from non-corporate independent publishe
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Jehangir = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,15 +18,15 @@ const Jehangir = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG><BR><HR WIDTH=120 ALIGN=center SIZE=2>Views from Pakistan</FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <TABLE BORDER=0 CELLPADDING=9 CELLSPACING=9>
 <TR><TD ALIGN=MIDDLE><HR WIDTH=300 ALIGN=CENTER SIZE=3>
 <H3>"Democracy is Survival for Women"</H3> 
 <h4><FONT  COLOR=#002400>An Interview with Asma Jehangir<BR>Human Rights Commission of Pakistan</FONT></h4>
-<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR></TD><TD ALIGN=MIDDLE><IMG src="/graph/asma5.jpg" ALT="Asma Jehangir" WIDTH=130 HEIGHT=200 HSPACE=20 BORDER=1 ></TD></TR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR></TD><TD ALIGN=MIDDLE><IMG src="${import.meta.env.BASE_URL}graph/asma5.jpg" ALT="Asma Jehangir" WIDTH=130 HEIGHT=200 HSPACE=20 BORDER=1 ></TD></TR>
 </TABLE><BR>
 <BR>
 
@@ -36,7 +36,7 @@ const Jehangir = () => {
 </CENTER>
 
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
 
  
@@ -45,7 +45,7 @@ const Jehangir = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=400 HEIGHT=4 VSPACE=6>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=400 HEIGHT=4 VSPACE=6>
 </CENTER>
 <h4><FONT  COLOR=#002400>Nancho: You have been quoted as saying that with the election of President Rafiq Tarar that human rights, especially in regard to women and minorities, would deteriorate in the next few years. Now that he has kind of settled into office, do you think that his performance thus far has proven you correct?</FONT></h4>
 
@@ -69,7 +69,7 @@ We have also looked at economic rights. We find that people are insecure because
 </BLOCKQUOTE> </FONT></TD></TR>
 </TABLE>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 <h4><FONT  COLOR=#002400>Nancho: The HRCP has also recently staged a rally against child labor trying to create awareness of this heinous practice. How do you view the situation and the its depiction in the Western media? Is it being misrepresented? </FONT></h4>
 <FONT  SIZE=+1>
 <BLOCKQUOTE>ASJ: I think that the western media takes things to an extreme. As far back as '86, there was a movement by activists to pressure the intergovernmental organizations to eradicate child labor, or at least fix a realistic minimum age. We suggested twelve because we had to start somewhere. We also recognized the fact that there are certain difficulties for governments to eradicate it overnight. At that time, the intergovernmental organizations in the West were talking about regulation. We having lived in this society believe that if you talk about regulation, you will simply get child labor in another sphere altogether. We have to start with the political will and the earnest belief that you have to eradicate it. 
@@ -142,7 +142,7 @@ I think people are afraid of the women's movement because it's the longest socia
 </TD></TR>
 </TABLE>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
 <h4><FONT  COLOR=#002400>Nancho: Women's Day is celebrated here in Pakistan with a lot of fanfare. Does anything significant result from this yearly celebration?</FONT></h4>
 <FONT  SIZE=+1>
@@ -223,10 +223,10 @@ Nancho rep: Kathy Sokol-Kubiak</FONT></h5>
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlalert.html"><STRONG>Alerts</A></STRONG> | 
 <A HREF="fdlpaper.html#interview"><STRONG>Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:fdlap@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

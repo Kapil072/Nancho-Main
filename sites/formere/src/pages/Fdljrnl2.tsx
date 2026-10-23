@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Fdljrnl2 = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,11 +18,11 @@ const Fdljrnl2 = () => {
 
 <CENTER>
 <EM>Subscribe now to receive the latest reports <BR>on human rights and democracy movements in the Asia-Pacific</EM><P>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL - AP QUARTERLY</FONT><BR><FONT  SIZE=+1>Fall '97</EM>  </STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <P>
-<IMG src="/graph/fdljrn2.jpg" ALT="FDL-AP QUARTERLY Autumn '97 Issue" HSPACE=12 WIDTH=167 HEIGHT=235>
+<IMG src="${import.meta.env.BASE_URL}graph/fdljrn2.jpg" ALT="FDL-AP QUARTERLY Autumn '97 Issue" HSPACE=12 WIDTH=167 HEIGHT=235>
 <P>
 
 
@@ -66,9 +66,9 @@ const Fdljrnl2 = () => {
 </TABLE><P>
 
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:FDLAP@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

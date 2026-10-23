@@ -50,7 +50,7 @@ export const HeaderBlock = () => (
 const Index = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#C9FFC8";
-    document.body.style.backgroundImage = "url('/graph/fdbk7.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}graph/fdbk7.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";

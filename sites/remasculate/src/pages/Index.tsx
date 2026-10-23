@@ -1,6 +1,12 @@
 import SectionHeader from "@/components/SectionHeader";
 
-const ColorBar = () => <img src="/bulls/advline2.gif" alt="" className="w-full h-2 object-cover opacity-90 my-4" />;
+const ColorBar = () => (
+  <img
+    src={`${import.meta.env.BASE_URL}bulls/advline2.gif`}
+    alt=""
+    className="w-full h-2 object-cover opacity-90 my-4"
+  />
+);
 
 const HRule = ({ width = "60%" }: { width?: string }) => (
   <hr className="border-[#000055] my-8 mx-auto" style={{ width }} />
@@ -12,9 +18,9 @@ const Index = () => {
       <div className="flex flex-col md:flex-row w-full">
         {/* Sidebar */}
         <aside className="w-full md:w-[180px] shrink-0 p-6 md:sticky md:top-0 h-fit bg-transparent z-10">
-          <a href="/">
+          <a href={`${import.meta.env.BASE_URL}`}>
             <img
-              src="/graph/BMREVDEM.jpg"
+              src={`${import.meta.env.BASE_URL}graph/BMREVDEM.jpg`}
               alt="Return to Democracy Index"
               className="mx-auto w-full max-w-[150px] border-2 border-[#000055]/30 shadow-lg"
             />
@@ -151,55 +157,55 @@ const Index = () => {
                 </h4>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-lg font-bold">
                   <li>
-                    <a href="/demorule/rationale" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/rationale`} className="underline">
                       Rationale
                     </a>
                     : Why we need the National Initiative For Democracy.
                   </li>
                   <li>
-                    <a href="/demorule/firstprinciples" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/firstprinciples`} className="underline">
                       First Principles
                     </a>
                     : The philosophical foundation of the National Initiative.
                   </li>
                   <li>
-                    <a href="/demorule/partnership" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/partnership`} className="underline">
                       Partnership In Democracy
                     </a>
                     : How the People's Legislature corrects the flaws of representative democracy.
                   </li>
                   <li>
-                    <a href="/demorule/initiative" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/initiative`} className="underline">
                       The National Initiative For Democracy
                     </a>
                     : Additional information.
                   </li>
                   <li>
-                    <a href="/demorule/amendment" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/amendment`} className="underline">
                       The Democracy Amendment
                     </a>
                     : Text of the proposed Constitutional amendment.
                   </li>
                   <li>
-                    <a href="/demorule/act" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/act`} className="underline">
                       The Democracy Act
                     </a>
                     : Federal statute establishing the People's Legislature.
                   </li>
                   <li>
-                    <a href="/demorule/constitutionality" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/constitutionality`} className="underline">
                       Constitutionality
                     </a>
                     : The legal foundation of the National Initiative.
                   </li>
                   <li>
-                    <a href="/demorule/actionplan" className="underline">
+                    <a href={`${import.meta.env.BASE_URL}demorule/actionplan`} className="underline">
                       Action Plan
                     </a>
                     : Election &amp; educational program for the National Initiative.
                   </li>
                   <li className="md:col-span-2">
-                    <a href="/demorule/warpeace" className="underline italic text-red-900">
+                    <a href={`${import.meta.env.BASE_URL}demorule/warpeace`} className="underline italic text-red-900">
                       War &amp; Peace and the Democracy Amendment
                     </a>{" "}
                     by Senator Mike Gravel
@@ -224,9 +230,15 @@ const Index = () => {
                   lore...
                 </p>
                 <div className="flex flex-col space-y-3 font-bold text-red-900 underline text-xl">
-                  <a href="/demorule/switzerland">Direct Democracy in Switzerland by Gregory Fossedal</a>
-                  <a href="/demorule/switzerland">Full Democracy — Definitive Direct Dem advocacy from Brian Beedham</a>
-                  <a href="/demorule/switzerland">Realizing Full Democracy — More great Beedham</a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/switzerland`}>
+                    Direct Democracy in Switzerland by Gregory Fossedal
+                  </a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/switzerland`}>
+                    Full Democracy — Definitive Direct Dem advocacy from Brian Beedham
+                  </a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/switzerland`}>
+                    Realizing Full Democracy — More great Beedham
+                  </a>
                 </div>
                 <blockquote className="text-center italic font-bold text-3xl py-12 leading-relaxed">
                   "Democracy in the 20th century has been a half-finished
@@ -234,20 +246,20 @@ const Index = () => {
                   thing. In the 21st, it can grow to its full height."
                 </blockquote>
                 <div className="flex flex-col space-y-3 font-bold text-red-900 underline text-lg">
-                  <a href="/demorule/consensualdemo">
+                  <a href={`${import.meta.env.BASE_URL}demorule/consensualdemo`}>
                     DDEMOCRACY MEETINGPLACE — Links to Direct Dem movements in many countries and coverage of new
                     international developments.
                   </a>
-                  <a href="/demorule/consensualdemo">
+                  <a href={`${import.meta.env.BASE_URL}demorule/consensualdemo`}>
                     Direct Democracy Now! — Another good personal page of arguments for Direct Democratic reform
                   </a>
-                  <a href="/demorule/innovations">
+                  <a href={`${import.meta.env.BASE_URL}demorule/innovations`}>
                     VOTE.ORG: Government by the People — A new web/tech-assisted paradigm for Democratic Renewal
                   </a>
-                  <a href="/demorule/innovations">
+                  <a href={`${import.meta.env.BASE_URL}demorule/innovations`}>
                     "Let the People Decide.............." — Well argued Direct Democracy campaign for the UK
                   </a>
-                  <a href="/demorule/innovations">
+                  <a href={`${import.meta.env.BASE_URL}demorule/innovations`}>
                     Earth Charter: Democracy for Sustainability — Powerful Earth Charter Amendment draft showing why
                     Direct Democracy is vital to just and sustainable 3rd World development.
                   </a>
@@ -273,24 +285,30 @@ const Index = () => {
                   group of thirty people willing to dream and work together...
                 </p>
                 <div className="flex flex-col space-y-2 font-bold text-red-900 underline text-xl">
-                  <a href="/demorule/consensualdemo">Center for Consensual Democracy — The Mother Lode</a>
-                  <a href="/demorule/consensualdemo">Recreating Democracy by Wells &amp; Lemmel — The Good Book</a>
-                  <a href="/demorule/consensualdemo">Tools for Building Community — A Report on the State of the Art</a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/consensualdemo`}>
+                    Center for Consensual Democracy — The Mother Lode
+                  </a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/consensualdemo`}>
+                    Recreating Democracy by Wells &amp; Lemmel — The Good Book
+                  </a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/consensualdemo`}>
+                    Tools for Building Community — A Report on the State of the Art
+                  </a>
                 </div>
                 <div className="mt-10 border-t pt-8">
                   <p className="font-bold uppercase text-2xl mb-6 text-center">Consensual Communities in Maine</p>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 font-bold underline text-blue-900 text-center">
                     <li>
-                      <a href="/demorule/maine/limestone">Limestone, Maine</a>
+                      <a href={`${import.meta.env.BASE_URL}demorule/maine/limestone`}>Limestone, Maine</a>
                     </li>
                     <li>
-                      <a href="/demorule/maine/waterville">Waterville/Mid-Maine Region</a>
+                      <a href={`${import.meta.env.BASE_URL}demorule/maine/waterville`}>Waterville/Mid-Maine Region</a>
                     </li>
                     <li>
-                      <a href="/demorule/maine/aroostook">Aroostook County, Maine</a>
+                      <a href={`${import.meta.env.BASE_URL}demorule/maine/aroostook`}>Aroostook County, Maine</a>
                     </li>
                     <li>
-                      <a href="/demorule/maine/mikmaq">Aroostook Band of Mi'Gmaq/Micmac</a>
+                      <a href={`${import.meta.env.BASE_URL}demorule/maine/mikmaq`}>Aroostook Band of Mi'Gmaq/Micmac</a>
                     </li>
                   </ul>
                 </div>
@@ -436,7 +454,9 @@ const Index = () => {
                 </div>
 
                 <div className="text-center pt-8 font-bold text-2xl text-red-900 underline">
-                  <a href="/demorule/laborlaw">Toward a New Labor Law — The Fiery Full Monty</a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/laborlaw`}>
+                    Toward a New Labor Law — The Fiery Full Monty
+                  </a>
                 </div>
               </div>
             </section>
@@ -458,8 +478,10 @@ const Index = () => {
                   and democratic society, and deserves immediate debate in every forum in the land.
                 </p>
                 <div className="flex flex-col space-y-3 font-bold text-red-900 underline text-xl">
-                  <a href="/demorule/ownership">Building a Sustainable, Fulfilling Stakeholder Democracy — Overview</a>
-                  <a href="/demorule/ownership">
+                  <a href={`${import.meta.env.BASE_URL}demorule/ownership`}>
+                    Building a Sustainable, Fulfilling Stakeholder Democracy — Overview
+                  </a>
+                  <a href={`${import.meta.env.BASE_URL}demorule/ownership`}>
                     Humanising Corporations to Enrich Citizens &amp; Democracy — How to Create an
                     Ownership-Transfer-Corporation
                   </a>
@@ -490,7 +512,7 @@ const Index = () => {
                   </li>
                   <li>
                     <strong className="text-blue-900 font-bold">
-                      <a href="/demorule/chaordic" className="underline">
+                      <a href={`${import.meta.env.BASE_URL}demorule/chaordic`} className="underline">
                         The Chaordic Alliance
                       </a>
                     </strong>{" "}
@@ -517,9 +539,9 @@ const Index = () => {
                 </p>
               </div>
 
-              <a href="/newchau/" className="group inline-block">
+              <a href={`${import.meta.env.BASE_URL}newchau/`} className="group inline-block">
                 <img
-                  src="/graph/revolt.gif"
+                  src={`${import.meta.env.BASE_URL}graph/revolt.gif`}
                   alt="Revolt"
                   className="mx-auto mb-6 w-full max-w-[600px] hover:scale-105 transition-transform duration-300"
                 />

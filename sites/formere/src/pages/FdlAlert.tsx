@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FdlAlert = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";

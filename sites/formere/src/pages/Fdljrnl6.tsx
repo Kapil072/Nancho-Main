@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Fdljrnl6 = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,11 +18,11 @@ const Fdljrnl6 = () => {
 
 <CENTER>
 <EM>Subscribe now to receive the latest reports <BR>on human rights and democracy movements in the Asia-Pacific</EM><P>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL - AP QUARTERLY</EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <P>
-<IMG src="/graph/fdljrnl6.jpg" ALT="FDL-AP QUARTERLY Spring, '99 Issue" WIDTH=176 HEIGHT=250 BORDER=3>
+<IMG src="${import.meta.env.BASE_URL}graph/fdljrnl6.jpg" ALT="FDL-AP QUARTERLY Spring, '99 Issue" WIDTH=176 HEIGHT=250 BORDER=3>
 <P>
 
 
@@ -83,9 +83,9 @@ Burma <BR>by  Kei Nemoto
 </TABLE><P>
 
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

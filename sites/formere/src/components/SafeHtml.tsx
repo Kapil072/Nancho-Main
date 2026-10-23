@@ -31,5 +31,10 @@ export const preprocessHtml = (htmlContent: string): string => {
 
 export const SafeHtml = ({ html, className }: { html: string; className?: string }) => {
   const processed = preprocessHtml(html);
-  return <div dangerouslySetInnerHTML={{ __html: processed }} className={className} />;
+  return (
+    <div
+      dangerouslySetInnerHTML={{ __html: processed }}
+      className={className ? `legacy-content ${className}` : "legacy-content"}
+    />
+  );
 };

@@ -335,7 +335,7 @@ TO CONSULT HIM THYSELF, SEE A LONGER RIFF ON:<BR> <A HREF="http://www.d.umn.edu/
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -14,7 +14,13 @@ interface DemocracyPageProps {
 const DemocracyPageTemplate = ({ title, subtitle, content, externalLink }: DemocracyPageProps) => {
   const navigate = useNavigate();
 
-  const ColorBar = () => <img src="/bulls/advline2.gif" alt="" className="w-full h-2 object-cover opacity-90 my-4" />;
+  const ColorBar = () => (
+    <img
+      src={`${import.meta.env.BASE_URL}bulls/advline2.gif`}
+      alt=""
+      className="w-full h-2 object-cover opacity-90 my-4"
+    />
+  );
 
   return (
     <div className="min-h-screen bg-[url('/barks/frenchp2.gif')] bg-repeat bg-fixed bg-[#F5F5DC] text-[#000055] font-serif selection:bg-blue-200">
@@ -23,7 +29,7 @@ const DemocracyPageTemplate = ({ title, subtitle, content, externalLink }: Democ
         <aside className="w-full md:w-[180px] shrink-0 p-6 md:sticky md:top-0 h-fit bg-transparent z-10">
           <button onClick={() => navigate("/")} className="w-full hover:opacity-80 transition-opacity">
             <img
-              src="/graph/BMREVDEM.jpg"
+              src={`${import.meta.env.BASE_URL}graph/BMREVDEM.jpg`}
               alt="Return to Democracy Index"
               className="mx-auto w-full max-w-[150px] border-2 border-[#000055]/30 shadow-lg cursor-pointer"
             />

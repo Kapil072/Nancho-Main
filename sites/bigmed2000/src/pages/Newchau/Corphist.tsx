@@ -20,7 +20,7 @@ const NewchauCorphist = () => {
 
 <h3>Chronology of Incorporation and Monopoly</h3>
 compiled by George Draffan <br>
-� Public Information Network, <br>
+© Public Information Network, <br>
 PO Box 95316, Seattle WA 98145-2316<p>
 
 <IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=1><P></CENTER>
@@ -278,7 +278,7 @@ IBM controlled 65 percent of the computer industry; General Electric and Westing
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

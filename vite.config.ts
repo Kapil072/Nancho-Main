@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 const TYPES: Record<string, string> = {
-  ".html": "text/html", ".htm": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json",
+  ".html": "text/html; charset=utf-8", ".htm": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".json": "application/json",
   ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif",
   ".ico": "image/x-icon", ".webp": "image/webp", ".mp3": "audio/mpeg", ".wav": "audio/wav", ".mp4": "video/mp4",
   ".pdf": "application/pdf", ".txt": "text/plain", ".xml": "text/xml", ".ram": "audio/x-pn-realaudio",

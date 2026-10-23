@@ -53,7 +53,7 @@ This is why US policies in Iraq, Cuba and the Balkans are -- perhaps consciously
 <DT><STRONG>MEMETIC EMASCULATION </STRONG><dd> <CENTER>Altering humans to prevent individual emission/propagation of seminal ideas or cultural innovations.</CENTER><P>
 <DT><STRONG>NANCHO</STRONG><dd><CENTER> Literally, "Southern Morning" - Japanese name of a 14th century Taoist revolt that championed decentralized power, sensual spirituality and the dissolution of the era's military-industrial complex. Now signifies a movement to inaugurate global populist democracy, assist lands/peoples victimized in North/South &amp; BIG/small confrontations, and revive the authority of the sensual southern chakras as sources of social, political and evolutionary wisdom. </CENTER>.<P>
  <DT><STRONG>NEOTENY</STRONG>  <dd> <CENTER> 1. The voluntary renunciation of maturation, metamorphosis and/or individuation by an organism; 2. The attainment of sexual fertility by an organism still in its larval stage; 3.  The persistent retention of juvenile traits in the adults of a species, as among certain amphibians and most members of hierarchical organizations.</CENTER><P>
-<DT><STRONG>SALTATION</STRONG> <dd><CENTER>From the Latin "saltatio", to leap - now meaning a jump in dancing, an abrupt transition, a sudden evolutionary transformation of a species; suggestively related to �sally� - a sudden assault from a defensive position. Used here in its human evolutionary sense of an abrupt adaptive change in consciousness.</CENTER><P>
+<DT><STRONG>SALTATION</STRONG> <dd><CENTER>From the Latin "saltatio", to leap - now meaning a jump in dancing, an abrupt transition, a sudden evolutionary transformation of a species; suggestively related to ‘sally’ - a sudden assault from a defensive position. Used here in its human evolutionary sense of an abrupt adaptive change in consciousness.</CENTER><P>
 <DT><STRONG>SOCIAL ENDOCRINOLOGY</STRONG> <dd> <CENTER>Study of hormonal 
 influences on cultural creativity, economic performance,<BR>political behavior, societal evolution, etc.</CENTER>
 
@@ -165,7 +165,7 @@ influences on cultural creativity, economic performance,<BR>political behavior, 
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

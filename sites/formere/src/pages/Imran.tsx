@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Imran = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,25 +18,25 @@ const Imran = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG><BR><HR WIDTH=120 ALIGN=center SIZE=2>Views from Pakistan</FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <TABLE BORDER=0 CELLPADDING=9 CELLSPACING=9>
 <TR><TD ALIGN=MIDDLE><HR WIDTH=300 ALIGN=CENTER SIZE=3>
 <H3>"Islam means Justice, <BR>and Justice means Rights"</H3> 
 <h4><FONT  COLOR=#002400>An Interview with Imran Khan<BR></FONT></h4>
-<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR></TD><TD ALIGN=MIDDLE><IMG src="/graph/imran5.jpg" ALT="Imran Khan" WIDTH=141 HEIGHT=200 HSPACE=20 BORDER=1 ></TD></TR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR></TD><TD ALIGN=MIDDLE><IMG src="${import.meta.env.BASE_URL}graph/imran5.jpg" ALT="Imran Khan" WIDTH=141 HEIGHT=200 HSPACE=20 BORDER=1 ></TD></TR>
 </TABLE>
 </CENTER>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
 <FONT  SIZE=+1>
 <BLOCKQUOTE><EM>To cricket fans around the world, Imran Khan, 45, will perhaps always be the "Lion of Lahore." The legendary cricket captain played for 21 years, both in Pakistan and in the UK. A source of unending national pride for his country he abruptly stopped professional cricket after captaining Pakistan to its l992 World Cup victory and on his 40th birthday, the international playboy metamorphosed into a social and political reformer. These days he dresses in simple, traditional clothing and can usually be found in his small office in the cancer hospital he built in memory of his mother. Not only is this ultra modern facility reputedly the finest of its kind in Pakistan, 92 percent of its patients receive their cancer treatments for free. He credits his abrupt transformation in character to his renewed faith in Islam. <P>Although Kahn says that he never intended to enter politics, his religious views also catalyzed the formation of a new opposition party in Pakistan, the Tehriq-e-Insaaf, or Justice Party. Current party members are largely middle class professionals with no previous political experience, but who share Khan's vision of a "soft revolution" that will cleanse Pakistan of corruption and improve the country's abysmal health and education systems, as well as sweep aside all "brown-sahib" remnants of British colonialism. <P>Millions of Pakistanis share Khan's disgust at the greed that governs politics, but after his party's dismal showing in the national and local elections last year, it is still uncertain whether he can ever translate that aversion into votes. But Khan is committed, "whether it's the next election or the next one after that, there's no question of ever giving up until we bring about change."</EM> </BLOCKQUOTE>
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=400 HEIGHT=4 VSPACE=6>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=400 HEIGHT=4 VSPACE=6>
 </CENTER>
 
 <h4><FONT  COLOR=#002400>Nancho: Salman Taseer of the PPP (Pakistan People's Party) once gave this assessment of your political prospects: "He does not understand the realities of politics. Politics in Pakistan is a nasty, slow, dangerous grind. I have been to jail 14 times, he has never seen the back end of a jail." After your poor showing in the February 3rd elections last year, how would you assess his view of the nature of politics in Pakistan and your potential to succeed within it?</FONT></h4>
@@ -69,7 +69,7 @@ And the more I got into it, the more I realized that here we are in the country 
 </TABLE>
 
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 <h4><FONT  COLOR=#002400>
 Nancho: Do you think that you could possibly be more effective as a social reformer than in the realm of politics?
 </FONT></h4>
@@ -124,7 +124,7 @@ It should be noted that no Muslim missionaries or armies ever went to Malaysia o
 </TD></TR>
 </TABLE>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 <h4><FONT  COLOR=#002400>Nancho: What does Islamic fundamentalism mean? Why has the West taken on this term to crusade against the Muslims?</FONT></h4>
 <FONT  SIZE=+1>
 <BLOCKQUOTE>IK: The West is totally ignorant about Islam. There are pockets in the West now which fortunately are beginning to understand. I have read one or two very important books by westerners on Islam recently but books like "Clash of Civilization" by Huntington don't help. He envisages these monolith Islamic civilizations and doesn't realize that in Islam there are so many different types of civilizations. To say that Islam here in Pakistan is the same as that in Chechnya or in Bosnia or in Saudi Arabia is just nonsense because they are very different civilizations. We believe in the same basic ideology, but that ideology encompasses all human beings. 
@@ -175,7 +175,7 @@ What I dislike about them is their double-standards in the way they protect the 
 </TD></TR>
 </TABLE>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 <h4><FONT  COLOR=#002400>Nancho: The jilghar system which is a council of the most respected elders of the community is the traditional way of solving disputes. Every decision must be followed and cannot be challenged. This is prominent in Pathan tribes where there is no court, no police, everything is decided by jilghar.</FONT></h4> 
 <FONT  SIZE=+1>
 
@@ -227,10 +227,10 @@ Nancho rep: Kathy Sokol-Kubiak</FONT></h4>
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlalert.html"><STRONG>Alerts</A></STRONG> | 
 <A HREF="fdlpaper.html#interview"><STRONG>Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:fdlap@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

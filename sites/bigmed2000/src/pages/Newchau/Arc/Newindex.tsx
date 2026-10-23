@@ -159,7 +159,7 @@ LAND FROM THE CORPORATE COUP.<p>
 <hr align="left" width="90" size="3">
 
 
-<font size="3">�Practically every progressive struggle--campaign finance reform, sweatshops, family farms, fair trade, health care for all, unionization, military spending, tax reform, alternative energy, healthy food, media access, hazardous waste dumps, redlining, alternative medicine, you name it--is being fought against one cluster of corporations or another. But it is not that corporation over there or this one over here that is the enemy. It is not one industry's contamination of our drinking water or another's perversion of the lawmaking process that is the problem--rather it is the corporation itself that must be addressed if we are to be a free people... The piecemeal approach to fighting corporate abuses keeps us spread thin, separated, on the defensive, riveted on the minutiae, and fighting on their terms. Piecemeal battles must certainly continue, for there are real and immediate corporate harms to be addressed. But it's time for our strategic emphasis to shift to the offensive, raising what I believe to be the central political issue for the new century: <strong>Who the hell is in charge here?</strong>"</font> -- Jim Hightower<p>
+<font size="3">“Practically every progressive struggle--campaign finance reform, sweatshops, family farms, fair trade, health care for all, unionization, military spending, tax reform, alternative energy, healthy food, media access, hazardous waste dumps, redlining, alternative medicine, you name it--is being fought against one cluster of corporations or another. But it is not that corporation over there or this one over here that is the enemy. It is not one industry's contamination of our drinking water or another's perversion of the lawmaking process that is the problem--rather it is the corporation itself that must be addressed if we are to be a free people... The piecemeal approach to fighting corporate abuses keeps us spread thin, separated, on the defensive, riveted on the minutiae, and fighting on their terms. Piecemeal battles must certainly continue, for there are real and immediate corporate harms to be addressed. But it's time for our strategic emphasis to shift to the offensive, raising what I believe to be the central political issue for the new century: <strong>Who the hell is in charge here?</strong>"</font> -- Jim Hightower<p>
 <hr align="left" width="120" size="3">
 <strong>BACKGROUND</strong>
 <hr align="left" width="120" size="3">
@@ -304,7 +304,7 @@ THIS NEW CHAUTAUQUA WILL BOTH ADVANCE THAT AWAKENING AND CELEBRATE IT. JUST THIN
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

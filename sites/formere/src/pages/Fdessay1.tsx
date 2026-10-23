@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Fdessay1 = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,9 +18,9 @@ const Fdessay1 = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <HR WIDTH=300 ALIGN=CENTER SIZE=3>
 <H3> "Asia and Human Rights"</H3> 
@@ -29,7 +29,7 @@ Director, Education Department<BR>Amnesty International</H4>
 <HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
 </CENTER>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
 	<FONT  SIZE=4>At the end of this year we will "celebrate" the 50th anniversary of the Universal Declaration of 
 Human Rights.  Unfortunately, however, there will be little to celebrate for many in Asia because this document has little meaning for a countless number of Asians.  It was document drawn up from the 
@@ -65,9 +65,9 @@ Kong</H4>
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

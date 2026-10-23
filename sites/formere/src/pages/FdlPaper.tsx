@@ -5,7 +5,7 @@ import { HeaderBlock } from "./Index.tsx";
 const FdlPaper = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#C9FFC8";
-    document.body.style.backgroundImage = "url('/graph/fdbk7.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}graph/fdbk7.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -44,7 +44,7 @@ const FdlPaper = () => {
               Interviews
             </a>
           </div>
-          <img src="/graph/fdline5.gif" className="w-full h-2 my-6" alt="divider" />
+          <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-6" alt="divider" />
         </center>
 
         {/* 1. FDL-AP Quarterly Journal Section */}
@@ -101,7 +101,7 @@ const FdlPaper = () => {
           </div>
         </section>
 
-        <img src="/graph/fdline5.gif" className="w-full h-2 my-8" alt="divider" />
+        <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-8" alt="divider" />
 
         {/* 2. Declarations Section */}
         <section id="declarations" className="my-12 scroll-mt-6">
@@ -127,7 +127,7 @@ const FdlPaper = () => {
           </div>
         </section>
 
-        <img src="/graph/fdline5.gif" className="w-full h-2 my-8" alt="divider" />
+        <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-8" alt="divider" />
 
         {/* 3. Recommended Readings Section */}
         <section id="reading" className="my-12 scroll-mt-6">
@@ -207,7 +207,7 @@ const FdlPaper = () => {
           </div>
         </section>
 
-        <img src="/graph/fdline5.gif" className="w-full h-2 my-8" alt="divider" />
+        <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-8" alt="divider" />
 
         {/* 4. Featured Interviews Section */}
         <section id="interview" className="my-12 scroll-mt-6">

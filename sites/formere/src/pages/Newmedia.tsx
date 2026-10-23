@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Newmedia = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,9 +18,9 @@ const Newmedia = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <HR WIDTH=300 ALIGN=CENTER SIZE=3>
 <H3>"The New Media and Human Rights"</H3>
@@ -28,7 +28,7 @@ const Newmedia = () => {
 <HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
 </CENTER>
 <TABLE>
-<TR><TD><IMG src="/bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<TR><TD><IMG src="${import.meta.env.BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
 
  
 <P>
@@ -64,9 +64,9 @@ These four examples are indexes for four dimensions of use in the new digital gl
 </TABLE>
 
 <CENTER>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=14><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=14><BR>
 <HR WIDTH=350 ALIGN=CENTER SIZE=2>
 <P>
 </CENTER>

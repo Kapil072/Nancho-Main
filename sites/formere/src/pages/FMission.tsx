@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const FMission = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#C9FFC8";
-    document.body.style.backgroundImage = "url('/graph/fdbk7.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}graph/fdbk7.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -71,7 +71,7 @@ The FDL- AP will work to expose sources of injustice, as well as violations of f
 
 By Global democracy, we mean a comprehensive and global approach to the notion of democracy and peaceful coexistence. Democracy is based on the protection of fundamental rights, and includes the right to fully develop and cultivate one's humanity. However, global democracy ought not stop there, but extends to include the harmonious and interdependent relationship between man, nature and the environment; this includes the right of all living things to a wholesome existence, as well as our accountability to all future generations of the human family.<P>
 
-Therefore, to promote the evolution and realization of a global democracy, the FDL-A� will support and sponsor academic exchanges, research projects as well as consolidate international cooperation with other NGOs, organizations and governments in the spirit of cooperation, to insure the mutual welfare and peaceful coexistence of all life in the global community, and the liberty and equality of all members of the human family.</BLOCKQUOTE><P>
+Therefore, to promote the evolution and realization of a global democracy, the FDL-A¹ will support and sponsor academic exchanges, research projects as well as consolidate international cooperation with other NGOs, organizations and governments in the spirit of cooperation, to insure the mutual welfare and peaceful coexistence of all life in the global community, and the liberty and equality of all members of the human family.</BLOCKQUOTE><P>
 
 <H3>4. Solidarity among Democratic Leaders</H3><P>
 

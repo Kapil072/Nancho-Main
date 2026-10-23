@@ -150,7 +150,7 @@ believe in it.  Like Wile E. Coyote, if you look down, you will fall.  This
 is why paranoids are so often right.
 <P>
 This too may seem a little unhelpful.  I feel kind of like the guy with the
-big, crazy R�ttweiller who says, "Hey, don't worry, he only attacks if he
+big, crazy Röttweiller who says, "Hey, don't worry, he only attacks if he
 thinks you're afraid of him."
 <P>
 It's not enough for me to get up here and tell you that you have nothing to
@@ -469,7 +469,7 @@ But actually I think all that will be covered if you'll just say Yes.</BLOCKQUOT
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

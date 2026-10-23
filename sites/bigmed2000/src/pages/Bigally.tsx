@@ -294,7 +294,7 @@ CIA Unveils New Ghetto Drugs For '98</A>
         <DL>
             <DT><A HREF="http://freedom.tao.ca/mondrago.html" target="_blank"><STRONG>Mondragon Co-ops</STRONG></A><dd>Spain's amazingly successful worker-owned business empire  Actually now too big by half, but dramatically demonstrates that workplace democracy does work.<BR>
     <DT><A HREF="http://www.context.org/ICLIB/IC02/Gilman2.htm" target="_blank">
-<STRONG>Mondrag�n: The Remarkable Achievement</STRONG> </A>                              by Robert Gilman<BR>
+<STRONG>Mondragón: The Remarkable Achievement</STRONG> </A>                              by Robert Gilman<BR>
 
             <DT><A HREF="http://www.transaction.net/biz/models/ownership.html" target="_blank"><STRONG>Transaction Net</STRONG></A><dd>Models of Employee-Owned Businesses<BR>
 
@@ -442,7 +442,7 @@ CIA Unveils New Ghetto Drugs For '98</A>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

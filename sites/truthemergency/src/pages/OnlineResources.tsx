@@ -8,7 +8,7 @@ const onlineResources = [
       "State-of-the-Art Memes & Tactics for Corporate Subordination. Offers full video and audio lecture archives concerning the restriction of corporate power.",
     link: "https://web.archive.org/web/20150223102818/http://tamethecorporation.org/agenda.html",
     archiveLabel: "Full A/V Archives here!",
-    imageUrl: "/images/tamingcorpsheader400.jpg",
+    imageUrl: `${import.meta.env.BASE_URL}images/tamingcorpsheader400.jpg`,
   },
   {
     title: "National Conference for Media Reform (NCMR 2007)",
@@ -16,7 +16,7 @@ const onlineResources = [
       "Perspectives on America's Populist Nervous System Today. Highlights full media and reform lectures and sessions advocating for democratizing communication networks.",
     link: "https://web.archive.org/web/20150223102818/http://www.freepress.net/ncmr07/=video07",
     archiveLabel: "Full A/V Archives here!",
-    imageUrl: "/images/mediareformheader400.jpg",
+    imageUrl: `${import.meta.env.BASE_URL}images/mediareformheader400.jpg`,
   },
   {
     title: "George Carlin on Education vs. Corporate Interest",

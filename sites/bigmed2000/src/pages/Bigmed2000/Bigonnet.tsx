@@ -194,7 +194,7 @@ Dwight D. Eisenhower's Military-Industrial Complex Speech</STRONG></A><DD>1961 -
   <LI>     <DT><a href="http://www.essential.org/monitor/mm1998/mm9801.09.html" target="_blank"><STRONG>
 Corporate Junk Science</STRONG></A> - Corporate Influence at  International Science Organizations<BR>
 
-  <LI>      <DL><DT><a href="http://www.abcnews.go.com/sections/living/SecondOpinion/secondopinion_3.html" target="_blank"><STRONG>Don�t Tell, Don�t Ask</STRONG></A><DD>
+  <LI>      <DL><DT><a href="http://www.abcnews.go.com/sections/living/SecondOpinion/secondopinion_3.html" target="_blank"><STRONG>Don’t Tell, Don’t Ask</STRONG></A><DD>
 "Corporate suppression of research results can threaten  public health, and  ruin the careers of  scientists who insist on publishing negative data."</DL><BR>
 
   <LI>      <DT><a href="http://www.thenation.com/issue/990322/0322shenk.shtml" target="_blank"><STRONG>
@@ -235,7 +235,7 @@ As one writer points out: 'Imagine,  your target market not only reads your ads,
 </DL>
 
   <LI>      <DT><a href="http://www.thehoya.com/viewpoint/012299/view4.htm" target="_blank"><STRONG>
-Where�s the Outrage? Student Apathy is the Result of Corporate Influence</STRONG></A>
+Where’s the Outrage? Student Apathy is the Result of Corporate Influence</STRONG></A>
 
   <LI>      <DT><a href="http://www.lbbs.org/ZMag/articles/oct96cardella.htm" target="_blank"><STRONG>
 School-to-Work, A Corporate Raid on Public  Education</STRONG></A>
@@ -298,7 +298,7 @@ Interview with Professor Ben Bagdikian</STRONG></A><DD>
      companies have 51 per cent of the national average of daily circulation. In the case of
      television, three corporations have about 75 per cent of the business.<P>
 
-     <STRONG>SI:</STRONG> Don�t we have anti-monopoly laws that are supposed to prevent this kind of
+     <STRONG>SI:</STRONG> Don’t we have anti-monopoly laws that are supposed to prevent this kind of
      thing from happening?<P>
 
      <STRONG>BB:</STRONG> They have been put to sleep..., interpreted into coma.<P>
@@ -318,7 +318,7 @@ Interview with Professor Ben Bagdikian</STRONG></A><DD>
 "Given the existing concentration of economic resources, the mere absence of government censorship is not
 enough to ensure a truly independent media. NBC is owned by General Electric, ABC by Disney, and CBS by
 Westinghouse. These corporations have particular interests. In the short term they are interested in maximizing
-profits. But they also have strategic interests. It�s not surprising that you don�t see a lot of press coverage of the
+profits. But they also have strategic interests. It’s not surprising that you don’t see a lot of press coverage of the
 negative impact of mergers on consumer prices, or mass layoffs, or the increasing concentration of corporate political
 power. And when these media corporations maximize profits, that means maximizing advertising dollars which could
 be hurt if their reporting offends other big corporations which are largely the source of those dollars."</DL><P>
@@ -538,7 +538,7 @@ Genetics and Domestic Animal Behavior</STRONG></A><dd>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

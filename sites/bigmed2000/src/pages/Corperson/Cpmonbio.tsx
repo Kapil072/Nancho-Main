@@ -65,7 +65,7 @@ At the same time, however, they have helped to ensure that the "social, economic
 article 13 of the European Convention, by which we could have contested the corporations' absolute control of fundamental resources, has been deliberately excluded from our own Human Rights Act. 
 <P>
 The rise of corporate human rights has been accompanied by an erosion of responsibilities. Limited liability allows firms 
-to shed their obligations towards their creditors. Establishing subsidiaries � regarded in law as separate entitles � allows 
+to shed their obligations towards their creditors. Establishing subsidiaries — regarded in law as separate entitles — allows 
 them to shed their obligations towards the rest of us. And while they can use human rights laws against us, we can't use 
 human rights laws against them, as they were developed to constrain only the activities of states. As far as the law goes, 
 corporations are now more human than we are. 
@@ -78,7 +78,7 @@ The creatures we invented to serve us are taking over. While we have been fretti
 and artificial intelligence, our domination by bodies we created but have lost the means to control has already arrived. It is 
 surely inconceivable that we should grant human rights to computers. Why then should they be enjoyed by corporations? 
 <P>
-� Guardian Newspapers Limited 2000 
+© Guardian Newspapers Limited 2000 
 
 	</strong>
 	</td>
@@ -179,7 +179,7 @@ surely inconceivable that we should grant human rights to computers. Why then sh
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

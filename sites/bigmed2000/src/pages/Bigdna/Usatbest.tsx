@@ -125,7 +125,7 @@ no longer true.
 The corporate law establishes a structure under which all corporations
 operate.  The key element of this structure is the duty of directors to
 try to make money for shareholders.  This duty of directors, in turn,
-becomes the primary directive for all of the corporation�s officers,
+becomes the primary directive for all of the corporation’s officers,
 managers and other employees.
 
 <p>
@@ -294,7 +294,7 @@ recognize this, then we may begin to see an America at its best.
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

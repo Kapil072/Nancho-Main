@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const Bigngo15 = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#FFFFEE";
-    document.body.style.backgroundImage = "url('/barks/frenchp2.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/frenchp2.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -12,16 +12,16 @@ const Bigngo15 = () => {
     };
   }, []);
 
-  const htmlContent = `<a href="${import.meta.env.BASE_URL}"><img src="/graph/BIGBODBM.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Personhood Index"></a>
+  const htmlContent = `<a href="${import.meta.env.BASE_URL}"><img src="${import.meta.env.BASE_URL}graph/BIGBODBM.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Personhood Index"></a>
 
-<div align="center"><IMG SRC="/bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<div align="center"><IMG SRC="${import.meta.env.BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
 <STRONG> <FONT  SIZE=4 COLOR=#000055> ACTIVISTS SHOULD FOCUS ON CORPORATIONS<br>
 Open Letter to 15 of the Biggest Environmental NGOs</font><br>
 (Signed by over 400 grassroots leaders, sent 11-17-94, never answered)
 </STRONG><br>
 
 
-<div align="center"><IMG SRC="/bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+<div align="center"><IMG SRC="${import.meta.env.BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
 <table width="580" cellspacing="2" cellpadding="2" border="0">
 <tr>
     <td>
@@ -935,7 +935,7 @@ Cindy Zipf
 </table></div>
 
 
-<br><div align="center"><a href="/Nancho-Main/newchau/newchau/" target="_top"><img src="/graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<br><div align="center"><a href="/Nancho-Main/newchau/newchau/" target="_top"><img src="${import.meta.env.BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
 <font size="-1">The Way  Home</font></a></div><br>
 
 <div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="/Nancho-Main/newchau/newchau/ccgoals.html">Goals</a> | <a href="/Nancho-Main/newchau/newchau/ccplay.html">Play</a> |  <a href="/Nancho-Main/newchau/newchau/gospels.html">Study</a> | <a href="/Nancho-Main/newchau/newchau/ccnews.html">News</a> | <a href="/Nancho-Main/newchau/newchau/faq.html">FAQ</a> | <a href="/Nancho-Main/newchau/newchau/contact.html">Contact</a> | <a href="/Nancho-Main/newchau/newchau/cchelp.html">Help</a> | <a href="/Nancho-Main/newchau/newchau/nchistry.html">Archives</a></font></div>
@@ -949,36 +949,16 @@ Cindy Zipf
       <style>{`
         a { color: #B32D41; text-decoration: underline; font-weight: bold; }
         a:hover { color: #FF4444; }
-        h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 1em; text-align: left; width: 100% !important; }
+        h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 1em; }
         strong, b { font-weight: 900; }
-        ul { list-style-type: disc; padding-left: 2em; margin-bottom: 1em; width: 100% !important; }
+        ul { list-style-type: disc; padding-left: 2em; margin-bottom: 1em; }
         li { margin-bottom: 0.5em; }
         img { max-width: 100%; height: auto; display: inline-block; }
-        center { text-align: center; display: block; width: 100% !important; }
-        hr { border: 0; border-top: 2px solid currentColor; margin: 1em auto; width: 100% !important; }
-        
-        /* Force full horizontal width for paragraphs, blockquotes, and tables */
-        blockquote { 
-          margin-left: 0 !important; 
-          margin-right: 0 !important; 
-          padding-left: 0 !important; 
-          padding-right: 0 !important; 
-          width: 100% !important; 
-          max-width: 100% !important; 
-        }
-        table { 
-          clear: both;
-          width: 100% !important; 
-          max-width: 100% !important; 
-          margin-top: 1.5rem;
-        }
-        p { 
-          width: 100% !important; 
-          max-width: 100% !important; 
-        }
+        center { text-align: center; display: block; }
+        hr { border: 0; border-top: 2px solid currentColor; margin: 1em auto; }
       `}</style>
 
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="w-full" />
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} className="w-full legacy-content" />
     </div>
   );
 };

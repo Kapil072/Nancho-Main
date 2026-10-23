@@ -12,7 +12,7 @@ const sections = [
         referenceLink:
           "https://web.archive.org/web/20181104061539/http://www.dailykos.com/storyonly/2007/3/25/112857/665",
         buyLink: "https://www.amazon.com/Blackwater-Worlds-Powerful-Mercenary-Army/dp/1568584164",
-        imageUrl: "/images/films/iraqforsaledvd150.jpg",
+        imageUrl: `${import.meta.env.BASE_URL}images/films/iraqforsaledvd150.jpg`,
         gradient: "from-zinc-800 to-zinc-950",
       },
       {

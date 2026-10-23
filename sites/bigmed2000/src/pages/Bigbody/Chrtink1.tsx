@@ -556,7 +556,7 @@ Back to<BR><STRONG><A href="${BASE_URL}arcmain.html#bbpathology">Big Bodies</A><
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

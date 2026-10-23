@@ -199,7 +199,7 @@ Behavior</I></B></FONT><BR><IMG HEIGHT=139 WIDTH=91 SRC="${BASE_URL}bigmed2001/s
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -213,7 +213,7 @@ working on ways to remove encroaching, co-opting corporations from the local pub
 school system.  
 
 <P>
-The IMPORTANT question is HOW we do this work? ��.. RADICALLY.  
+The IMPORTANT question is HOW we do this work? …….. RADICALLY.  
 This proposal acknowledges that we are NOT succeeding in stopping the damage  
 corporations impose by doing what we've been doing - trying to regulate, reform, make  
 more responsible or better behaving these institutions we created to serve us,  
@@ -296,7 +296,7 @@ today.
 arrangements and institutions; rule by the ruled, which is incompatible with capitalism  
 and with corporate power and wealth as they exist today. 
 <P>
-<B>FIRST AMENDMENT RIGHTS - </B>"Congress shall make no law� abridging the freedom  
+<B>FIRST AMENDMENT RIGHTS - </B>"Congress shall make no law… abridging the freedom  
 of speech, or the press; or the right of people peaceably to assemble." The negative  
 wording offers protection from public law but not private; e. g., the Constitution does not  
 prohibit employers from denying workers free speech and assembly.  
@@ -348,7 +348,7 @@ in the nature of artificial entities; it is we people who are responsible for th
 and impact of institutions intended to serve us.  
 <P>
 <B>INTERNATIONAL INSTITUTIONS/ AGREEMENTS:  
-BRETTON WOODS </B>- post�World War II treaty that created the World Bank and the  
+BRETTON WOODS </B>- post–World War II treaty that created the World Bank and the  
 International Monetary Fund, supposedly to help particular states out of financial  
 difficulties; eventually the WB turned from the reconstruction of Europe to the  
 development of former colonies, while the IMF became the enforcement arm of the  
@@ -461,7 +461,7 @@ Website: <a href="http://www.wilpf.org" target="_blank">www.wilpf.org</a> <B>___
 <B>EXECUTIVE DIRECTOR/U. S. SECTION COORDINATOR <BR>
 </B>Mary Day Kent <BR>
 <B>International Office </B>Centre International <BR>
-1 rue de Varemb� 1211 Geneva 20 <BR>
+1 rue de Varembé 1211 Geneva 20 <BR>
 Switzerland 41-22-733-61-75 <BR>
 41-22-740-10-63 (FAX) <BR>
 <B>UNITED NATIONS REPRESENTATIVE <BR>
@@ -647,7 +647,7 @@ Email: ggilhool@ix.netcom.com Web: www.wilpf.org
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

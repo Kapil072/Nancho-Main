@@ -5,7 +5,7 @@ import { HeaderBlock } from "./Index";
 const CorpRule = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#FAF0D6";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#620000";
     return () => {
       document.body.style.backgroundColor = "";

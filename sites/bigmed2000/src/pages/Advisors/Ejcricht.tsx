@@ -143,7 +143,7 @@ I was ten years old before there was television. That's old enough to see what i
 
 <FONT  COLOR=#400000>  I'm getting a lot of news from your good angel here today, because you obviously do make judgments in your work. You make these powerful diatribes that come bursting out in these otherwise placid plot movements sometimes. And obviously something has been building up and the fact that you were still able to deliver it to the screen as well as through the book is often miraculous. But when that comes out, you are full of judgment. And it's not necessarily "this is how you should live your life" but "this is what's happening and this is how I see it and I do not look lightly upon this phenomenon...."</FONT>  <P>
 
-<BLOCKQUOTE>  <STRONG>MC</STRONG>:  <A NAME="Lappham">And </A>I certainly have spoken in those ways here � about the erosion of human values that I see; the erosion of the opportunity for human interactive time; the dominance of increasingly large corporate business groups that have increasingly autonomous agendas that no one can touch; and the increasing recognition that 'that's the way it is.' You know, Louis Lappham who is the editor of Harper's Magazine was on television and I just thought it was breathtaking...after the last American election, he said, "Well, I think we had the election that the corporations allowed us to have." Just like that, on television. Well, no one will really touch this intellectually. It's just too scary. We all like to think that we are masters of our fate and we go, "march right into that polling booth and make our feelings known." Uh, hmmm. (sarcastic tone) Yeah, I talk about that.</BLOCKQUOTE>  <P>
+<BLOCKQUOTE>  <STRONG>MC</STRONG>:  <A NAME="Lappham">And </A>I certainly have spoken in those ways here – about the erosion of human values that I see; the erosion of the opportunity for human interactive time; the dominance of increasingly large corporate business groups that have increasingly autonomous agendas that no one can touch; and the increasing recognition that 'that's the way it is.' You know, Louis Lappham who is the editor of Harper's Magazine was on television and I just thought it was breathtaking...after the last American election, he said, "Well, I think we had the election that the corporations allowed us to have." Just like that, on television. Well, no one will really touch this intellectually. It's just too scary. We all like to think that we are masters of our fate and we go, "march right into that polling booth and make our feelings known." Uh, hmmm. (sarcastic tone) Yeah, I talk about that.</BLOCKQUOTE>  <P>
 
 <FONT  COLOR=#400000> And....</FONT>  <P>
 
@@ -284,7 +284,7 @@ TO CONSULT HIM THYSELF, VISIT A CRICHTON CORNUCOPIA:<BR> <A HREF="http://spaa.si
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

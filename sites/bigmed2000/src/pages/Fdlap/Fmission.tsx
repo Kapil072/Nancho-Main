@@ -71,7 +71,7 @@ The FDL- AP will work to expose sources of injustice, as well as violations of f
 
 By Global democracy, we mean a comprehensive and global approach to the notion of democracy and peaceful coexistence. Democracy is based on the protection of fundamental rights, and includes the right to fully develop and cultivate one's humanity. However, global democracy ought not stop there, but extends to include the harmonious and interdependent relationship between man, nature and the environment; this includes the right of all living things to a wholesome existence, as well as our accountability to all future generations of the human family.<P>
 
-Therefore, to promote the evolution and realization of a global democracy, the FDL-A� will support and sponsor academic exchanges, research projects as well as consolidate international cooperation with other NGOs, organizations and governments in the spirit of cooperation, to insure the mutual welfare and peaceful coexistence of all life in the global community, and the liberty and equality of all members of the human family.</BLOCKQUOTE><P>
+Therefore, to promote the evolution and realization of a global democracy, the FDL-A¹ will support and sponsor academic exchanges, research projects as well as consolidate international cooperation with other NGOs, organizations and governments in the spirit of cooperation, to insure the mutual welfare and peaceful coexistence of all life in the global community, and the liberty and equality of all members of the human family.</BLOCKQUOTE><P>
 
 <H3>4. Solidarity among Democratic Leaders</H3><P>
 
@@ -222,7 +222,7 @@ and third previous objectives. To do this, the FDL-AP will support international
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

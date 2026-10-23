@@ -37,7 +37,7 @@ IT'S AN EMERGENCY!
     <td>
 	<hr width="320" size="3">
 <div align="center">	<strong>"<em>The U.S. Constitution may not be perfect, <br>
-but it�s a lot better than what we�ve got now.</em>"</strong></div><hr width="320" size="3"><p>
+but it’s a lot better than what we’ve got now.</em>"</strong></div><hr width="320" size="3"><p>
 
 When a corporate coup occurs and We the People lose control of our government, two things have to happen at once. We must abruptly belittle corporations' power and radically enlarge our own. This section introduces the most promising means to the latter end. Most of the following ideas have not only been time-tested in such "radical" societies as Switzerland, Denmark or suburban Philadelphia, they all have active local movements pushing them forward today. If you are constitutionally more comfortable rebuilding sovereign power from the ground up (rather than yanking the usurping bastards on top down), choose a tool and lend a hand.
 
@@ -166,7 +166,7 @@ Reimagining Local Communities,<br>
 Center for Consensual Democracy
 </strong></strong>
    	<hr align="left" width="240" size="3">
-Consensual Democracy is a proven way to revive, renew and sustain your local community � a grassroots                                   approach that empowers local citizens to build their own virtual government and the communities they truly desire. 
+Consensual Democracy is a proven way to revive, renew and sustain your local community — a grassroots                                   approach that empowers local citizens to build their own virtual government and the communities they truly desire. 
  Consensual Dem is a practical approach with a 50-year track record that mobilizes the shared visions, values and goals of the immediate community. All a town needs to get started is a group of thirty people willing to dream and work together...
 
 
@@ -180,7 +180,7 @@ Consensual Democracy is a proven way to revive, renew and sustain your local com
 <li> <strong><a href="http://consensualdemocracy.org/limestone_me.htm" target="_blank">Limestone, Maine</a></strong>
 <li> <strong><a href="http://consensualdemocracy.org/waterville_midmaine.htm" target="_blank">Waterville/Mid-Maine Region</a></strong>
 <li> <strong><a href="http://consensualdemocracy.org/aroostook_county.htm">Aroostook County, Maine</a></strong> 
-<li> <strong><a href="http://consensualdemocracy.org/micmac.htm" target="_blank">Aroostook Band of Mi�Gmaq/Micmac</a></strong>
+<li> <strong><a href="http://consensualdemocracy.org/micmac.htm" target="_blank">Aroostook Band of Mi’Gmaq/Micmac</a></strong>
 </ul>
 </ul>
 
@@ -211,25 +211,25 @@ Not only do corporations illicitly claim the Constitional rights of human person
 
 Up to now, courts have privileged employer property rights over the workers' free speech rights.   If workers are to enjoy effective freedom of speech and expression, this must change in at least three ways:</strong> 
 <OL>    
-<li>  <strong>Workers must enjoy freedom of speech on as well as off the employer's property�</strong> When an employer has the power to effectively determine who will -- and who will not -- speak to "its" workers, the employer is acting as a master and it is putting the workers in the position of dependent slaves. 
-<li>  <strong>Workers must be free from employer as well as government censorship except where job performance is at stake�</strong>   When an employer censors a worker's speech for reasons unrelated to job performance, it is acting as a master and putting the worker in the position of a slave.
-<li>  <strong>The people -- including workers -- must be free to express themselves by withholding patronage and requesting others to withhold patronage�</strong>   When workers are prohibited from effectively communicating truthful information about employers, then they are treated more like slaves than like citizens.
+<li>  <strong>Workers must enjoy freedom of speech on as well as off the employer's property…</strong> When an employer has the power to effectively determine who will -- and who will not -- speak to "its" workers, the employer is acting as a master and it is putting the workers in the position of dependent slaves. 
+<li>  <strong>Workers must be free from employer as well as government censorship except where job performance is at stake…</strong>   When an employer censors a worker's speech for reasons unrelated to job performance, it is acting as a master and putting the worker in the position of a slave.
+<li>  <strong>The people -- including workers -- must be free to express themselves by withholding patronage and requesting others to withhold patronage…</strong>   When workers are prohibited from effectively communicating truthful information about employers, then they are treated more like slaves than like citizens.
 </ol>
 <strong>FREEDOM OF ASSOCIATION <br>
 
   Under the NLRA, the government decides what groups of workers may assemble together for collective action and bargaining.   If workers are to enjoy effective freedom of association, this must change in at least two ways:</strong>     
 <ol>
-<li>    <strong>Any size group of workers can form an association, including a union, and present and resolve grievances and make agreements with the employer�</strong>   When an individual worker is forced to face the collective power of a corporate employer without the support of his or her union, she is placed in the position of a helpless slave dealing with a powerful master. 
-<li>  <strong>Workers, not the government or the employer, must determine the scope of their own associations for purposes of collective action and bargaining�</strong>   When workers cannot determine who they will associate with for mutual aid and protection, they are denied a basic right of citizenship.
+<li>    <strong>Any size group of workers can form an association, including a union, and present and resolve grievances and make agreements with the employer…</strong>   When an individual worker is forced to face the collective power of a corporate employer without the support of his or her union, she is placed in the position of a helpless slave dealing with a powerful master. 
+<li>  <strong>Workers, not the government or the employer, must determine the scope of their own associations for purposes of collective action and bargaining…</strong>   When workers cannot determine who they will associate with for mutual aid and protection, they are denied a basic right of citizenship.
 </ol>
 <strong>FREEDOM OF LABOR <br>
 
 Under current law, the workers' freedom of labor is subordinated to employer property rights.   For workers to enjoy effective freedom of labor, this must change in at least four ways:</strong>
 <ol>
 <li>   <strong>The right to strike must include the right not to lose one's job permanently to a strikebreaker...</strong>   When an employer has the power to punish workers for exercising their fundamental rights, the employer is acting as a master and the employee is a slave whose rights mean nothing.
-<li>  <strong>The freedom of labor must include the right to refuse to contribute personal labor to enterprises that assist unfair employers by, for example, supplying them with parts, distributing their products, or financing their operations�.</strong>   When a "neutral" employer can compel a worker to contribute his or her personal labor to assist another employer in violating the human rights of its employees, the employer is placed in the position of a master and the worker in that of a slave with no control over his or her personal labor.
-<li>  <strong>The freedom of labor must include the right to bargain with and to strike and boycott against the company that actually controls terms and conditions of employment�</strong>    When employers can use corporate formalities to render workers' rights meaningless, the employer is acting like a master and the employee is reduced to slavery.   
-<li>  <strong>The freedom of labor must include the right to withhold personal labor in solidarity with workers in other countries�.</strong> When corporations are permitted to organize multinationally, while workers are limited to local protests because of artificial corporate boundaries, then corporations become arrogant masters while workers are reduced to dependent slavery.   
+<li>  <strong>The freedom of labor must include the right to refuse to contribute personal labor to enterprises that assist unfair employers by, for example, supplying them with parts, distributing their products, or financing their operations….</strong>   When a "neutral" employer can compel a worker to contribute his or her personal labor to assist another employer in violating the human rights of its employees, the employer is placed in the position of a master and the worker in that of a slave with no control over his or her personal labor.
+<li>  <strong>The freedom of labor must include the right to bargain with and to strike and boycott against the company that actually controls terms and conditions of employment…</strong>    When employers can use corporate formalities to render workers' rights meaningless, the employer is acting like a master and the employee is reduced to slavery.   
+<li>  <strong>The freedom of labor must include the right to withhold personal labor in solidarity with workers in other countries….</strong> When corporations are permitted to organize multinationally, while workers are limited to local protests because of artificial corporate boundaries, then corporations become arrogant masters while workers are reduced to dependent slavery.   
 </ol>
 
 
@@ -376,7 +376,7 @@ Email them to us at: <a href="mailto:bigmed@nancho.net">bigmed@nancho.net</a></f
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

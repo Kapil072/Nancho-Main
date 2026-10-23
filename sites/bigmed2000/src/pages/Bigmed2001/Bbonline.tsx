@@ -83,7 +83,7 @@ const Bigmed2001Bbonline = () => {
 <tr>
 <td>
 
-<form METHOD="GET" ACTION="/cgi-bin/wwwwais">
+<form METHOD="GET" ACTION="${BASE_URL}cgi-bin/wwwwais">
 <table valign="top" align="center" bgcolor="#999999" cellpadding="4" border="1">
 <tr>
 <td align="center">
@@ -153,7 +153,7 @@ Inexplicably, the full implications of this insight - that our species shares th
 <TR><TD ALIGN=MIDDLE>"The task is not so much to see what 
 no one has yet seen,<BR> 
 but to think what nobody has yet thought, <BR>about that which everybody sees." <BR>
- - - Erwin Schr�dinger <P>
+ - - Erwin Schrödinger <P>
 "Now, if the cooperation of some thousands of millions of cells in our brain 
 can produce our consciousness, a true singularity, the idea becomes vastly 
 more plausible that the cooperation of humanity, or some sections of it, 
@@ -648,7 +648,7 @@ Mail: Box 13, Kennebunkport, Maine, USA    04046
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

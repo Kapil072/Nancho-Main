@@ -67,7 +67,7 @@ is a single living organism.</DD>
 
 <DD>From the Latin &quot;saltatio&quot;, to leap - now meaning a jump in
 dancing, an abrupt transition, a sudden evolutionary transformation of
-a species; suggestively related to �sally� - a sudden assault from a defensive
+a species; suggestively related to ‘sally’ - a sudden assault from a defensive
 position. Used here in its human evolutionary sense of an abrupt adaptive
 change in consciousness. </DD>
 </DL>
@@ -79,7 +79,7 @@ change in consciousness. </DD>
 provoke and propagate tactics and strategies for getting us out of this
 century alive and well and rationally hopeful about the terrestrial future.
 As the media is depressingly quick to inform us the current odds against
-this are approaching the astronomical. We�ve all been subliminally accumulating
+this are approaching the astronomical. We’ve all been subliminally accumulating
 the bad news for decades now but &quot;Our Common Future&quot;, an aging
 U.N. report on our ongoing ecocide, summarizes the situation ominously
 well. The report states: </P>
@@ -221,7 +221,7 @@ like multinationals, organized religions, government bureaucracies, militaries,
 etc. </LI>
 </UL>
 
-<P>The first of these can serve to radically redefine ideas like �quality
+<P>The first of these can serve to radically redefine ideas like ‘quality
 of life' and explain why our material/technological environment is evolving
 so much faster than our psyches or socio-political systems. </P>
 
@@ -393,7 +393,7 @@ even desperately, invited...</P>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

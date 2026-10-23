@@ -156,7 +156,7 @@ Back to: <A href="${BASE_URL}bigmed2001/gospels/ventura2.html">Part 2: Where We'
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const KashmirOutlookf = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -150,7 +150,7 @@ const KashmirOutlookf = () => {
             themselves think of the "Kashmir Problem"
           </p>
 
-          <img src="/graph/fdline5.gif" className="w-full h-2 my-4" alt="divider" />
+          <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-4" alt="divider" />
 
           <h1 className="text-3xl md:text-5xl font-black italic tracking-wide text-[#007339] uppercase my-2 text-center">
             Till Freedom Come
@@ -164,7 +164,7 @@ const KashmirOutlookf = () => {
             from their October 8, 1995 issue
           </p>
 
-          <img src="/graph/fdline5.gif" className="w-full h-2 my-4" alt="divider" />
+          <img src={`${import.meta.env.BASE_URL}graph/fdline5.gif`} className="w-full h-2 my-4" alt="divider" />
         </center>
 
         {/* Background Intro Quote */}

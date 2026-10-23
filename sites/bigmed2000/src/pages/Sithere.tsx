@@ -40,7 +40,7 @@ What we do offer here - besides a sideshow of very other climes, crafts and thou
 <BLOCKQUOTE><H3>Our three major premises and points of departure</H3>
 <UL><STRONG>
 <LI>Our world and Her children are being physically/mentally eaten alive by Big Bodies, a primitive new species of vast social organisms rapidly metastasizing across the planet; 
-<LI>Corporate media anesthesia be damned, it�s getting far more wretched out there for most people/species/habitats than better; 
+<LI>Corporate media anesthesia be damned, it’s getting far more wretched out there for most people/species/habitats than better; 
 <LI>We have more than enough animal intelligence, memetic potency and twisted genius downtown,
 on-line and in the trenches these days to do something rather spectacular about it.
 </UL>
@@ -187,7 +187,7 @@ We should also warn off those of you who are concerned about the circles you mov
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

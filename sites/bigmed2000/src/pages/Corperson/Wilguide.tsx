@@ -114,7 +114,7 @@ Note that the facilitator can put him or herself on the list as well. Being the 
 <P>
 Sometimes people worry that if there are several people ahead of them on the list, they'll forget what they wanted to say. You might jot down a few words or a phrase that will reconnect you to 
 your idea, since other speakers may take the discussion in a different direction before you get to speak. If this happens, you might start by saying something like, "I'd like to go back to what 
-Audrey was saying about�" 
+Audrey was saying about…" 
 <P>
 <B>What about someone who monopolizes airtime? </B><br>
 Some groups need to set a discussion guideline of limiting how long each person speaks. It is a matter of respect for the 
@@ -339,7 +339,7 @@ Piedmont Dr., San Diego, CA 92107-4135
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ Corporations are man-made. They exist because laws have been enacted that
 provide for their creation and give them a licence to operate. When these
 laws were enacted, no conscious decision was made to create organisations
 that would have none of the obligations of citizenship. At that time, most
-corpora�tions were relatively small and their impact on society was
+corpora­tions were relatively small and their impact on society was
 insignificant. It was not as important that they be socially responsible.
 Today, the situation is much different. Corporations are now our most
 powerful citizens. However, being dedicated to their own self-interest,
@@ -69,7 +69,7 @@ BUSINESSES ARE DIFFERENT
 Corporations differ dramatically from individuals. Individuals living in a
 community generally accept responsibility for their conduct and behave
 civilly. This involves more than just obeying the law. It involves
-contribution, coopera�tion and most of all sacrifice -- behaving in a
+contribution, coopera­tion and most of all sacrifice -- behaving in a
 manner that reflects conscience and self-regulatory acts and traits of
 character that no law can enforce (National Conference on Civic Renewal
 1998). In the words of Thomas Jefferson:
@@ -96,7 +96,7 @@ own unique system of standards, rules, forms and objectives ...
 The most basic rule of corporate behavior is that it must show a profit
 over time ... Corporations do not have feelings or morals. All their acts
 are in service to profit ... All other considerations are secondary,
-including the welfare of the community, the happi�ness of workers, the
+including the welfare of the community, the happi­ness of workers, the
 health of the planet, and even the general prosperity ... So human beings
 within the corporate structure are prevented from acting on their personal
 morals and feelings ...
@@ -111,7 +111,7 @@ THE CORPORATE SYSTEM
 <p>
 The distinctions identified by Jerry Mander have a source. It is the
 corporate law, the law that establishes rules for the structure and
-operation of corpora�tions. This law provides that directors, the people
+operation of corpora­tions. This law provides that directors, the people
 with ultimate management responsibility in corporations, have a fiduciary
 duty to use their best efforts to make money for their stockholders. The
 corporate law places no restrictions on directors in satisfying this duty
@@ -186,7 +186,7 @@ reduce the cost of regulatory compliance.
 There are a number of ways in which this can be achieved, most of which
 weaken overall citizenship in society rather than strengthening it. For
 example, some managers take a minimalist approach to regulatory compliance,
-conduct�ing their company's operations in a way that meets the law's
+conduct­ing their company's operations in a way that meets the law's
 requirements and no more. Others interpret the law as making permissible
 everything that it does not literally proscribe. These examples of legal
 hairsplitting often violate the spirit of the regulation if not its letter.
@@ -349,7 +349,7 @@ taking responsibility for their futures and the future of their planet
 The key to creating corporate citizenship and social responsibility is to
 amend the laws that create corporations in a manner that changes the
 corporate system. The best place to make such a change is at the point of
-highest lever�age. Archimedes said, 'Give me a lever long enough ... and
+highest lever­age. Archimedes said, 'Give me a lever long enough ... and
 single-handed I can move the world'. Changing the corporate law to put
 boundaries on the unqualified pursuit of self-interest represents such a
 lever. It is the responsibility of each of us to create that lever.
@@ -369,7 +369,7 @@ Francisco: Sierra Club Books.
 <p>
 National Commission on Civic Renewal (1998) Final Report of the National
 Conference on Civic Renewal: A Nation of Spectators -- How Civic
-Disengage�ment Weakens America and What We Can Do About It, College Park,
+Disengage­ment Weakens America and What We Can Do About It, College Park,
 Maryland.
 <p>
 Saul J.R (1992) Voltaire's Bastards: The Dictatorship of Reason in the
@@ -480,7 +480,7 @@ Organization, New York: Doubleday.
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

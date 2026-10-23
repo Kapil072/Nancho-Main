@@ -176,7 +176,7 @@ By Dan Morgan and Juliet Eilperin<BR><A HREF="http://www.washingtonpost.com/" ta
                                                "It's a national security issue for me," Stevens said. "I want them to have the
                                                top planes available, and new planes, as quickly as possible." 
 <P>
-                                                                         <H4>� Copyright 1999 The Washington Post Company</H4>
+                                                                         <H4>© Copyright 1999 The Washington Post Company</H4>
 <CENTER><H5>- Emphatic embellishments added - </H5></CENTER>
 
 </BLOCKQUOTE>
@@ -274,7 +274,7 @@ By Dan Morgan and Juliet Eilperin<BR><A HREF="http://www.washingtonpost.com/" ta
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

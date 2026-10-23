@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const KashmirNahmad = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#E7FFDF";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -18,12 +18,12 @@ const KashmirNahmad = () => {
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 <BR><BR>
 <TABLE  ALIGN=left BORDER=3 HSPACE=15 VSPACE=15 CELLPADDING=3 CELLSPACING=3>
-<TR><TD ALIGN=MIDDLE><IMG SRC="/graph/nishatc5.jpg" ALT="Lt. Gen. Nishat Ahmad" WIDTH=167 HEIGHT=220 BORDER=2 ></TD></TR>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${import.meta.env.BASE_URL}graph/nishatc5.jpg" ALT="Lt. Gen. Nishat Ahmad" WIDTH=167 HEIGHT=220 BORDER=2 ></TD></TR>
 </TABLE>
 
 
@@ -126,11 +126,11 @@ And when I say every manner it doesn't talk of military support because, as I sa
 
 <CENTER>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <A HREF="../fdlalert.html"><STRONG>Back to Alerts</A></STRONG> | 
 <A HREF="../fdlpaper.html#interview"><STRONG>Main Archives</A></STRONG><BR>
 
-<IMG src="/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
 <P>
 </CENTER>
 <FONT  SIZE=2><A HREF="mailto:Secretariat@fdlap.org"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>

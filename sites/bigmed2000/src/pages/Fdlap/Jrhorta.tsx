@@ -54,7 +54,7 @@ distressing surprise for Indonesia's apologists and spin doctors then
 when the enigmatic octogenarians of Norway's Nobel Committee awarded
 the Peace Prize and global podium last year to East Timor's Cardinal
 Belo and Jose Ramos Horta. While Cardinal Belo morally appeals for his
-people�s rights in a style reminiscent of the Dalai Lama, Ramos Horta
+people’s rights in a style reminiscent of the Dalai Lama, Ramos Horta
 rages for justice with the passion and vehemence of an Old Testament
 prophet. In an increasingly ruthless new world order where human
 rights are routinely subordinated to economic advantage, this angry
@@ -354,7 +354,7 @@ Originally published in Kyoto Journal, Spring '97</H4>
   a:visited { color: #1866C5; }
 `}</style>
       <div className="legacy-page-content">
-        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full legacy-content" />
       </div>
     </div>
   );

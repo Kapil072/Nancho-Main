@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Fdlburm2 = () => {
   useEffect(() => {
     document.body.style.backgroundColor = "#BFDFB9";
-    document.body.style.backgroundImage = "url('/barks/slate3.gif')";
+    document.body.style.backgroundImage = `url('${import.meta.env.BASE_URL}barks/slate3.gif')`;
     document.body.style.color = "#000000";
     return () => {
       document.body.style.backgroundColor = "";
@@ -16,16 +16,16 @@ const Fdlburm2 = () => {
 
   const htmlContent = `
 
-<CENTER><IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<CENTER><IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
 <FONT  SIZE=+2 COLOR=#007339><STRONG><EM>Archives </EM></STRONG></FONT><BR>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4>
 
 <H2><FONT  COLOR=#00552B>Declaration on Transition <BR>from Dictatorship to Democracy</H2>
 <H3>by the Conference of the Forum <BR>of Democratic Leaders in the
 Asia-Pacific (FDL-AP)</FONT></H3>
 
 <H4>(Manila, Philippines, November 2-4, 1996)</H4><P>
-<IMG src="/graph/fdline5.gif" WIDTH=350 HEIGHT=4></CENTER><P>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=350 HEIGHT=4></CENTER><P>
 <BLOCKQUOTE>
 The FDL-AP was inaugurated in Seoul, Korea in 1994 as an Asian regional network of democrats and their supporters worldwide dedicated to advancing the participation of all members of society in the decisions affecting their lives.<P>
 
@@ -351,15 +351,15 @@ Dr. David Steinberg		- Regional Representative, Korea
 
 </BLOCKQUOTE><P>
 <CENTER>
-<IMG src="/graph/fdline5.gif" WIDTH=100% HEIGHT=6 VSPACE=9><BR>
-<A HREF="index.html"><IMG src="/graph/btfdhome.jpg" ALT="Home" WIDTH=138 HEIGHT=38></A>
-<A HREF="fmission.html"><IMG src="/graph/btfdmiss.jpg" ALT="Mission" WIDTH=138 HEIGHT=38></A>
-<A HREF="fdlorg.html"><IMG src="/graph/btgfdorg.jpg" ALT="Organization" WIDTH=136 HEIGHT=38></A>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=100% HEIGHT=6 VSPACE=9><BR>
+<A HREF="index.html"><IMG src="${import.meta.env.BASE_URL}graph/btfdhome.jpg" ALT="Home" WIDTH=138 HEIGHT=38></A>
+<A HREF="fmission.html"><IMG src="${import.meta.env.BASE_URL}graph/btfdmiss.jpg" ALT="Mission" WIDTH=138 HEIGHT=38></A>
+<A HREF="fdlorg.html"><IMG src="${import.meta.env.BASE_URL}graph/btgfdorg.jpg" ALT="Organization" WIDTH=136 HEIGHT=38></A>
 
-<A HREF="fdlinits.html"><IMG src="/graph/btfdinit.jpg" ALT="Initiatives" WIDTH=136 HEIGHT=38></A>
-<A HREF="fdllinks.html"><IMG src="/graph/btfdlink.jpg" ALT="Links" WIDTH=136 HEIGHT=38 ></A>
+<A HREF="fdlinits.html"><IMG src="${import.meta.env.BASE_URL}graph/btfdinit.jpg" ALT="Initiatives" WIDTH=136 HEIGHT=38></A>
+<A HREF="fdllinks.html"><IMG src="${import.meta.env.BASE_URL}graph/btfdlink.jpg" ALT="Links" WIDTH=136 HEIGHT=38 ></A>
 <BR>
-<IMG src="/graph/fdline5.gif" WIDTH=100% HEIGHT=6 VSPACE=9><P>
+<IMG src="${import.meta.env.BASE_URL}graph/fdline5.gif" WIDTH=100% HEIGHT=6 VSPACE=9><P>
 
 <A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
 <A HREF="fdlorg.html#address">Our Address...</A>
