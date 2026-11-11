@@ -60,7 +60,7 @@ const archiveSites = (): Plugin => ({
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/new-nancho/" : "/",
+  base: mode === "production" ? "/Nancho-Main/" : "/",
   server: {
     host: "::",
     port: 8088,
