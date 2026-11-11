@@ -7,6 +7,8 @@ import karmaImg from "@/assets/images/JITTOKU1.jpg";
 import vprezImg from "@/assets/images/swinglib.gif";
 import memeImg from "@/assets/images/ACHILLET.jpg";
 import fdlapImg from "@/assets/images/FdlogoS.gif";
+import wdkPressImg from "@/assets/images/wdk-official-100-2.png";
+import wdkSenateImg from "@/assets/images/dkGREEN1S.jpg";
 
 const archives = [
   { image: cop10Img, label: "COP10 Conference", sublabel: "Archive", href: "#" },
@@ -46,6 +48,18 @@ const archives = [
     label: "Forum of Democratic Leaders",
     sublabel: "of the Asia-Pacific",
     href: `${import.meta.env.BASE_URL}formere/`,
+  },
+  {
+    image: wdkPressImg,
+    label: "WDK Press Scraps",
+    sublabel: "Japan Activism Archive",
+    href: "https://nancho.net/wdk/wdk-press-scraps.html",
+  },
+  {
+    image: wdkSenateImg,
+    label: "Kubiak 2004",
+    sublabel: "Green ME Senate Run",
+    href: "https://nancho.net/archives/WDKGreenMEsenaterun.html",
   },
 ];
 

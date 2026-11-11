@@ -1,6 +1,4 @@
 import rxIcon from "@/assets/images/Rx1.gif";
-import sapLogoImg from "@/assets/images/SAPlogo.jpg";
-import m10LogoImg from "@/assets/images/M10logo.jpg";
 import face2Img from "@/assets/images/FACE2.jpg";
 import achilletImg from "@/assets/images/ACHILLET.jpg";
 import dragonImg from "@/assets/images/bmdragT3.gif";
@@ -9,8 +7,7 @@ import bigBodthImg from "@/assets/images/BIGBODTH.jpg";
 import mangetImg from "@/assets/images/mangets7.gif";
 
 const links = [
-  { image: sapLogoImg, label: "Sacred Animals", sublabel: "Party Site", href: "#" },
-  { image: m10LogoImg, label: "Magic 10% Site", sublabel: "", href: "#" },
+
   {
     image: face2Img,
     label: "Excise BIG Personhood,",
@@ -29,7 +26,7 @@ const links = [
     sublabel: "The Big T and Sovereignty",
     href: `${import.meta.env.BASE_URL}remasculate/`,
   },
-  { image: bigBodthImg, label: "Practice Big Med at Home!", sublabel: "The Big Medicine Mailing List", href: "#" },
+  { image: bigBodthImg, label: "Practice Big Med at Home!", sublabel: "The Big Medicine Mailing List", href: "https://www.yahoo.com/" },
 ];
 
 interface LeftSidebarProps {
